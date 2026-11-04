@@ -1,0 +1,41 @@
+{
+ "common": {
+  "z_begin": 3200,
+  "z_end": 4200,
+  "optimizer_num_training_steps": 20000,
+  "optimizer_random_seed": 1,
+  "dense_spacing_mode": "grad_mag",
+  "input_use_winding_inference": false,
+  "input_use_tracks": false,
+  "loss_weight_shell_outer": 0,
+  "loss_start_track_dt": 10000,
+  "loss_start_patch_dt": 10000,
+  "sample_count_tracks_per_step": 24000,
+  "sample_count_track_points_per_step": 64,
+  "sample_count_dense_normal_points": 30000,
+  "input_use_outer_shell": false,
+  "loss_weight_dense_spacing": 12.0
+ },
+ "arm_A": {
+  "input_disable_patches": true
+ },
+ "arm_B": {
+  "input_disable_patches": false,
+  "patch_uuid_filter_regex": null
+ },
+ "dropped_0813_keys_missing_in_baf5e605": [
+  "loss_weight_shell_patch_radius",
+  "loss_start_unverified_patch_dt",
+  "sample_count_dense_spacing_pairs",
+  "sample_count_dense_spacing_density_extra_pairs",
+  "sample_count_dense_spacing_density_chunk_pairs",
+  "sample_count_dense_attachment_points"
+ ],
+ "deviations_from_0813": {
+  "loss_weight_dense_spacing": "0813: 0 (no grad_mag store); here villa default 12.0 (0139 L2 has grad_mag)",
+  "input_use_outer_shell": "false here (0813 relied on a local shell-optional patch)",
+  "unverified patches": "villa main has no unverified-patch input; arm B uses verified_patches"
+ },
+ "villa": "C:/VesuviusTemp/nov_snap/villa_main baf5e605bb42a3d55a62b7c5c728e0908137225c",
+ "num_windings": "not set (UNKNOWN for PHerc0139): villa defaults shell_outer_winding_idx=130, model_gap_expander_num_windings=130, capacity 144"
+}

@@ -1,0 +1,337 @@
+{
+ "band_l0": [
+  12800,
+  16800
+ ],
+ "source": "C:\\VesuviusTemp\\strips\\score\\data\\segments",
+ "wraps": {
+  "w025": {
+   "name": "20250108000000-w025_2025010863",
+   "nodes_in_band": 246969,
+   "nodes_kept": 246969,
+   "masked_w042": 0,
+   "masked_sector": 0
+  },
+  "w026": {
+   "name": "20250108000001-w026_2025010854",
+   "nodes_in_band": 268637,
+   "nodes_kept": 268637,
+   "masked_w042": 0,
+   "masked_sector": 0
+  },
+  "w027": {
+   "name": "20250108000002-w027_2025010845",
+   "nodes_in_band": 261154,
+   "nodes_kept": 261154,
+   "masked_w042": 0,
+   "masked_sector": 0
+  },
+  "w028": {
+   "name": "20250108000003-w028_2025010836",
+   "nodes_in_band": 262847,
+   "nodes_kept": 262847,
+   "masked_w042": 0,
+   "masked_sector": 0
+  },
+  "w029": {
+   "name": "20250108000004-w029_2025010827",
+   "nodes_in_band": 266145,
+   "nodes_kept": 266145,
+   "masked_w042": 0,
+   "masked_sector": 0
+  },
+  "w030": {
+   "name": "20250108000005-w030_2025010818",
+   "nodes_in_band": 269228,
+   "nodes_kept": 269228,
+   "masked_w042": 0,
+   "masked_sector": 0
+  },
+  "w059": {
+   "name": "20250223000000-w059_2025022312",
+   "nodes_in_band": 392353,
+   "nodes_kept": 392353,
+   "masked_w042": 0,
+   "masked_sector": 0
+  },
+  "w040": {
+   "name": "20250831000000-w040_2025083102",
+   "nodes_in_band": 309263,
+   "nodes_kept": 309263,
+   "masked_w042": 0,
+   "masked_sector": 0
+  },
+  "w055": {
+   "name": "20251226000000-w055_2025122611",
+   "nodes_in_band": 394005,
+   "nodes_kept": 394005,
+   "masked_w042": 0,
+   "masked_sector": 0
+  },
+  "w041": {
+   "name": "20260108000000-w041_2026010816",
+   "nodes_in_band": 311348,
+   "nodes_kept": 311348,
+   "masked_w042": 0,
+   "masked_sector": 0
+  },
+  "w043": {
+   "name": "20260112000000-w043_2026011217",
+   "nodes_in_band": 316013,
+   "nodes_kept": 316013,
+   "masked_w042": 0,
+   "masked_sector": 0
+  },
+  "w044": {
+   "name": "20260115000000-w044_2026011522",
+   "nodes_in_band": 319539,
+   "nodes_kept": 319539,
+   "masked_w042": 0,
+   "masked_sector": 0
+  },
+  "w056": {
+   "name": "20260115000001-w056_2026011514",
+   "nodes_in_band": 367490,
+   "nodes_kept": 367490,
+   "masked_w042": 0,
+   "masked_sector": 0
+  },
+  "w045": {
+   "name": "20260126000000-w045_2026012619",
+   "nodes_in_band": 323909,
+   "nodes_kept": 323909,
+   "masked_w042": 0,
+   "masked_sector": 0
+  },
+  "w057": {
+   "name": "20260127000000-w057_2026012713",
+   "nodes_in_band": 384819,
+   "nodes_kept": 384819,
+   "masked_w042": 0,
+   "masked_sector": 0
+  },
+  "w031": {
+   "name": "20260130000000-w031_2026013019",
+   "nodes_in_band": 271520,
+   "nodes_kept": 271520,
+   "masked_w042": 0,
+   "masked_sector": 0
+  },
+  "w032": {
+   "name": "20260203000000-w032_2026020303",
+   "nodes_in_band": 274807,
+   "nodes_kept": 274807,
+   "masked_w042": 0,
+   "masked_sector": 0
+  },
+  "w042": {
+   "name": "20260206000000-w042_2026020613",
+   "nodes_in_band": 303945,
+   "nodes_kept": 214808,
+   "masked_w042": 89137,
+   "masked_sector": 0
+  },
+  "w047": {
+   "name": "20260206000001-w047_2026020613",
+   "nodes_in_band": 331467,
+   "nodes_kept": 331467,
+   "masked_w042": 0,
+   "masked_sector": 0
+  },
+  "w054": {
+   "name": "20260206000002-w054_2026020617",
+   "nodes_in_band": 421217,
+   "nodes_kept": 421217,
+   "masked_w042": 0,
+   "masked_sector": 0
+  },
+  "w058": {
+   "name": "20260210000000-w058_2026021020",
+   "nodes_in_band": 385711,
+   "nodes_kept": 385711,
+   "masked_w042": 0,
+   "masked_sector": 0
+  },
+  "w024": {
+   "name": "20260215000000-w024_2026021572",
+   "nodes_in_band": 237055,
+   "nodes_kept": 237055,
+   "masked_w042": 0,
+   "masked_sector": 0
+  },
+  "w033": {
+   "name": "20260219000000-w033_2026021913",
+   "nodes_in_band": 277736,
+   "nodes_kept": 277736,
+   "masked_w042": 0,
+   "masked_sector": 0
+  },
+  "w048": {
+   "name": "20260219000001-w048_2026021912",
+   "nodes_in_band": 335015,
+   "nodes_kept": 335015,
+   "masked_w042": 0,
+   "masked_sector": 0
+  },
+  "w053": {
+   "name": "20260220000000-w053_2026022021",
+   "nodes_in_band": 395214,
+   "nodes_kept": 395214,
+   "masked_w042": 0,
+   "masked_sector": 0
+  },
+  "w052": {
+   "name": "20260227000000-w052_2026022705",
+   "nodes_in_band": 396472,
+   "nodes_kept": 396472,
+   "masked_w042": 0,
+   "masked_sector": 0
+  },
+  "w039": {
+   "name": "20260302000000-w039_2026030210",
+   "nodes_in_band": 297047,
+   "nodes_kept": 297047,
+   "masked_w042": 0,
+   "masked_sector": 0
+  },
+  "w050": {
+   "name": "20260302000001-w050_2026030220",
+   "nodes_in_band": 148512,
+   "nodes_kept": 148512,
+   "masked_w042": 0,
+   "masked_sector": 0
+  },
+  "w034": {
+   "name": "20260303000000-w034_2026030317",
+   "nodes_in_band": 278922,
+   "nodes_kept": 194629,
+   "masked_w042": 0,
+   "masked_sector": 84293
+  },
+  "w038": {
+   "name": "20260306000000-w038_2026030608",
+   "nodes_in_band": 286923,
+   "nodes_kept": 286923,
+   "masked_w042": 0,
+   "masked_sector": 0
+  },
+  "w051": {
+   "name": "20260306000001-w051_2026030600",
+   "nodes_in_band": 392229,
+   "nodes_kept": 392229,
+   "masked_w042": 0,
+   "masked_sector": 0
+  },
+  "w037": {
+   "name": "20260310000000-w037_2026031015",
+   "nodes_in_band": 276170,
+   "nodes_kept": 199647,
+   "masked_w042": 0,
+   "masked_sector": 76523
+  },
+  "w023": {
+   "name": "20260311000000-w023_202603112281",
+   "nodes_in_band": 226542,
+   "nodes_kept": 226542,
+   "masked_w042": 0,
+   "masked_sector": 0
+  },
+  "w036": {
+   "name": "20260316000000-w036_2026031607",
+   "nodes_in_band": 268432,
+   "nodes_kept": 196118,
+   "masked_w042": 0,
+   "masked_sector": 72314
+  },
+  "w035": {
+   "name": "20260317000000-w035_2026031718",
+   "nodes_in_band": 196757,
+   "nodes_kept": 191508,
+   "masked_w042": 0,
+   "masked_sector": 5249
+  },
+  "w049": {
+   "name": "20260318000000-w049_20260318",
+   "nodes_in_band": 373102,
+   "nodes_kept": 373102,
+   "masked_w042": 0,
+   "masked_sector": 0
+  }
+ },
+ "excluded": [
+  {
+   "name": "20260325000000-w046_20260325",
+   "why": "villa #1547: duplicate of w045"
+  },
+  {
+   "name": "20260422000000-title_2026042222_zmid_flatboi",
+   "why": "not a wrap (title)"
+  }
+ ],
+ "sector": {
+  "rule": "largest empty arc of w035 per 100-slice L2 z bin, widened 5 degrees each side",
+  "per_bin_start_width_deg": {
+   "12800": [
+    328,
+    111
+   ],
+   "13200": [
+    330,
+    112
+   ],
+   "13600": [
+    331,
+    111
+   ],
+   "14000": [
+    330,
+    111
+   ],
+   "14400": [
+    334,
+    106
+   ],
+   "14800": [
+    334,
+    105
+   ],
+   "15200": [
+    335,
+    103
+   ],
+   "15600": [
+    336,
+    96
+   ],
+   "16000": [
+    336,
+    98
+   ],
+   "16400": [
+    338,
+    100
+   ]
+  },
+  "start_deg_p10_p90": [
+   329.8,
+   336.2
+  ],
+  "end_deg_p10_p90": [
+   73.8,
+   82.0
+  ],
+  "width_deg_median": 105.5,
+  "chase_2167_published": {
+   "start_deg": [
+    327,
+    5
+   ],
+   "end_deg": [
+    71,
+    85
+   ],
+   "width_median_deg": 98
+  }
+ },
+ "usable_wraps": 36
+}

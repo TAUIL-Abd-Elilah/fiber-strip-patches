@@ -1,0 +1,106 @@
+{
+ "N": 12,
+ "total_area_vx2": 3744120.0,
+ "total_area_cm2": 3.4477061068992,
+ "voxel_um": 9.596,
+ "per_patch": [
+  {
+   "patch": "dj_20260904T160405930_000005__0",
+   "nodes": 42100,
+   "area_cm2": 0.7439,
+   "nodes_after_erosion1": 38686,
+   "area_cm2_after_erosion1": 0.6811,
+   "in_z_roi_3200_4200": true
+  },
+  {
+   "patch": "dj_20260904T160405930_000006__0",
+   "nodes": 23175,
+   "area_cm2": 0.4093,
+   "nodes_after_erosion1": 21275,
+   "area_cm2_after_erosion1": 0.3744,
+   "in_z_roi_3200_4200": true
+  },
+  {
+   "patch": "kb_20260904T021448778_000085__0",
+   "nodes": 3200,
+   "area_cm2": 0.0561,
+   "nodes_after_erosion1": 2898,
+   "area_cm2_after_erosion1": 0.0506,
+   "in_z_roi_3200_4200": true
+  },
+  {
+   "patch": "kb_20260904T021448778_000085__1",
+   "nodes": 55200,
+   "area_cm2": 0.9755,
+   "nodes_after_erosion1": 50738,
+   "area_cm2_after_erosion1": 0.8934,
+   "in_z_roi_3200_4200": true
+  },
+  {
+   "patch": "kb_20260904T033920427_000087__0",
+   "nodes": 4000,
+   "area_cm2": 0.0703,
+   "nodes_after_erosion1": 3634,
+   "area_cm2_after_erosion1": 0.0636,
+   "in_z_roi_3200_4200": false
+  },
+  {
+   "patch": "kb_20260904T040638181_000088__0",
+   "nodes": 13500,
+   "area_cm2": 0.2382,
+   "nodes_after_erosion1": 12374,
+   "area_cm2_after_erosion1": 0.2176,
+   "in_z_roi_3200_4200": true
+  },
+  {
+   "patch": "lt_20260903T101835034_000051__0",
+   "nodes": 19000,
+   "area_cm2": 0.3355,
+   "nodes_after_erosion1": 17434,
+   "area_cm2_after_erosion1": 0.3067,
+   "in_z_roi_3200_4200": true
+  },
+  {
+   "patch": "lt_20260917T054942114_000140__0",
+   "nodes": 4175,
+   "area_cm2": 0.0734,
+   "nodes_after_erosion1": 3795,
+   "area_cm2_after_erosion1": 0.0664,
+   "in_z_roi_3200_4200": true
+  },
+  {
+   "patch": "lt_20260917T074125911_000145__0",
+   "nodes": 4358,
+   "area_cm2": 0.0766,
+   "nodes_after_erosion1": 3963,
+   "area_cm2_after_erosion1": 0.0694,
+   "in_z_roi_3200_4200": true
+  },
+  {
+   "patch": "lt_20260918T092404850_000160__0",
+   "nodes": 3200,
+   "area_cm2": 0.0561,
+   "nodes_after_erosion1": 2898,
+   "area_cm2_after_erosion1": 0.0506,
+   "in_z_roi_3200_4200": true
+  },
+  {
+   "patch": "lt_20260918T094222156_000161__0",
+   "nodes": 9500,
+   "area_cm2": 0.1675,
+   "nodes_after_erosion1": 8694,
+   "area_cm2_after_erosion1": 0.1527,
+   "in_z_roi_3200_4200": true
+  },
+  {
+   "patch": "lt_20260918T094222156_000161__1",
+   "nodes": 13900,
+   "area_cm2": 0.2453,
+   "nodes_after_erosion1": 12742,
+   "area_cm2_after_erosion1": 0.2241,
+   "in_z_roi_3200_4200": true
+  }
+ ],
+ "villa": "baf5e605 spiral_helpers.load_patches on CPU",
+ "seconds": 2.072917938232422
+}

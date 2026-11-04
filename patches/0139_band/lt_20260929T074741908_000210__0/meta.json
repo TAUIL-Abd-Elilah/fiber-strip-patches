@@ -1,0 +1,99 @@
+{
+  "uuid": "d27ca064-ee47-4391-b7c2-c8d1d67939a3",
+  "scale": [
+    0.2,
+    0.25
+  ],
+  "type": "seg",
+  "format": "tifxyz",
+  "bbox": [
+    [
+      4928.39599609375,
+      3588.957275390625,
+      3000.181640625
+    ],
+    [
+      5059.96923828125,
+      3731.56787109375,
+      3617.52294921875
+    ]
+  ],
+  "area_vx2": 76560.0,
+  "area_cm2": 0.07049891016960001,
+  "voxel_size_um": 9.596,
+  "provenance": {
+    "tool": "strips2patches.py v0.1 (TAUIL-Abd-Elilah, Nov 2026; derived from villa sheet_strip/infer.py output; prior art: the Vesuvius Challenge team anchored_strip_merge prototype, Aug 2026)",
+    "strip_model": "scrollprize/fiber_strip_small_v1@7bd163a22c839ff312879ae1916195d0c9729c0e",
+    "strip_villa": "ScrollPrize/villa 6f2024569 + #2163 (C:/VesuviusTemp/strips/villa_6f2)",
+    "fit_villa_target": "ScrollPrize/villa baf5e605 spiral-fitting verified_patches (load_patches / load_tifxyz)",
+    "fiber": "lt_20260929T074741908_000210",
+    "fiber_uuid": "efa35b32-f573-5cf9-bbaa-cc685fedd036",
+    "fiber_file": "lt_20260929T074741908_000210.json",
+    "family": "V",
+    "annotator": "lt",
+    "piece": "N0107",
+    "piece_plan_id": "N0107",
+    "piece_afv_id": 1660899318187349,
+    "plan": "infer/plan/band_plan.json",
+    "source_strip_dir": "infer\\strips\\N0107\\strip",
+    "source_meta": {
+      "uuid": "d27ca064-ee47-4391-b7c2-c8d1d67939a3",
+      "bbox": [
+        [
+          4928.39599609375,
+          3588.957275390625,
+          2943.50439453125
+        ],
+        [
+          5059.96923828125,
+          3731.56787109375,
+          3617.52294921875
+        ]
+      ],
+      "area_vx2": 82423.68186768987,
+      "area_cm2": 0.07596166520926298,
+      "voxel_size_um": 9.6
+    },
+    "inference": {
+      "checkpoint": "hf://scrollprize/fiber_strip_small_v1@7bd163a22c839ff312879ae1916195d0c9729c0e/last.pt",
+      "step": 15000,
+      "decision_step": 8.0,
+      "blend": 16.0,
+      "trim_patch_voxels": 75.0,
+      "arc_trace": [
+        150.7046715,
+        518.7046715
+      ],
+      "decisions": 47,
+      "units": "patch voxels"
+    },
+    "parameters": {
+      "cap_sv": 2.0,
+      "cap_file": "patches/expected_error_cap.json",
+      "min_area_cm2": 0.05,
+      "trim_sv": 75.0,
+      "z_clip_sv": [
+        3000.0,
+        4400.0
+      ],
+      "voxel_um": 9.596,
+      "patch_erode_patches": "villa default (1), applied by the fit, not here"
+    },
+    "expected_error_source": "stitched from strip.npz expected_error_vox",
+    "trim": {
+      "requested_sv": 75.0,
+      "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+      "rows_removed_here": 0
+    },
+    "columns_dropped": [],
+    "z_clip": {
+      "range_sv": [
+        3000.0,
+        4400.0
+      ],
+      "nodes_removed": 362
+    },
+    "units": "L2 voxels of PHerc0139/20260102150214 (9.596 um); x/y/z.tif -1 = invalid",
+    "written": "2026-11-04T21:27:34"
+  }
+}
