@@ -14,7 +14,7 @@ Fits: A1 and B1, 20,000 steps, about 50 minutes each on an RTX 3090. Both rc 0 w
 | M5, winding hops | 169,220 | 149,697 | -11.5 % | reported | |
 | M1-c, covered nodes (6.6 %) | 35.6 % | 41.3 % | +5.7 | reported | |
 | M1-c, uncovered nodes (93.4 %) | 31.0 % | 30.8 % | -0.3 | reported | |
-| M6, cross-sections | `figures/` | | | | not judged yet |
+| M6, cross-sections | `figures/` | | | | no visible difference: at z 3400, 3700 and 4000 both arms follow the papyrus where it is packed and both cut across gaps; we found no place where B keeps a sheet that A leaves (judged by eye, 5 Nov) |
 
 The patches help where they are and do not improve M1 on the rest of the surface. With 6.6 % of nodes covered, covered nodes alone could add at most +4.6 points, so the +5 bar could not be reached without an effect elsewhere. `PREREG.md` section 2 warned of this.
 

@@ -2,13 +2,16 @@
 
 Patch-ready 2D strips, about 1.15 mm wide, around human scaffold fibers of PHerc 0139, in villa's tifxyz patch format. `fit_spiral` loads them as `verified_patches` unchanged.
 
-**Result, 5 Nov 2026: no measurable gain on the pre-registered measure.** Adding the strips to a fit moved held-out wrap nodes within 2 voxels by +0.1 points (CI -0.6 to +0.9; bar +5). Seed 1 only, one band. `results/AB_SEED1.md`.
+**Result, 5 Nov 2026, one band, two seeds:**
+
+- **Surface accuracy: no measurable gain** (the pre-registered measure). Adding the strips moved held-out wrap nodes within 2 voxels by +0.1 points on seed 1 (CI -0.6 to +0.9; bar +5) and -0.5 on seed 2. `results/AB_SEED1.md`.
+- **Winding purity: confirmed on seed 2** (the amendment-1 test, metric chosen after seed 1). Each held-out wrap lies on fewer fitted windings: +7.8 points (CI +5.7 to +10.1), 33 of 36 wraps up, all guards passing. `results/AB_SEED2.md`.
 
 | | |
 |---|---|
 | Patches | 550 pieces, about 100.8 cm2, L2 z 2300-7300. `patches/` |
-| Does it help a fit? | M1 **no measurable gain**. Winding hops inside wraps -11.5 %, reported, no bar |
-| Being tested | A post hoc lead: wraps stay on fewer fitted windings in the patch arm, +9.0 points (CI +6.6 to +11.6), 35 of 36 wraps up. Chosen after seeing the data, so it is not a claim. `PREREG.md` amendment 1 froze the test on seed 2 before that fit started |
+| Does it help a fit? | M1 **no measurable gain** on either seed. Winding hops inside wraps -11.5 % and -17.6 %, reported, no bar |
+| Winding purity | **Confirmed on seed 2**: +7.8 points (CI +5.7 to +10.1). Seed 1 had +9.0, where the metric was found. Frozen by `PREREG.md` amendment 1 before the seed-2 fits. It does not show the fit is on the sheet |
 | Baseline caveat | Both arms score near chance on M1: wrap nodes shifted 6 voxels still score 30.5 % in arm A against 31.3 %. This config has no tracks or winding store, so it is not the team's full recipe |
 
 ## Strip accuracy by band
