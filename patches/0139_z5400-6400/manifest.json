@@ -1,0 +1,8656 @@
+{
+ "tool": "strips2patches.py v0.1",
+ "written": "2026-11-05T00:31:48",
+ "strip_model": "scrollprize/fiber_strip_small_v1@7bd163a22c839ff312879ae1916195d0c9729c0e",
+ "strip_villa": "ScrollPrize/villa 6f2024569 + #2163 (C:/VesuviusTemp/strips/villa_6f2)",
+ "parameters": {
+  "cap_sv": 2.0,
+  "cap_file": "C:\\VesuviusTemp\\nov_strips\\patches\\expected_error_cap.json",
+  "min_area_cm2": 0.05,
+  "trim_sv": 75.0,
+  "z_clip_sv": [
+   5400.0,
+   6400.0
+  ],
+  "voxel_um": 9.596,
+  "patch_erode_patches": "villa default (1), applied by the fit, not here"
+ },
+ "strips_roots": [
+  "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips"
+ ],
+ "strips_found": 115,
+ "patches_written": 106,
+ "pieces_dropped": 9,
+ "total_area_cm2": 19.4864844201312,
+ "total_valid_nodes": 1106286,
+ "fibers": [
+  "dj_20260904T151437210_000003",
+  "dj_20260908T175202273_000007",
+  "dj_20260925T151814218_000023",
+  "dj_20260929T105111415_000026",
+  "kb_20260826T224509522_000006",
+  "kb_20260828T043801323_000034",
+  "kb_20260901T171709558_000053",
+  "kb_20260902T005740281_000070",
+  "kb_20260904T033639453_000086",
+  "kb_20260907T011847533_000102",
+  "kb_20260907T013716679_000103",
+  "kb_20260907T230801823_000111",
+  "kb_20260909T180606717_000122",
+  "kb_20260916T013642656_000127",
+  "kb_20260916T014226813_000128",
+  "kb_20260916T014809315_000129",
+  "kb_20260916T021108746_000132",
+  "kb_20260916T163135553_000139",
+  "kb_20260917T170152793_000146",
+  "kb_20260918T012228114_000147",
+  "kb_20260919T020016803_000160",
+  "kb_20260922T161249139_000178",
+  "kb_20260923T192753819_000195",
+  "kb_20260923T194950052_000198",
+  "kb_20260924T044409230_000213",
+  "kb_20260925T032702652_000214",
+  "kb_20260925T033453814_000215",
+  "kb_20260928T015049308_000217",
+  "kb_20260928T035815467_000220",
+  "kb_20260928T173455114_000221",
+  "kb_20260928T204212691_000223",
+  "kb_20260928T231536559_000226",
+  "kb_20260929T002049782_000229",
+  "kb_20260929T230359055_000240",
+  "kb_20260930T020857784_000243",
+  "kb_20261001T163222219_000255",
+  "kb_20261001T212433665_000256",
+  "kb_20261001T213710181_000257",
+  "kb_20261001T233350531_000263",
+  "kb_20261002T030027028_000265",
+  "lt_20260826T111759791_000002",
+  "lt_20260827T053049016_000003",
+  "lt_20260827T092409495_000006",
+  "lt_20260827T094208872_000008",
+  "lt_20260827T095725419_000010",
+  "lt_20260828T060011076_000016",
+  "lt_20260828T094214123_000018",
+  "lt_20260903T061642538_000048",
+  "lt_20260903T081952996_000050",
+  "lt_20260907T055613990_000059",
+  "lt_20260907T073852375_000068",
+  "lt_20260907T090348226_000074",
+  "lt_20260908T065810144_000078",
+  "lt_20260908T102042760_000089",
+  "lt_20260910T055207398_000110",
+  "lt_20260910T072828497_000111",
+  "lt_20260910T082256930_000112",
+  "lt_20260910T090933172_000113",
+  "lt_20260911T073815460_000119",
+  "lt_20260914T070809786_000124",
+  "lt_20260914T080111721_000127",
+  "lt_20260914T091427983_000130",
+  "lt_20260916T075855882_000136",
+  "lt_20260916T084252407_000137",
+  "lt_20260917T045630900_000139",
+  "lt_20260917T054942114_000140",
+  "lt_20260917T074125911_000145",
+  "lt_20260921T084525702_000168",
+  "lt_20260924T084835717_000181",
+  "lt_20260924T091804289_000183",
+  "lt_20260925T092029604_000186",
+  "lt_20260925T093307691_000188",
+  "lt_20260926T053109402_000190",
+  "lt_20260928T095306884_000194",
+  "lt_20260928T102153466_000197",
+  "lt_20260928T102859210_000198",
+  "lt_20260928T103929809_000199",
+  "lt_20260928T112311238_000201",
+  "lt_20260928T114319112_000202",
+  "lt_20260929T091613547_000216",
+  "lt_20260930T052058828_000223",
+  "lt_20260930T073719893_000225",
+  "lt_20260930T084501400_000229",
+  "lt_20260930T093242283_000237",
+  "lt_20260930T093543067_000238",
+  "lt_20261002T051549031_000262",
+  "lt_20261002T070836019_000264",
+  "lt_20261002T075438051_000266",
+  "lt_20261002T082246656_000268",
+  "lt_20261002T083407652_000269",
+  "lt_20261002T084327713_000270",
+  "lt_20261002T092245053_000274",
+  "lt_20261002T112220359_000276",
+  "lt_20261003T053801180_000278",
+  "lt_20261005T050741438_000280",
+  "lt_20261005T054517903_000282",
+  "lt_20261005T092241641_000298",
+  "lt_20261005T095214106_000300",
+  "lt_20261005T101800015_000302",
+  "lt_20261006T054726786_000304",
+  "lt_20261006T064008227_000308",
+  "lt_20261008T072250103_000348",
+  "lt_20261008T074735897_000349",
+  "lt_20261008T084106819_000355"
+ ],
+ "patches": {
+  "dj_20260904T151437210_000003__0": {
+   "piece": "N0000",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0000\\strip",
+   "rows": 320,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.5103,
+     1.1898,
+     1.0505,
+     0.9892,
+     0.9479,
+     0.9142,
+     0.837,
+     0.7772,
+     0.7299,
+     0.6869,
+     0.6566,
+     0.6504,
+     0.6715,
+     0.6333,
+     0.6482,
+     0.6763,
+     0.6898,
+     0.7108,
+     0.7241,
+     0.7433,
+     0.7762,
+     0.8078,
+     0.8627,
+     0.9496,
+     1.1041
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 7500,
+   "notes": [
+    "stitch check: 100.0% of 7500 nodes within 0.05 sv (max gap 0.0003 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 802
+   },
+   "valid_nodes": 6698,
+   "valid_quads": 6402,
+   "area_vx2": 128040.0,
+   "area_cm2": 0.1179033497664,
+   "expected_error_sv": {
+    "mean": 0.8843726940295368,
+    "median": 0.7980447050783697,
+    "p90": 1.3218934365764907,
+    "max": 2.6914956387292843,
+    "nodes": 6698
+   },
+   "z_range_sv": [
+    5400.08056640625,
+    6399.955078125
+   ],
+   "fiber": "dj_20260904T151437210_000003",
+   "fiber_uuid": "dc4be272-09a5-586b-9a11-a5929e971d03",
+   "family": "V",
+   "annotator": "dj",
+   "patch": "dj_20260904T151437210_000003__0"
+  },
+  "dj_20260908T175202273_000007__0": {
+   "piece": "N0001",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0001\\strip",
+   "rows": 320,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.2557,
+     0.9766,
+     0.8627,
+     0.8089,
+     0.7773,
+     0.7396,
+     0.7006,
+     0.6646,
+     0.6432,
+     0.6189,
+     0.6124,
+     0.6049,
+     0.6084,
+     0.5952,
+     0.6264,
+     0.668,
+     0.7365,
+     0.8172,
+     0.9022,
+     0.9141,
+     0.9388,
+     0.9521,
+     1.0056,
+     1.0768,
+     1.3137
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 7500,
+   "notes": [
+    "stitch check: 100.0% of 7500 nodes within 0.05 sv (max gap 0.0003 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 810
+   },
+   "valid_nodes": 6690,
+   "valid_quads": 6398,
+   "area_vx2": 127960.0,
+   "area_cm2": 0.11782968319360002,
+   "expected_error_sv": {
+    "mean": 0.8687814163202496,
+    "median": 0.7397876375631085,
+    "p90": 1.4206036181278514,
+    "max": 2.712509130950629,
+    "nodes": 6690
+   },
+   "z_range_sv": [
+    5400.03564453125,
+    6399.88330078125
+   ],
+   "fiber": "dj_20260908T175202273_000007",
+   "fiber_uuid": "a2322269-f241-5abf-b4e4-db5b5fb704d8",
+   "family": "V",
+   "annotator": "dj",
+   "patch": "dj_20260908T175202273_000007__0"
+  },
+  "dj_20260925T151814218_000023__0": {
+   "piece": "N0002",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0002\\strip",
+   "rows": 1784,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.3648,
+     1.0682,
+     0.9821,
+     0.9264,
+     0.8831,
+     0.8447,
+     0.7961,
+     0.7418,
+     0.7065,
+     0.6736,
+     0.6509,
+     0.6267,
+     0.6278,
+     0.6111,
+     0.6308,
+     0.6706,
+     0.7109,
+     0.7634,
+     0.8268,
+     0.8536,
+     0.885,
+     0.9236,
+     0.9856,
+     1.0725,
+     1.2875
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 42925,
+   "notes": [
+    "stitch check: 100.0% of 42925 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 331
+   },
+   "valid_nodes": 42594,
+   "valid_quads": 40850,
+   "area_vx2": 817000.0,
+   "area_cm2": 0.7523198747200001,
+   "expected_error_sv": {
+    "mean": 0.9111985065165716,
+    "median": 0.7944884188681405,
+    "p90": 1.3671690472417348,
+    "max": 3.7390474409994416,
+    "nodes": 42594
+   },
+   "z_range_sv": [
+    6037.12548828125,
+    6399.99609375
+   ],
+   "fiber": "dj_20260925T151814218_000023",
+   "fiber_uuid": "2b15a778-2419-507c-bae6-3cc5d669c420",
+   "family": "H",
+   "annotator": "dj",
+   "patch": "dj_20260925T151814218_000023__0"
+  },
+  "dj_20260929T105111415_000026__0": {
+   "piece": "N0003",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0003\\strip",
+   "rows": 232,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.1295,
+     0.9471,
+     0.9448,
+     0.9529,
+     0.9266,
+     0.8485,
+     0.7888,
+     0.7603,
+     0.706,
+     0.6941,
+     0.6773,
+     0.6356,
+     0.6461,
+     0.6594,
+     0.701,
+     0.7449,
+     0.7965,
+     0.8722,
+     0.9604,
+     0.9619,
+     0.9661,
+     0.9565,
+     0.9896,
+     1.0641,
+     1.2798
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 4675,
+   "notes": [
+    "stitch check: 100.0% of 4675 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 376
+   },
+   "valid_nodes": 4299,
+   "valid_quads": 4101,
+   "area_vx2": 82020.0,
+   "area_cm2": 0.0755266537632,
+   "expected_error_sv": {
+    "mean": 0.910749356234434,
+    "median": 0.8440775278245587,
+    "p90": 1.2707524995149944,
+    "max": 2.3490302061692283,
+    "nodes": 4299
+   },
+   "z_range_sv": [
+    5400.13818359375,
+    6002.49560546875
+   ],
+   "fiber": "dj_20260929T105111415_000026",
+   "fiber_uuid": "0142f08b-c61b-5c86-bc59-82ba507e0144",
+   "family": "V",
+   "annotator": "dj",
+   "patch": "dj_20260929T105111415_000026__0"
+  },
+  "kb_20260826T224509522_000006__0": {
+   "piece": "N0004",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0004\\strip",
+   "rows": 688,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.4612,
+     1.1752,
+     1.0446,
+     0.9925,
+     0.9529,
+     0.926,
+     0.8886,
+     0.8499,
+     0.8223,
+     0.8023,
+     0.7777,
+     0.7501,
+     0.8025,
+     0.7514,
+     0.797,
+     0.8312,
+     0.8601,
+     0.9051,
+     0.9574,
+     0.992,
+     1.0467,
+     1.1479,
+     1.2379,
+     1.4027,
+     1.6369
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 16700,
+   "notes": [
+    "stitch check: 100.0% of 16700 nodes within 0.05 sv (max gap 0.0003 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 2527
+   },
+   "valid_nodes": 14173,
+   "valid_quads": 13555,
+   "area_vx2": 271100.0,
+   "area_cm2": 0.24963759857600004,
+   "expected_error_sv": {
+    "mean": 1.1594639499017947,
+    "median": 0.9630539893080269,
+    "p90": 2.015071915153857,
+    "max": 3.654951898259727,
+    "nodes": 14173
+   },
+   "z_range_sv": [
+    5400.0478515625,
+    6399.98876953125
+   ],
+   "fiber": "kb_20260826T224509522_000006",
+   "fiber_uuid": "abf400df-530a-57df-b3b2-7843410a6b83",
+   "family": "V",
+   "annotator": "kb",
+   "patch": "kb_20260826T224509522_000006__0"
+  },
+  "kb_20260828T043801323_000034__0": {
+   "piece": "N0005",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0005\\strip",
+   "rows": 340,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     2.6886,
+     2.249,
+     1.7164,
+     1.5449,
+     1.3355,
+     1.2273,
+     1.073,
+     0.9591,
+     0.8985,
+     0.8253,
+     0.7771,
+     0.7412,
+     0.7933,
+     0.7527,
+     0.7865,
+     0.8835,
+     1.0438,
+     1.191,
+     1.4164,
+     1.724,
+     1.9031,
+     2.0908,
+     2.3698,
+     2.6913,
+     2.9187
+    ],
+    "dropped": [
+     0,
+     1,
+     21,
+     22,
+     23,
+     24
+    ],
+    "kept": 19
+   },
+   "valid_nodes_source": 8000,
+   "notes": [
+    "stitch check: 100.0% of 8000 nodes within 0.05 sv (max gap 0.0003 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 576
+   },
+   "valid_nodes": 5504,
+   "valid_quads": 5192,
+   "area_vx2": 103840.0,
+   "area_cm2": 0.0956192114944,
+   "expected_error_sv": {
+    "mean": 1.3012286882003847,
+    "median": 1.0904452117379364,
+    "p90": 2.2838483460042904,
+    "max": 3.705440756350438,
+    "nodes": 5504
+   },
+   "z_range_sv": [
+    5400.00048828125,
+    6399.98388671875
+   ],
+   "fiber": "kb_20260828T043801323_000034",
+   "fiber_uuid": "7aabe4eb-d582-5fcc-9ca3-3be605ee96e3",
+   "family": "V",
+   "annotator": "kb",
+   "patch": "kb_20260828T043801323_000034__0"
+  },
+  "kb_20260901T171709558_000053__0": {
+   "piece": "N0006",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0006\\strip",
+   "rows": 336,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.391,
+     1.1126,
+     0.9898,
+     0.9408,
+     0.8956,
+     0.8359,
+     0.7967,
+     0.7907,
+     0.7581,
+     0.7005,
+     0.682,
+     0.6712,
+     0.6883,
+     0.6748,
+     0.6907,
+     0.7305,
+     0.7691,
+     0.7859,
+     0.8375,
+     0.8979,
+     0.9245,
+     1.0237,
+     1.1417,
+     1.321,
+     1.6197
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 7900,
+   "notes": [
+    "stitch check: 100.0% of 7900 nodes within 0.05 sv (max gap 0.0003 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 840
+   },
+   "valid_nodes": 7060,
+   "valid_quads": 6750,
+   "area_vx2": 135000.0,
+   "area_cm2": 0.1243123416,
+   "expected_error_sv": {
+    "mean": 1.0609397760019628,
+    "median": 0.8856798509741284,
+    "p90": 1.7506507395212298,
+    "max": 3.579341270526967,
+    "nodes": 7060
+   },
+   "z_range_sv": [
+    5400.0244140625,
+    6399.876953125
+   ],
+   "fiber": "kb_20260901T171709558_000053",
+   "fiber_uuid": "1ce76347-8221-536d-b899-97eb2bc41e0b",
+   "family": "V",
+   "annotator": "kb",
+   "patch": "kb_20260901T171709558_000053__0"
+  },
+  "kb_20260902T005740281_000070__0": {
+   "piece": "N0007",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0007\\strip",
+   "rows": 328,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.4357,
+     1.1186,
+     0.9678,
+     0.8916,
+     0.8725,
+     0.865,
+     0.8532,
+     0.8066,
+     0.7717,
+     0.7577,
+     0.7244,
+     0.701,
+     0.7274,
+     0.6912,
+     0.6958,
+     0.6947,
+     0.6946,
+     0.7037,
+     0.7403,
+     0.7784,
+     0.8279,
+     0.8792,
+     0.9711,
+     1.0873,
+     1.1904
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 7700,
+   "notes": [
+    "stitch check: 100.0% of 7700 nodes within 0.05 sv (max gap 0.0003 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 772
+   },
+   "valid_nodes": 6928,
+   "valid_quads": 6623,
+   "area_vx2": 132460.0,
+   "area_cm2": 0.1219734279136,
+   "expected_error_sv": {
+    "mean": 0.9162642068082776,
+    "median": 0.8450512747884218,
+    "p90": 1.2932476508146673,
+    "max": 2.8575244727317117,
+    "nodes": 6928
+   },
+   "z_range_sv": [
+    5400.14453125,
+    6399.947265625
+   ],
+   "fiber": "kb_20260902T005740281_000070",
+   "fiber_uuid": "028b6d6d-de44-56c5-9fa9-8a20ac703f29",
+   "family": "V",
+   "annotator": "kb",
+   "patch": "kb_20260902T005740281_000070__0"
+  },
+  "kb_20260904T033639453_000086__0": {
+   "piece": "N0009",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0009\\strip",
+   "rows": 316,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.4318,
+     1.0596,
+     0.9392,
+     0.8732,
+     0.8628,
+     0.83,
+     0.8181,
+     0.7871,
+     0.7253,
+     0.6643,
+     0.6437,
+     0.636,
+     0.6476,
+     0.6267,
+     0.6198,
+     0.6387,
+     0.649,
+     0.6547,
+     0.7,
+     0.7295,
+     0.7637,
+     0.8157,
+     0.8672,
+     0.9163,
+     1.0634
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 7400,
+   "notes": [
+    "stitch check: 100.0% of 7400 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 737
+   },
+   "valid_nodes": 6663,
+   "valid_quads": 6372,
+   "area_vx2": 127440.0,
+   "area_cm2": 0.1173508504704,
+   "expected_error_sv": {
+    "mean": 0.8158632479410732,
+    "median": 0.7602071474401895,
+    "p90": 1.0988045405496285,
+    "max": 2.380482424570361,
+    "nodes": 6663
+   },
+   "z_range_sv": [
+    5400.08740234375,
+    6398.041015625
+   ],
+   "fiber": "kb_20260904T033639453_000086",
+   "fiber_uuid": "6bcd9528-fa14-5c84-ac69-af8604dcb189",
+   "family": "V",
+   "annotator": "kb",
+   "patch": "kb_20260904T033639453_000086__0"
+  },
+  "kb_20260907T011847533_000102__0": {
+   "piece": "N0010",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0010\\strip",
+   "rows": 352,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.1802,
+     0.9632,
+     0.892,
+     0.8781,
+     0.8456,
+     0.8258,
+     0.7863,
+     0.7579,
+     0.7386,
+     0.7134,
+     0.6936,
+     0.684,
+     0.7221,
+     0.7004,
+     0.7108,
+     0.7383,
+     0.7524,
+     0.776,
+     0.8083,
+     0.8577,
+     0.8903,
+     0.9283,
+     1.007,
+     1.1305,
+     1.3011
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 8300,
+   "notes": [
+    "stitch check: 100.0% of 8300 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 808
+   },
+   "valid_nodes": 7492,
+   "valid_quads": 7162,
+   "area_vx2": 143240.0,
+   "area_cm2": 0.13189999859840001,
+   "expected_error_sv": {
+    "mean": 0.9061507809832766,
+    "median": 0.8294370889770333,
+    "p90": 1.3080927969356375,
+    "max": 3.2054797786439617,
+    "nodes": 7492
+   },
+   "z_range_sv": [
+    5400.0390625,
+    6399.95947265625
+   ],
+   "fiber": "kb_20260907T011847533_000102",
+   "fiber_uuid": "d691280e-2fdf-5430-b3db-b271eab54001",
+   "family": "V",
+   "annotator": "kb",
+   "patch": "kb_20260907T011847533_000102__0"
+  },
+  "kb_20260907T013716679_000103__0": {
+   "piece": "N0011",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0011\\strip",
+   "rows": 332,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.1207,
+     0.9663,
+     0.8775,
+     0.8632,
+     0.8381,
+     0.8354,
+     0.8052,
+     0.7583,
+     0.7234,
+     0.7051,
+     0.6997,
+     0.6873,
+     0.718,
+     0.6725,
+     0.675,
+     0.6868,
+     0.7074,
+     0.736,
+     0.78,
+     0.8209,
+     0.8657,
+     0.9428,
+     1.0572,
+     1.128,
+     1.3188
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 7800,
+   "notes": [
+    "stitch check: 100.0% of 7800 nodes within 0.05 sv (max gap 0.0003 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 805
+   },
+   "valid_nodes": 6995,
+   "valid_quads": 6688,
+   "area_vx2": 133760.0,
+   "area_cm2": 0.1231705097216,
+   "expected_error_sv": {
+    "mean": 0.9303386871192809,
+    "median": 0.8126566992676457,
+    "p90": 1.3754947095355743,
+    "max": 3.5757548138243633,
+    "nodes": 6995
+   },
+   "z_range_sv": [
+    5400.234375,
+    6399.888671875
+   ],
+   "fiber": "kb_20260907T013716679_000103",
+   "fiber_uuid": "0face6d4-0aaf-512e-ae21-806d73628267",
+   "family": "V",
+   "annotator": "kb",
+   "patch": "kb_20260907T013716679_000103__0"
+  },
+  "kb_20260907T230801823_000111__0": {
+   "piece": "N0012",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0012\\strip",
+   "rows": 312,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.2337,
+     1.0088,
+     0.9286,
+     0.8839,
+     0.8399,
+     0.8118,
+     0.8042,
+     0.7824,
+     0.7371,
+     0.697,
+     0.6665,
+     0.634,
+     0.6242,
+     0.6101,
+     0.6192,
+     0.621,
+     0.6415,
+     0.6906,
+     0.7226,
+     0.7431,
+     0.7302,
+     0.7327,
+     0.7506,
+     0.7873,
+     0.8724
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 7300,
+   "notes": [
+    "stitch check: 100.0% of 7300 nodes within 0.05 sv (max gap 0.0003 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 829
+   },
+   "valid_nodes": 6471,
+   "valid_quads": 6186,
+   "area_vx2": 123720.0,
+   "area_cm2": 0.11392535483520001,
+   "expected_error_sv": {
+    "mean": 0.7911140481894936,
+    "median": 0.7397454453834165,
+    "p90": 1.0574482426106584,
+    "max": 1.9707991743736168,
+    "nodes": 6471
+   },
+   "z_range_sv": [
+    5400.017578125,
+    6399.2626953125
+   ],
+   "fiber": "kb_20260907T230801823_000111",
+   "fiber_uuid": "2ba4faea-b67b-5a12-8dc7-f6f54fd8a7f7",
+   "family": "V",
+   "annotator": "kb",
+   "patch": "kb_20260907T230801823_000111__0"
+  },
+  "kb_20260909T180606717_000122__0": {
+   "piece": "N0014",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0014\\strip",
+   "rows": 320,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.205,
+     1.0238,
+     0.9482,
+     0.9338,
+     0.8851,
+     0.8377,
+     0.7947,
+     0.783,
+     0.746,
+     0.6917,
+     0.667,
+     0.653,
+     0.6591,
+     0.6402,
+     0.658,
+     0.6977,
+     0.7265,
+     0.7868,
+     0.8149,
+     0.8258,
+     0.8608,
+     0.9166,
+     1.0103,
+     1.1071,
+     1.2489
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 7500,
+   "notes": [
+    "stitch check: 100.0% of 7500 nodes within 0.05 sv (max gap 0.0003 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 807
+   },
+   "valid_nodes": 6693,
+   "valid_quads": 6399,
+   "area_vx2": 127980.0,
+   "area_cm2": 0.1178480998368,
+   "expected_error_sv": {
+    "mean": 0.8744539365327869,
+    "median": 0.817097988451755,
+    "p90": 1.1915660853275745,
+    "max": 2.692543914110397,
+    "nodes": 6693
+   },
+   "z_range_sv": [
+    5400.0927734375,
+    6399.9482421875
+   ],
+   "fiber": "kb_20260909T180606717_000122",
+   "fiber_uuid": "784d5366-893d-59b1-b8dc-49d5fe6a1791",
+   "family": "V",
+   "annotator": "kb",
+   "patch": "kb_20260909T180606717_000122__0"
+  },
+  "kb_20260916T013642656_000127__0": {
+   "piece": "N0015",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0015\\strip",
+   "rows": 476,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.3885,
+     1.101,
+     1.0238,
+     1.0054,
+     0.9673,
+     0.9035,
+     0.8483,
+     0.7909,
+     0.7226,
+     0.6788,
+     0.6382,
+     0.6195,
+     0.6335,
+     0.6205,
+     0.6364,
+     0.6503,
+     0.6642,
+     0.6681,
+     0.6955,
+     0.7174,
+     0.7359,
+     0.751,
+     0.8092,
+     0.8833,
+     1.0384
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 10275,
+   "notes": [
+    "stitch check: 100.0% of 10275 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 0
+   },
+   "valid_nodes": 10275,
+   "valid_quads": 9840,
+   "area_vx2": 196800.0,
+   "area_cm2": 0.18121976908800003,
+   "expected_error_sv": {
+    "mean": 0.8508353388062552,
+    "median": 0.7618221892952423,
+    "p90": 1.228714248113002,
+    "max": 2.952079330740015,
+    "nodes": 10275
+   },
+   "z_range_sv": [
+    5954.451171875,
+    6153.70556640625
+   ],
+   "fiber": "kb_20260916T013642656_000127",
+   "fiber_uuid": "68ce0224-cf83-5e99-b60d-2c05b9747c5c",
+   "family": "H",
+   "annotator": "kb",
+   "patch": "kb_20260916T013642656_000127__0"
+  },
+  "kb_20260916T014226813_000128__0": {
+   "piece": "N0016",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0016\\strip",
+   "rows": 204,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.3596,
+     1.1768,
+     1.0537,
+     0.9672,
+     0.9148,
+     0.8674,
+     0.8548,
+     0.7921,
+     0.7185,
+     0.6485,
+     0.6321,
+     0.6129,
+     0.5844,
+     0.5748,
+     0.5853,
+     0.6217,
+     0.6747,
+     0.7268,
+     0.8281,
+     0.8922,
+     0.9208,
+     0.9573,
+     0.9812,
+     1.0082,
+     1.1317
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 3500,
+   "notes": [
+    "stitch check: 100.0% of 3500 nodes within 0.05 sv (max gap 0.0003 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 0
+   },
+   "valid_nodes": 3500,
+   "valid_quads": 3336,
+   "area_vx2": 66720.0,
+   "area_cm2": 0.0614379217152,
+   "expected_error_sv": {
+    "mean": 0.8679841047036837,
+    "median": 0.8227548016215616,
+    "p90": 1.2170065711255706,
+    "max": 2.962498973892963,
+    "nodes": 3500
+   },
+   "z_range_sv": [
+    5428.32763671875,
+    5957.49658203125
+   ],
+   "fiber": "kb_20260916T014226813_000128",
+   "fiber_uuid": "709f8fce-a1a3-5b08-946e-64474ce3e730",
+   "family": "V",
+   "annotator": "kb",
+   "patch": "kb_20260916T014226813_000128__0"
+  },
+  "kb_20260916T014809315_000129__0": {
+   "piece": "N0017",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0017\\strip",
+   "rows": 216,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.2607,
+     1.0616,
+     0.9947,
+     0.9466,
+     0.9246,
+     0.8746,
+     0.8212,
+     0.7886,
+     0.7357,
+     0.6792,
+     0.6442,
+     0.628,
+     0.6272,
+     0.6048,
+     0.6297,
+     0.6455,
+     0.6853,
+     0.7358,
+     0.8012,
+     0.8692,
+     0.9185,
+     1.0361,
+     1.0513,
+     1.1156,
+     1.2275
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 3750,
+   "notes": [
+    "stitch check: 100.0% of 3750 nodes within 0.05 sv (max gap 0.0003 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 0
+   },
+   "valid_nodes": 3750,
+   "valid_quads": 3576,
+   "area_vx2": 71520.0,
+   "area_cm2": 0.0658579160832,
+   "expected_error_sv": {
+    "mean": 0.8888895812696235,
+    "median": 0.833095386836588,
+    "p90": 1.2539777937412044,
+    "max": 2.292997778197805,
+    "nodes": 3750
+   },
+   "z_range_sv": [
+    5462.2724609375,
+    6029.70361328125
+   ],
+   "fiber": "kb_20260916T014809315_000129",
+   "fiber_uuid": "695289e5-ccbd-587a-948b-da93f3d1fd7b",
+   "family": "V",
+   "annotator": "kb",
+   "patch": "kb_20260916T014809315_000129__0"
+  },
+  "kb_20260916T021108746_000132__0": {
+   "piece": "N0020",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0020\\strip",
+   "rows": 244,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.3873,
+     1.1202,
+     1.0233,
+     0.9515,
+     0.9002,
+     0.8541,
+     0.836,
+     0.8063,
+     0.7466,
+     0.6982,
+     0.669,
+     0.6433,
+     0.6328,
+     0.6234,
+     0.6542,
+     0.6913,
+     0.7364,
+     0.7872,
+     0.8765,
+     0.9378,
+     0.9648,
+     1.025,
+     1.1106,
+     1.1924,
+     1.2385
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 4975,
+   "notes": [
+    "stitch check: 100.0% of 4975 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 397
+   },
+   "valid_nodes": 4578,
+   "valid_quads": 4370,
+   "area_vx2": 87400.0,
+   "area_cm2": 0.080480730784,
+   "expected_error_sv": {
+    "mean": 0.9018846421781433,
+    "median": 0.8469972339335401,
+    "p90": 1.2448328421054506,
+    "max": 2.258931557242635,
+    "nodes": 4578
+   },
+   "z_range_sv": [
+    5400.0390625,
+    6086.13818359375
+   ],
+   "fiber": "kb_20260916T021108746_000132",
+   "fiber_uuid": "22b3b281-4245-5808-abb1-f6eee4158678",
+   "family": "V",
+   "annotator": "kb",
+   "patch": "kb_20260916T021108746_000132__0"
+  },
+  "kb_20260916T163135553_000139__0": {
+   "piece": "N0021",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0021\\strip",
+   "rows": 436,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.2154,
+     1.0087,
+     0.9494,
+     0.9131,
+     0.8779,
+     0.8436,
+     0.8413,
+     0.8202,
+     0.7789,
+     0.7101,
+     0.686,
+     0.6746,
+     0.6789,
+     0.646,
+     0.6386,
+     0.6532,
+     0.6731,
+     0.6995,
+     0.7306,
+     0.7582,
+     0.8193,
+     0.8937,
+     0.9551,
+     1.0633,
+     1.2635
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 10400,
+   "notes": [
+    "stitch check: 100.0% of 10400 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 757
+   },
+   "valid_nodes": 9643,
+   "valid_quads": 9231,
+   "area_vx2": 184620.0,
+   "area_cm2": 0.17000403337920003,
+   "expected_error_sv": {
+    "mean": 0.8596698347721079,
+    "median": 0.7914793220349655,
+    "p90": 1.2220725254883555,
+    "max": 2.3460745364019964,
+    "nodes": 9643
+   },
+   "z_range_sv": [
+    5400.17138671875,
+    6399.9287109375
+   ],
+   "fiber": "kb_20260916T163135553_000139",
+   "fiber_uuid": "669b87b2-b4bb-5d74-ae00-36fb40a8a1c9",
+   "family": "V",
+   "annotator": "kb",
+   "patch": "kb_20260916T163135553_000139__0"
+  },
+  "kb_20260917T170152793_000146__0": {
+   "piece": "N0022",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0022\\strip",
+   "rows": 324,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.0566,
+     0.8407,
+     0.768,
+     0.7558,
+     0.7376,
+     0.7321,
+     0.7153,
+     0.6864,
+     0.6632,
+     0.6477,
+     0.6378,
+     0.6312,
+     0.6375,
+     0.6086,
+     0.6213,
+     0.635,
+     0.6332,
+     0.6471,
+     0.6693,
+     0.684,
+     0.7129,
+     0.7417,
+     0.7703,
+     0.8032,
+     0.9051
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 7600,
+   "notes": [
+    "stitch check: 100.0% of 7600 nodes within 0.05 sv (max gap 0.0003 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 770
+   },
+   "valid_nodes": 6830,
+   "valid_quads": 6531,
+   "area_vx2": 130620.0,
+   "area_cm2": 0.12027909673920002,
+   "expected_error_sv": {
+    "mean": 0.7608491519369963,
+    "median": 0.6975516112860469,
+    "p90": 1.0217983957113068,
+    "max": 3.048449453843987,
+    "nodes": 6830
+   },
+   "z_range_sv": [
+    5400.01904296875,
+    6399.8681640625
+   ],
+   "fiber": "kb_20260917T170152793_000146",
+   "fiber_uuid": "18eb523a-a79a-5cc3-97ab-ef0039b32e5b",
+   "family": "V",
+   "annotator": "kb",
+   "patch": "kb_20260917T170152793_000146__0"
+  },
+  "kb_20260918T012228114_000147__0": {
+   "piece": "N0023",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0023\\strip",
+   "rows": 332,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.526,
+     1.1961,
+     1.1198,
+     1.0692,
+     1.0479,
+     1.0438,
+     1.025,
+     0.9348,
+     0.858,
+     0.7887,
+     0.7338,
+     0.7158,
+     0.7217,
+     0.7054,
+     0.7486,
+     0.8444,
+     0.9381,
+     1.0675,
+     1.1527,
+     1.1565,
+     1.1466,
+     1.1383,
+     1.1625,
+     1.1843,
+     1.4015
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 7800,
+   "notes": [
+    "stitch check: 100.0% of 7800 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 839
+   },
+   "valid_nodes": 6961,
+   "valid_quads": 6655,
+   "area_vx2": 133100.0,
+   "area_cm2": 0.12256276049600001,
+   "expected_error_sv": {
+    "mean": 1.04345473499801,
+    "median": 0.9574026703636233,
+    "p90": 1.499273122455179,
+    "max": 2.9863908108608372,
+    "nodes": 6961
+   },
+   "z_range_sv": [
+    5400.14794921875,
+    6399.88671875
+   ],
+   "fiber": "kb_20260918T012228114_000147",
+   "fiber_uuid": "cd564bf9-3185-5864-8db8-6fba01d914b5",
+   "family": "V",
+   "annotator": "kb",
+   "patch": "kb_20260918T012228114_000147__0"
+  },
+  "kb_20260919T020016803_000160__0": {
+   "piece": "N0025",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0025\\strip",
+   "rows": 348,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.4169,
+     1.1728,
+     1.0775,
+     1.0326,
+     0.9571,
+     0.8993,
+     0.8452,
+     0.8006,
+     0.7717,
+     0.7298,
+     0.7107,
+     0.6806,
+     0.679,
+     0.6722,
+     0.694,
+     0.7294,
+     0.7747,
+     0.8433,
+     0.8964,
+     0.8954,
+     0.9425,
+     1.0251,
+     1.1141,
+     1.2642,
+     1.496
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 8200,
+   "notes": [
+    "stitch check: 100.0% of 8200 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 747
+   },
+   "valid_nodes": 7453,
+   "valid_quads": 7129,
+   "area_vx2": 142580.0,
+   "area_cm2": 0.1312922493728,
+   "expected_error_sv": {
+    "mean": 0.9695909383675166,
+    "median": 0.8712485395673115,
+    "p90": 1.4297949750554961,
+    "max": 3.145308797356416,
+    "nodes": 7453
+   },
+   "z_range_sv": [
+    5400.07177734375,
+    6399.921875
+   ],
+   "fiber": "kb_20260919T020016803_000160",
+   "fiber_uuid": "208b17c7-8306-573a-9ecb-acc153e764d9",
+   "family": "V",
+   "annotator": "kb",
+   "patch": "kb_20260919T020016803_000160__0"
+  },
+  "kb_20260922T161249139_000178__0": {
+   "piece": "N0026",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0026\\strip",
+   "rows": 332,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.2345,
+     0.9695,
+     0.8854,
+     0.8203,
+     0.8103,
+     0.8158,
+     0.7955,
+     0.748,
+     0.7318,
+     0.6809,
+     0.6344,
+     0.6219,
+     0.625,
+     0.6141,
+     0.6222,
+     0.6411,
+     0.6699,
+     0.694,
+     0.7277,
+     0.7649,
+     0.8117,
+     0.8646,
+     0.8606,
+     0.9371,
+     1.0507
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 7800,
+   "notes": [
+    "stitch check: 100.0% of 7800 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 806
+   },
+   "valid_nodes": 6994,
+   "valid_quads": 6687,
+   "area_vx2": 133740.0,
+   "area_cm2": 0.12315209307840001,
+   "expected_error_sv": {
+    "mean": 0.8038106577178498,
+    "median": 0.7498514065971945,
+    "p90": 1.0763493687446948,
+    "max": 1.9427977721555296,
+    "nodes": 6994
+   },
+   "z_range_sv": [
+    5400.17236328125,
+    6399.88330078125
+   ],
+   "fiber": "kb_20260922T161249139_000178",
+   "fiber_uuid": "413b4bca-613f-5094-868b-dac58ee78a0b",
+   "family": "V",
+   "annotator": "kb",
+   "patch": "kb_20260922T161249139_000178__0"
+  },
+  "kb_20260923T192753819_000195__0": {
+   "piece": "N0027",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0027\\strip",
+   "rows": 344,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.3954,
+     1.1527,
+     1.0231,
+     0.9887,
+     0.9907,
+     0.9928,
+     1.0165,
+     0.9457,
+     0.8852,
+     0.8417,
+     0.7955,
+     0.7629,
+     0.7811,
+     0.7364,
+     0.7574,
+     0.7718,
+     0.8091,
+     0.8545,
+     0.9286,
+     0.984,
+     1.0189,
+     1.1077,
+     1.2201,
+     1.3122,
+     1.4656
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 8100,
+   "notes": [
+    "stitch check: 100.0% of 8100 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 855
+   },
+   "valid_nodes": 7245,
+   "valid_quads": 6926,
+   "area_vx2": 138520.0,
+   "area_cm2": 0.12755367080320001,
+   "expected_error_sv": {
+    "mean": 1.069084816923551,
+    "median": 0.9435535548649046,
+    "p90": 1.6282612029211112,
+    "max": 3.4424730705922726,
+    "nodes": 7245
+   },
+   "z_range_sv": [
+    5400.06591796875,
+    6399.8203125
+   ],
+   "fiber": "kb_20260923T192753819_000195",
+   "fiber_uuid": "101807d8-2b38-552e-ab51-7e0d737e02ee",
+   "family": "V",
+   "annotator": "kb",
+   "patch": "kb_20260923T192753819_000195__0"
+  },
+  "kb_20260923T194950052_000198__0": {
+   "piece": "N0028",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0028\\strip",
+   "rows": 220,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.3743,
+     1.299,
+     1.23,
+     1.1198,
+     1.0048,
+     0.9517,
+     0.8964,
+     0.8392,
+     0.7818,
+     0.7284,
+     0.6992,
+     0.668,
+     0.6971,
+     0.6853,
+     0.7105,
+     0.7238,
+     0.7451,
+     0.7608,
+     0.8078,
+     0.8805,
+     0.9341,
+     0.97,
+     0.9908,
+     1.1106,
+     1.4693
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 4475,
+   "notes": [
+    "stitch check: 100.0% of 4475 nodes within 0.05 sv (max gap 0.0003 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 428
+   },
+   "valid_nodes": 4047,
+   "valid_quads": 3859,
+   "area_vx2": 77180.0,
+   "area_cm2": 0.0710698261088,
+   "expected_error_sv": {
+    "mean": 0.9722389688115369,
+    "median": 0.863392005808527,
+    "p90": 1.4274856894350796,
+    "max": 3.1016019046266146,
+    "nodes": 4047
+   },
+   "z_range_sv": [
+    5781.70947265625,
+    6399.6572265625
+   ],
+   "fiber": "kb_20260923T194950052_000198",
+   "fiber_uuid": "e096434f-28c0-5563-865a-ad0c8616328f",
+   "family": "V",
+   "annotator": "kb",
+   "patch": "kb_20260923T194950052_000198__0"
+  },
+  "kb_20260924T044409230_000213__0": {
+   "piece": "N0031",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0031\\strip",
+   "rows": 472,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.4293,
+     1.0685,
+     0.9704,
+     0.9773,
+     0.9846,
+     0.9734,
+     0.9587,
+     0.8559,
+     0.7875,
+     0.7369,
+     0.7123,
+     0.7026,
+     0.7097,
+     0.7016,
+     0.7316,
+     0.7895,
+     0.847,
+     0.928,
+     1.0532,
+     1.1109,
+     1.1838,
+     1.1988,
+     1.2236,
+     1.2915,
+     1.4502
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 10675,
+   "notes": [
+    "stitch check: 100.0% of 10675 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 2624
+   },
+   "valid_nodes": 8051,
+   "valid_quads": 7596,
+   "area_vx2": 151920.0,
+   "area_cm2": 0.1398928217472,
+   "expected_error_sv": {
+    "mean": 0.9728510903855688,
+    "median": 0.8689664142618003,
+    "p90": 1.439158201565648,
+    "max": 2.6953443060599005,
+    "nodes": 8051
+   },
+   "z_range_sv": [
+    5400.0009765625,
+    5515.86572265625
+   ],
+   "fiber": "kb_20260924T044409230_000213",
+   "fiber_uuid": "2b0ebd8b-1f2b-5901-bdf9-545add8f83a7",
+   "family": "H",
+   "annotator": "kb",
+   "patch": "kb_20260924T044409230_000213__0"
+  },
+  "kb_20260925T032702652_000214__0": {
+   "piece": "N0032",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0032\\strip",
+   "rows": 804,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.1235,
+     0.9913,
+     0.9404,
+     0.8855,
+     0.8356,
+     0.8059,
+     0.7649,
+     0.717,
+     0.6951,
+     0.6847,
+     0.6463,
+     0.6272,
+     0.6446,
+     0.6381,
+     0.6527,
+     0.6735,
+     0.7005,
+     0.7302,
+     0.7694,
+     0.7864,
+     0.8119,
+     0.8492,
+     0.9043,
+     1.0258,
+     1.3088
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 19600,
+   "notes": [
+    "stitch check: 100.0% of 19600 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 3837
+   },
+   "valid_nodes": 15763,
+   "valid_quads": 14953,
+   "area_vx2": 299060.0,
+   "area_cm2": 0.2753840657696,
+   "expected_error_sv": {
+    "mean": 0.8585117283507854,
+    "median": 0.7615548174615461,
+    "p90": 1.2244897988246473,
+    "max": 3.3501477780274698,
+    "nodes": 15763
+   },
+   "z_range_sv": [
+    6206.849609375,
+    6399.99072265625
+   ],
+   "fiber": "kb_20260925T032702652_000214",
+   "fiber_uuid": "4d4db908-7b20-5b5d-b7b0-bc0f5b702a20",
+   "family": "H",
+   "annotator": "kb",
+   "patch": "kb_20260925T032702652_000214__0"
+  },
+  "kb_20260925T032702652_000214__1": {
+   "piece": "N0033",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0033\\strip",
+   "rows": 2872,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.3535,
+     1.1062,
+     0.9938,
+     0.9234,
+     0.8776,
+     0.8461,
+     0.7968,
+     0.755,
+     0.7094,
+     0.6708,
+     0.6394,
+     0.6213,
+     0.6339,
+     0.628,
+     0.6479,
+     0.6715,
+     0.6997,
+     0.7293,
+     0.7684,
+     0.8075,
+     0.8485,
+     0.8998,
+     0.9597,
+     1.0331,
+     1.2373
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 70725,
+   "notes": [
+    "stitch check: 100.0% of 70725 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 5467
+   },
+   "valid_nodes": 65258,
+   "valid_quads": 62396,
+   "area_vx2": 1247920.0,
+   "area_cm2": 1.1491248691072,
+   "expected_error_sv": {
+    "mean": 0.9430031296144459,
+    "median": 0.7801028626599633,
+    "p90": 1.4583404854630724,
+    "max": 3.7340708913186216,
+    "nodes": 65258
+   },
+   "z_range_sv": [
+    5882.8896484375,
+    6399.99755859375
+   ],
+   "fiber": "kb_20260925T032702652_000214",
+   "fiber_uuid": "4d4db908-7b20-5b5d-b7b0-bc0f5b702a20",
+   "family": "H",
+   "annotator": "kb",
+   "patch": "kb_20260925T032702652_000214__1"
+  },
+  "kb_20260925T033453814_000215__0": {
+   "piece": "N0035",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0035\\strip",
+   "rows": 3444,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.3348,
+     1.0791,
+     0.989,
+     0.9265,
+     0.881,
+     0.8597,
+     0.8285,
+     0.7672,
+     0.7076,
+     0.6676,
+     0.6466,
+     0.6461,
+     0.6621,
+     0.6508,
+     0.6502,
+     0.6757,
+     0.7172,
+     0.7794,
+     0.842,
+     0.8769,
+     0.9344,
+     0.996,
+     1.071,
+     1.2153,
+     1.4481
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 85000,
+   "notes": [
+    "stitch check: 100.0% of 85000 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 1520
+   },
+   "valid_nodes": 83480,
+   "valid_quads": 80056,
+   "area_vx2": 1601120.0,
+   "area_cm2": 1.4743627880192003,
+   "expected_error_sv": {
+    "mean": 0.9462547707757105,
+    "median": 0.8150068694554138,
+    "p90": 1.4996739788494453,
+    "max": 3.6684393083429683,
+    "nodes": 83480
+   },
+   "z_range_sv": [
+    6036.0009765625,
+    6399.9931640625
+   ],
+   "fiber": "kb_20260925T033453814_000215",
+   "fiber_uuid": "1d5c9cda-0ec1-51da-9b51-1024b4fb80f4",
+   "family": "H",
+   "annotator": "kb",
+   "patch": "kb_20260925T033453814_000215__0"
+  },
+  "kb_20260928T015049308_000217__0": {
+   "piece": "N0036",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0036\\strip",
+   "rows": 320,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.6266,
+     1.2077,
+     0.9348,
+     0.8452,
+     0.7982,
+     0.7508,
+     0.7134,
+     0.6729,
+     0.6411,
+     0.6377,
+     0.6523,
+     0.6238,
+     0.6233,
+     0.6043,
+     0.6171,
+     0.6474,
+     0.6722,
+     0.6768,
+     0.6831,
+     0.7142,
+     0.737,
+     0.7815,
+     0.8221,
+     0.8861,
+     1.0619
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 7500,
+   "notes": [
+    "stitch check: 100.0% of 7500 nodes within 0.05 sv (max gap 0.0003 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 779
+   },
+   "valid_nodes": 6721,
+   "valid_quads": 6423,
+   "area_vx2": 128460.0,
+   "area_cm2": 0.1182900992736,
+   "expected_error_sv": {
+    "mean": 0.8291005428151679,
+    "median": 0.7133952512030717,
+    "p90": 1.1443173938183204,
+    "max": 3.4959661527113037,
+    "nodes": 6721
+   },
+   "z_range_sv": [
+    5400.2490234375,
+    6399.6201171875
+   ],
+   "fiber": "kb_20260928T015049308_000217",
+   "fiber_uuid": "3a261961-b296-583e-a53d-a35a2f1004bf",
+   "family": "V",
+   "annotator": "kb",
+   "patch": "kb_20260928T015049308_000217__0"
+  },
+  "kb_20260928T035815467_000220__0": {
+   "piece": "N0037",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0037\\strip",
+   "rows": 328,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.6628,
+     1.4083,
+     1.134,
+     1.053,
+     0.9991,
+     0.9157,
+     0.8528,
+     0.8105,
+     0.7962,
+     0.7304,
+     0.705,
+     0.6911,
+     0.7026,
+     0.6618,
+     0.6611,
+     0.6538,
+     0.6559,
+     0.6714,
+     0.7037,
+     0.746,
+     0.7845,
+     0.8251,
+     0.8867,
+     0.9664,
+     1.1444
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 7700,
+   "notes": [
+    "stitch check: 100.0% of 7700 nodes within 0.05 sv (max gap 0.0003 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 791
+   },
+   "valid_nodes": 6909,
+   "valid_quads": 6607,
+   "area_vx2": 132140.0,
+   "area_cm2": 0.1216787616224,
+   "expected_error_sv": {
+    "mean": 0.9331722066624683,
+    "median": 0.8019093865127943,
+    "p90": 1.3809387474441275,
+    "max": 3.6730610417838725,
+    "nodes": 6909
+   },
+   "z_range_sv": [
+    5400.0166015625,
+    6399.568359375
+   ],
+   "fiber": "kb_20260928T035815467_000220",
+   "fiber_uuid": "61824ae1-b010-5bcd-bc84-5e931a931cd4",
+   "family": "V",
+   "annotator": "kb",
+   "patch": "kb_20260928T035815467_000220__0"
+  },
+  "kb_20260928T173455114_000221__0": {
+   "piece": "N0038",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0038\\strip",
+   "rows": 328,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.5777,
+     1.267,
+     1.0341,
+     0.9765,
+     0.8541,
+     0.8063,
+     0.7699,
+     0.7251,
+     0.6972,
+     0.6698,
+     0.6498,
+     0.6736,
+     0.7343,
+     0.6561,
+     0.6411,
+     0.6436,
+     0.6549,
+     0.702,
+     0.754,
+     0.7948,
+     0.8576,
+     0.9429,
+     1.0184,
+     1.1461,
+     1.5258
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 7700,
+   "notes": [
+    "stitch check: 100.0% of 7700 nodes within 0.05 sv (max gap 0.0003 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 786
+   },
+   "valid_nodes": 6914,
+   "valid_quads": 6606,
+   "area_vx2": 132120.0,
+   "area_cm2": 0.1216603449792,
+   "expected_error_sv": {
+    "mean": 1.0495892799296447,
+    "median": 0.8078664703441447,
+    "p90": 2.0029845867698413,
+    "max": 3.6863164515711078,
+    "nodes": 6914
+   },
+   "z_range_sv": [
+    5400.0458984375,
+    6399.60791015625
+   ],
+   "fiber": "kb_20260928T173455114_000221",
+   "fiber_uuid": "2cf23259-8f30-56d1-baf6-7e5ab61977d3",
+   "family": "V",
+   "annotator": "kb",
+   "patch": "kb_20260928T173455114_000221__0"
+  },
+  "kb_20260928T204212691_000223__0": {
+   "piece": "N0039",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0039\\strip",
+   "rows": 324,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.2952,
+     1.1123,
+     0.9368,
+     0.8879,
+     0.8568,
+     0.8243,
+     0.7862,
+     0.7393,
+     0.7119,
+     0.705,
+     0.7174,
+     0.7006,
+     0.71,
+     0.6887,
+     0.7066,
+     0.7295,
+     0.744,
+     0.7845,
+     0.8314,
+     0.8574,
+     0.8785,
+     0.9743,
+     1.0467,
+     1.1051,
+     1.3104
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 7600,
+   "notes": [
+    "stitch check: 100.0% of 7600 nodes within 0.05 sv (max gap 0.0003 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 780
+   },
+   "valid_nodes": 6820,
+   "valid_quads": 6520,
+   "area_vx2": 130400.0,
+   "area_cm2": 0.12007651366400002,
+   "expected_error_sv": {
+    "mean": 0.9146217124089577,
+    "median": 0.8344450315450777,
+    "p90": 1.3320800561267419,
+    "max": 2.500450915801574,
+    "nodes": 6820
+   },
+   "z_range_sv": [
+    5400.12158203125,
+    6399.798828125
+   ],
+   "fiber": "kb_20260928T204212691_000223",
+   "fiber_uuid": "b209b5e1-1882-5306-aa5c-029a5fe30519",
+   "family": "V",
+   "annotator": "kb",
+   "patch": "kb_20260928T204212691_000223__0"
+  },
+  "kb_20260928T231536559_000226__0": {
+   "piece": "N0040",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0040\\strip",
+   "rows": 316,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.7382,
+     1.4206,
+     1.206,
+     1.0571,
+     0.9665,
+     0.8723,
+     0.7967,
+     0.7271,
+     0.6788,
+     0.6339,
+     0.6105,
+     0.6287,
+     0.6647,
+     0.6279,
+     0.6025,
+     0.6046,
+     0.6346,
+     0.6872,
+     0.7455,
+     0.8215,
+     0.8464,
+     0.9296,
+     1.0476,
+     1.2304,
+     1.4565
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 7400,
+   "notes": [
+    "stitch check: 100.0% of 7400 nodes within 0.05 sv (max gap 0.0003 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 759
+   },
+   "valid_nodes": 6641,
+   "valid_quads": 6346,
+   "area_vx2": 126920.0,
+   "area_cm2": 0.1168720177472,
+   "expected_error_sv": {
+    "mean": 0.9102618520181326,
+    "median": 0.7714478675924774,
+    "p90": 1.4416316017466522,
+    "max": 3.558406988072699,
+    "nodes": 6641
+   },
+   "z_range_sv": [
+    5400.3974609375,
+    6399.98779296875
+   ],
+   "fiber": "kb_20260928T231536559_000226",
+   "fiber_uuid": "6bf7f91f-dd99-5fab-aea5-05ab96233938",
+   "family": "V",
+   "annotator": "kb",
+   "patch": "kb_20260928T231536559_000226__0"
+  },
+  "kb_20260929T002049782_000229__0": {
+   "piece": "N0041",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0041\\strip",
+   "rows": 344,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.3472,
+     1.1166,
+     0.9797,
+     0.9113,
+     0.8695,
+     0.8506,
+     0.8424,
+     0.8073,
+     0.7829,
+     0.7369,
+     0.7261,
+     0.6983,
+     0.7037,
+     0.6978,
+     0.7088,
+     0.728,
+     0.7601,
+     0.7988,
+     0.8217,
+     0.8864,
+     0.9454,
+     0.9971,
+     1.087,
+     1.2291,
+     1.3927
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 8100,
+   "notes": [
+    "stitch check: 100.0% of 8100 nodes within 0.05 sv (max gap 0.0003 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 769
+   },
+   "valid_nodes": 7331,
+   "valid_quads": 7013,
+   "area_vx2": 140260.0,
+   "area_cm2": 0.1291559187616,
+   "expected_error_sv": {
+    "mean": 0.9675091154270979,
+    "median": 0.8390722146652126,
+    "p90": 1.4842701095600657,
+    "max": 3.283001626196734,
+    "nodes": 7331
+   },
+   "z_range_sv": [
+    5400.134765625,
+    6399.99609375
+   ],
+   "fiber": "kb_20260929T002049782_000229",
+   "fiber_uuid": "4e412bd0-4094-54ee-aaf6-a5e261a8f11d",
+   "family": "V",
+   "annotator": "kb",
+   "patch": "kb_20260929T002049782_000229__0"
+  },
+  "kb_20260929T230359055_000240__0": {
+   "piece": "N0042",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0042\\strip",
+   "rows": 248,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.6763,
+     1.3578,
+     1.2059,
+     1.1594,
+     1.1134,
+     1.0691,
+     1.012,
+     0.9696,
+     0.8871,
+     0.8414,
+     0.7943,
+     0.7607,
+     0.8001,
+     0.745,
+     0.7394,
+     0.7537,
+     0.7924,
+     0.8561,
+     0.9293,
+     1.0048,
+     1.1059,
+     1.1632,
+     1.2631,
+     1.3513,
+     1.6921
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 5175,
+   "notes": [
+    "stitch check: 100.0% of 5175 nodes within 0.05 sv (max gap 0.0003 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 407
+   },
+   "valid_nodes": 4768,
+   "valid_quads": 4547,
+   "area_vx2": 90940.0,
+   "area_cm2": 0.0837404766304,
+   "expected_error_sv": {
+    "mean": 1.085660830575711,
+    "median": 0.9759337529168366,
+    "p90": 1.647553206317554,
+    "max": 3.1696753109034086,
+    "nodes": 4768
+   },
+   "z_range_sv": [
+    5696.921875,
+    6399.86962890625
+   ],
+   "fiber": "kb_20260929T230359055_000240",
+   "fiber_uuid": "9ce2d775-d344-54ab-a7d0-bb61e269db20",
+   "family": "V",
+   "annotator": "kb",
+   "patch": "kb_20260929T230359055_000240__0"
+  },
+  "kb_20260930T020857784_000243__0": {
+   "piece": "N0043",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0043\\strip",
+   "rows": 332,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.5972,
+     1.1748,
+     1.0828,
+     1.0138,
+     0.9782,
+     0.9296,
+     0.8746,
+     0.817,
+     0.7503,
+     0.7063,
+     0.6882,
+     0.673,
+     0.677,
+     0.666,
+     0.6738,
+     0.6967,
+     0.7139,
+     0.7688,
+     0.806,
+     0.8408,
+     0.8992,
+     0.9195,
+     0.9337,
+     0.9955,
+     1.0974
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 7800,
+   "notes": [
+    "stitch check: 100.0% of 7800 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 811
+   },
+   "valid_nodes": 6989,
+   "valid_quads": 6682,
+   "area_vx2": 133640.0,
+   "area_cm2": 0.12306000986240001,
+   "expected_error_sv": {
+    "mean": 0.9185014947158819,
+    "median": 0.8293590907633156,
+    "p90": 1.2986581166836773,
+    "max": 3.0538603886390217,
+    "nodes": 6989
+   },
+   "z_range_sv": [
+    5400.09326171875,
+    6399.73876953125
+   ],
+   "fiber": "kb_20260930T020857784_000243",
+   "fiber_uuid": "15cc0845-6e46-59fc-9035-4b10b81c616f",
+   "family": "V",
+   "annotator": "kb",
+   "patch": "kb_20260930T020857784_000243__0"
+  },
+  "kb_20261001T163222219_000255__0": {
+   "piece": "N0044",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0044\\strip",
+   "rows": 352,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.2533,
+     1.0522,
+     0.9583,
+     0.9044,
+     0.8914,
+     0.8701,
+     0.8136,
+     0.7426,
+     0.7005,
+     0.6585,
+     0.6458,
+     0.6411,
+     0.6353,
+     0.6344,
+     0.6596,
+     0.6814,
+     0.711,
+     0.7782,
+     0.8635,
+     0.9322,
+     0.9903,
+     1.085,
+     1.1646,
+     1.2481,
+     1.4074
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 8300,
+   "notes": [
+    "stitch check: 100.0% of 8300 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 788
+   },
+   "valid_nodes": 7512,
+   "valid_quads": 7184,
+   "area_vx2": 143680.0,
+   "area_cm2": 0.1323051647488,
+   "expected_error_sv": {
+    "mean": 0.995642782810948,
+    "median": 0.8279380935069238,
+    "p90": 1.5640658989137417,
+    "max": 3.679068183577903,
+    "nodes": 7512
+   },
+   "z_range_sv": [
+    5400.03515625,
+    6399.95166015625
+   ],
+   "fiber": "kb_20261001T163222219_000255",
+   "fiber_uuid": "8be3a4b3-fce1-5369-b074-c2644b482b5a",
+   "family": "V",
+   "annotator": "kb",
+   "patch": "kb_20261001T163222219_000255__0"
+  },
+  "kb_20261001T212433665_000256__0": {
+   "piece": "N0045",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0045\\strip",
+   "rows": 584,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.6366,
+     1.304,
+     1.1898,
+     1.1098,
+     1.0767,
+     1.0482,
+     1.0118,
+     0.9657,
+     0.9035,
+     0.827,
+     0.7731,
+     0.7529,
+     0.7621,
+     0.7444,
+     0.7605,
+     0.8153,
+     0.8695,
+     0.9449,
+     1.0672,
+     1.1073,
+     1.1731,
+     1.2573,
+     1.3525,
+     1.4203,
+     1.5985
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 13475,
+   "notes": [
+    "stitch check: 100.0% of 13475 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 2212
+   },
+   "valid_nodes": 11263,
+   "valid_quads": 10694,
+   "area_vx2": 213880.0,
+   "area_cm2": 0.1969475823808,
+   "expected_error_sv": {
+    "mean": 1.135889439724295,
+    "median": 1.0305897793260947,
+    "p90": 1.70827896232624,
+    "max": 3.19918703636843,
+    "nodes": 11263
+   },
+   "z_range_sv": [
+    5400.04443359375,
+    5696.9541015625
+   ],
+   "fiber": "kb_20261001T212433665_000256",
+   "fiber_uuid": "956bc79c-ceaf-553a-a46b-0129590d3c20",
+   "family": "H",
+   "annotator": "kb",
+   "patch": "kb_20261001T212433665_000256__0"
+  },
+  "kb_20261001T213710181_000257__0": {
+   "piece": "N0046",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0046\\strip",
+   "rows": 340,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.2265,
+     0.9987,
+     0.9128,
+     0.8884,
+     0.8304,
+     0.8011,
+     0.759,
+     0.7238,
+     0.6902,
+     0.6645,
+     0.6399,
+     0.633,
+     0.6335,
+     0.6291,
+     0.6279,
+     0.6595,
+     0.6856,
+     0.7404,
+     0.8119,
+     0.877,
+     0.9349,
+     0.9716,
+     1.0209,
+     1.0587,
+     1.243
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 8000,
+   "notes": [
+    "stitch check: 100.0% of 8000 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 796
+   },
+   "valid_nodes": 7204,
+   "valid_quads": 6888,
+   "area_vx2": 137760.0,
+   "area_cm2": 0.1268538383616,
+   "expected_error_sv": {
+    "mean": 0.8554652593329539,
+    "median": 0.7742027009683012,
+    "p90": 1.2283871426831672,
+    "max": 2.460214196450505,
+    "nodes": 7204
+   },
+   "z_range_sv": [
+    5400.26953125,
+    6399.96923828125
+   ],
+   "fiber": "kb_20261001T213710181_000257",
+   "fiber_uuid": "946b7358-5c97-553e-9774-40ef874093ec",
+   "family": "V",
+   "annotator": "kb",
+   "patch": "kb_20261001T213710181_000257__0"
+  },
+  "kb_20261001T233350531_000263__0": {
+   "piece": "N0048",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0048\\strip",
+   "rows": 292,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.6104,
+     1.1934,
+     1.0391,
+     0.9028,
+     0.857,
+     0.826,
+     0.7822,
+     0.7241,
+     0.7003,
+     0.6769,
+     0.6632,
+     0.6432,
+     0.6441,
+     0.6154,
+     0.6332,
+     0.6497,
+     0.6487,
+     0.6898,
+     0.7319,
+     0.7856,
+     0.8667,
+     0.9223,
+     1.0799,
+     1.2707,
+     1.4415
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 6275,
+   "notes": [
+    "stitch check: 100.0% of 6275 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 375
+   },
+   "valid_nodes": 5900,
+   "valid_quads": 5629,
+   "area_vx2": 112580.0,
+   "area_cm2": 0.1036672845728,
+   "expected_error_sv": {
+    "mean": 0.9550831437326757,
+    "median": 0.7791828238794817,
+    "p90": 1.5632158253023132,
+    "max": 3.6935610107934154,
+    "nodes": 5900
+   },
+   "z_range_sv": [
+    5558.02392578125,
+    6399.98876953125
+   ],
+   "fiber": "kb_20261001T233350531_000263",
+   "fiber_uuid": "fc350443-dcf2-5d21-ac41-a6afe4a0d9d3",
+   "family": "V",
+   "annotator": "kb",
+   "patch": "kb_20261001T233350531_000263__0"
+  },
+  "kb_20261002T030027028_000265__0": {
+   "piece": "N0049",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0049\\strip",
+   "rows": 324,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.6756,
+     1.318,
+     1.2026,
+     1.1218,
+     1.0686,
+     1.0553,
+     1.0051,
+     0.9605,
+     0.9439,
+     0.822,
+     0.7418,
+     0.709,
+     0.7031,
+     0.6789,
+     0.7204,
+     0.7778,
+     0.7963,
+     0.8393,
+     0.9126,
+     1.0262,
+     1.123,
+     1.216,
+     1.3861,
+     1.5298,
+     1.7263
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 7600,
+   "notes": [
+    "stitch check: 100.0% of 7600 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 834
+   },
+   "valid_nodes": 6766,
+   "valid_quads": 6468,
+   "area_vx2": 129360.0,
+   "area_cm2": 0.1191188482176,
+   "expected_error_sv": {
+    "mean": 1.0808121382379485,
+    "median": 0.951623041064491,
+    "p90": 1.6268450271762487,
+    "max": 3.6002214662178327,
+    "nodes": 6766
+   },
+   "z_range_sv": [
+    5400.35888671875,
+    6399.896484375
+   ],
+   "fiber": "kb_20261002T030027028_000265",
+   "fiber_uuid": "9dd0260e-ca50-512a-9baf-2f4db56129f7",
+   "family": "V",
+   "annotator": "kb",
+   "patch": "kb_20261002T030027028_000265__0"
+  },
+  "lt_20260826T111759791_000002__0": {
+   "piece": "N0050",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0050\\strip",
+   "rows": 344,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.222,
+     1.0192,
+     0.8921,
+     0.8676,
+     0.8645,
+     0.8178,
+     0.7889,
+     0.7891,
+     0.7617,
+     0.7152,
+     0.6953,
+     0.6688,
+     0.674,
+     0.6544,
+     0.6702,
+     0.6739,
+     0.6863,
+     0.7173,
+     0.7524,
+     0.7933,
+     0.8408,
+     0.8917,
+     0.9648,
+     1.0821,
+     1.3127
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 8100,
+   "notes": [
+    "stitch check: 100.0% of 8100 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 852
+   },
+   "valid_nodes": 7248,
+   "valid_quads": 6932,
+   "area_vx2": 138640.0,
+   "area_cm2": 0.12766417066240002,
+   "expected_error_sv": {
+    "mean": 0.9121362637511906,
+    "median": 0.809178694717263,
+    "p90": 1.312430416558512,
+    "max": 3.4756038002170824,
+    "nodes": 7248
+   },
+   "z_range_sv": [
+    5400.171875,
+    6399.84228515625
+   ],
+   "fiber": "lt_20260826T111759791_000002",
+   "fiber_uuid": "7bef3542-1682-56e1-b73b-ff18030e6089",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20260826T111759791_000002__0"
+  },
+  "lt_20260827T053049016_000003__0": {
+   "piece": "N0051",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0051\\strip",
+   "rows": 344,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.3042,
+     1.1269,
+     0.939,
+     0.9055,
+     0.8295,
+     0.7963,
+     0.7453,
+     0.6892,
+     0.6712,
+     0.6419,
+     0.6382,
+     0.6213,
+     0.6325,
+     0.6189,
+     0.6401,
+     0.6542,
+     0.6715,
+     0.6954,
+     0.7068,
+     0.7368,
+     0.8023,
+     0.8791,
+     0.9314,
+     1.0381,
+     1.194
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 8100,
+   "notes": [
+    "stitch check: 100.0% of 8100 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 814
+   },
+   "valid_nodes": 7286,
+   "valid_quads": 6968,
+   "area_vx2": 139360.0,
+   "area_cm2": 0.1283271698176,
+   "expected_error_sv": {
+    "mean": 0.8369823665816403,
+    "median": 0.7643167373812655,
+    "p90": 1.161854804932656,
+    "max": 3.1352845155961937,
+    "nodes": 7286
+   },
+   "z_range_sv": [
+    5401.22998046875,
+    6399.82568359375
+   ],
+   "fiber": "lt_20260827T053049016_000003",
+   "fiber_uuid": "73d87af7-3667-593a-8bc0-f93a8282474f",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20260827T053049016_000003__0"
+  },
+  "lt_20260827T092409495_000006__0": {
+   "piece": "N0052",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0052\\strip",
+   "rows": 364,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.2556,
+     0.9684,
+     0.8759,
+     0.8358,
+     0.8292,
+     0.839,
+     0.8049,
+     0.7702,
+     0.7673,
+     0.7271,
+     0.6827,
+     0.6654,
+     0.6837,
+     0.6749,
+     0.6876,
+     0.7212,
+     0.7441,
+     0.7732,
+     0.8214,
+     0.8794,
+     0.9285,
+     0.9901,
+     1.0479,
+     1.1362,
+     1.3079
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 8600,
+   "notes": [
+    "stitch check: 100.0% of 8600 nodes within 0.05 sv (max gap 0.0003 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 808
+   },
+   "valid_nodes": 7792,
+   "valid_quads": 7453,
+   "area_vx2": 149060.0,
+   "area_cm2": 0.1372592417696,
+   "expected_error_sv": {
+    "mean": 0.9121051822554603,
+    "median": 0.8232715525489055,
+    "p90": 1.3173763297217584,
+    "max": 3.475987442817507,
+    "nodes": 7792
+   },
+   "z_range_sv": [
+    5400.021484375,
+    6399.8798828125
+   ],
+   "fiber": "lt_20260827T092409495_000006",
+   "fiber_uuid": "974f9542-2d84-5071-8315-81f7482fcdf5",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20260827T092409495_000006__0"
+  },
+  "lt_20260827T094208872_000008__0": {
+   "piece": "N0053",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0053\\strip",
+   "rows": 344,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.5752,
+     1.24,
+     1.03,
+     0.9587,
+     0.905,
+     0.8598,
+     0.8321,
+     0.7793,
+     0.7345,
+     0.7055,
+     0.6741,
+     0.658,
+     0.6655,
+     0.6572,
+     0.675,
+     0.7002,
+     0.7122,
+     0.7206,
+     0.7452,
+     0.7637,
+     0.798,
+     0.8574,
+     0.9045,
+     0.9728,
+     1.1227
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 8100,
+   "notes": [
+    "stitch check: 100.0% of 8100 nodes within 0.05 sv (max gap 0.0003 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 859
+   },
+   "valid_nodes": 7241,
+   "valid_quads": 6925,
+   "area_vx2": 138500.0,
+   "area_cm2": 0.12753525416,
+   "expected_error_sv": {
+    "mean": 0.9473479397369302,
+    "median": 0.8059687372949825,
+    "p90": 1.400765064319201,
+    "max": 3.6571240142437786,
+    "nodes": 7241
+   },
+   "z_range_sv": [
+    5400.02978515625,
+    6397.2216796875
+   ],
+   "fiber": "lt_20260827T094208872_000008",
+   "fiber_uuid": "67046953-9b88-5d64-8bd7-9c29250644fe",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20260827T094208872_000008__0"
+  },
+  "lt_20260827T095725419_000010__0": {
+   "piece": "N0054",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0054\\strip",
+   "rows": 328,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.9884,
+     1.5399,
+     1.3315,
+     1.2461,
+     1.1817,
+     1.1248,
+     1.0745,
+     0.9721,
+     0.9112,
+     0.7989,
+     0.7438,
+     0.697,
+     0.6793,
+     0.6942,
+     0.7473,
+     0.8314,
+     0.9538,
+     1.114,
+     1.2491,
+     1.3554,
+     1.5176,
+     1.6135,
+     1.639,
+     1.8073,
+     2.0917
+    ],
+    "dropped": [
+     24
+    ],
+    "kept": 24
+   },
+   "valid_nodes_source": 7700,
+   "notes": [
+    "stitch check: 100.0% of 7700 nodes within 0.05 sv (max gap 0.0003 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 803
+   },
+   "valid_nodes": 6589,
+   "valid_quads": 6291,
+   "area_vx2": 125820.0,
+   "area_cm2": 0.1158591023712,
+   "expected_error_sv": {
+    "mean": 1.1985038293078447,
+    "median": 1.0496135302753333,
+    "p90": 1.95282439192384,
+    "max": 3.5180896393745593,
+    "nodes": 6589
+   },
+   "z_range_sv": [
+    5400.01611328125,
+    6398.6875
+   ],
+   "fiber": "lt_20260827T095725419_000010",
+   "fiber_uuid": "e54b53a8-d47f-56bf-b6de-e5ea6b732fe0",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20260827T095725419_000010__0"
+  },
+  "lt_20260828T060011076_000016__0": {
+   "piece": "N0055",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0055\\strip",
+   "rows": 336,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.6123,
+     1.2496,
+     1.1142,
+     1.0229,
+     0.9847,
+     0.9399,
+     0.9031,
+     0.8519,
+     0.7834,
+     0.7162,
+     0.6895,
+     0.6619,
+     0.6653,
+     0.6355,
+     0.6611,
+     0.6932,
+     0.6982,
+     0.7342,
+     0.7961,
+     0.8527,
+     0.926,
+     1.0245,
+     1.1858,
+     1.3143,
+     1.5791
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 7900,
+   "notes": [
+    "stitch check: 100.0% of 7900 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 844
+   },
+   "valid_nodes": 7056,
+   "valid_quads": 6745,
+   "area_vx2": 134900.0,
+   "area_cm2": 0.12422025838400001,
+   "expected_error_sv": {
+    "mean": 1.0207900372057372,
+    "median": 0.8539313364833426,
+    "p90": 1.7037581713459193,
+    "max": 3.684575210418465,
+    "nodes": 7056
+   },
+   "z_range_sv": [
+    5400.29638671875,
+    6399.9453125
+   ],
+   "fiber": "lt_20260828T060011076_000016",
+   "fiber_uuid": "b30895bb-2990-508e-8489-74fd9d59216d",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20260828T060011076_000016__0"
+  },
+  "lt_20260828T094214123_000018__0": {
+   "piece": "N0056",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0056\\strip",
+   "rows": 332,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.4945,
+     1.1789,
+     1.0156,
+     0.9929,
+     1.0002,
+     0.9413,
+     0.9007,
+     0.8406,
+     0.7833,
+     0.6907,
+     0.664,
+     0.6571,
+     0.6557,
+     0.6561,
+     0.6895,
+     0.7229,
+     0.7417,
+     0.7732,
+     0.8193,
+     0.8929,
+     0.9249,
+     0.991,
+     1.0917,
+     1.1934,
+     1.3658
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 7800,
+   "notes": [
+    "stitch check: 100.0% of 7800 nodes within 0.05 sv (max gap 0.0003 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 790
+   },
+   "valid_nodes": 7010,
+   "valid_quads": 6702,
+   "area_vx2": 134040.0,
+   "area_cm2": 0.1234283427264,
+   "expected_error_sv": {
+    "mean": 0.9916171769283216,
+    "median": 0.8638826710423617,
+    "p90": 1.4841654080127924,
+    "max": 3.691756349615369,
+    "nodes": 7010
+   },
+   "z_range_sv": [
+    5400.21044921875,
+    6399.8349609375
+   ],
+   "fiber": "lt_20260828T094214123_000018",
+   "fiber_uuid": "f686abbc-fa95-5ad5-8a20-29ad8d376f90",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20260828T094214123_000018__0"
+  },
+  "lt_20260903T061642538_000048__0": {
+   "piece": "N0058",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0058\\strip",
+   "rows": 240,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.7212,
+     1.4085,
+     1.1291,
+     1.0247,
+     0.9419,
+     0.905,
+     0.8198,
+     0.7722,
+     0.7177,
+     0.6693,
+     0.633,
+     0.6234,
+     0.6438,
+     0.625,
+     0.6436,
+     0.658,
+     0.69,
+     0.7447,
+     0.7866,
+     0.8267,
+     0.8638,
+     0.9119,
+     1.0444,
+     1.3306,
+     1.8192
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 5500,
+   "notes": [
+    "stitch check: 100.0% of 5500 nodes within 0.05 sv (max gap 0.0003 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 1618
+   },
+   "valid_nodes": 3882,
+   "valid_quads": 3646,
+   "area_vx2": 72920.0,
+   "area_cm2": 0.0671470811072,
+   "expected_error_sv": {
+    "mean": 0.952484692907567,
+    "median": 0.7752384278537184,
+    "p90": 1.5683004506213936,
+    "max": 3.4948459278076784,
+    "nodes": 3882
+   },
+   "z_range_sv": [
+    6299.958984375,
+    6399.92529296875
+   ],
+   "fiber": "lt_20260903T061642538_000048",
+   "fiber_uuid": "40e721f0-53f9-5bde-8aa8-e8afaf058963",
+   "family": "H",
+   "annotator": "lt",
+   "patch": "lt_20260903T061642538_000048__0"
+  },
+  "lt_20260903T061642538_000048__1": {
+   "piece": "N0059",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0059\\strip",
+   "rows": 2020,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.5112,
+     1.2008,
+     1.0774,
+     1.0213,
+     0.9635,
+     0.9218,
+     0.8674,
+     0.8135,
+     0.7576,
+     0.7103,
+     0.681,
+     0.6612,
+     0.668,
+     0.6429,
+     0.6521,
+     0.6771,
+     0.7117,
+     0.7719,
+     0.8313,
+     0.8806,
+     0.9236,
+     0.9717,
+     1.0295,
+     1.1494,
+     1.3811
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 49375,
+   "notes": [
+    "stitch check: 100.0% of 49375 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 2537
+   },
+   "valid_nodes": 46838,
+   "valid_quads": 44831,
+   "area_vx2": 896620.0,
+   "area_cm2": 0.8256365312992,
+   "expected_error_sv": {
+    "mean": 1.0036661539576222,
+    "median": 0.8330856561984565,
+    "p90": 1.6236239977943383,
+    "max": 3.73386814128762,
+    "nodes": 46838
+   },
+   "z_range_sv": [
+    5807.7158203125,
+    6399.98974609375
+   ],
+   "fiber": "lt_20260903T061642538_000048",
+   "fiber_uuid": "40e721f0-53f9-5bde-8aa8-e8afaf058963",
+   "family": "H",
+   "annotator": "lt",
+   "patch": "lt_20260903T061642538_000048__1"
+  },
+  "lt_20260903T081952996_000050__0": {
+   "piece": "N0061",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0061\\strip",
+   "rows": 952,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.3216,
+     1.0837,
+     0.9653,
+     0.9076,
+     0.8657,
+     0.8297,
+     0.7974,
+     0.7369,
+     0.6891,
+     0.6604,
+     0.635,
+     0.6213,
+     0.6341,
+     0.6342,
+     0.6533,
+     0.6806,
+     0.7316,
+     0.7918,
+     0.862,
+     0.8992,
+     0.9659,
+     1.0364,
+     1.1476,
+     1.2527,
+     1.5136
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 22775,
+   "notes": [
+    "stitch check: 100.0% of 22775 nodes within 0.05 sv (max gap 0.0003 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 988
+   },
+   "valid_nodes": 21787,
+   "valid_quads": 20852,
+   "area_vx2": 417040.0,
+   "area_cm2": 0.38402384400640005,
+   "expected_error_sv": {
+    "mean": 1.0007164546522356,
+    "median": 0.8045396726512266,
+    "p90": 1.675100710275895,
+    "max": 3.7262671627075563,
+    "nodes": 21787
+   },
+   "z_range_sv": [
+    5400.0302734375,
+    5708.9775390625
+   ],
+   "fiber": "lt_20260903T081952996_000050",
+   "fiber_uuid": "1a15627a-294e-575f-a7c4-a72ef006442c",
+   "family": "H",
+   "annotator": "lt",
+   "patch": "lt_20260903T081952996_000050__0"
+  },
+  "lt_20260907T055613990_000059__0": {
+   "piece": "N0062",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0062\\strip",
+   "rows": 332,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.2794,
+     1.0508,
+     0.961,
+     0.909,
+     0.9022,
+     0.8775,
+     0.8337,
+     0.8066,
+     0.7778,
+     0.7257,
+     0.711,
+     0.6866,
+     0.67,
+     0.6698,
+     0.6898,
+     0.7236,
+     0.7343,
+     0.7478,
+     0.8251,
+     0.8485,
+     0.8331,
+     0.8669,
+     0.9145,
+     0.9707,
+     1.1021
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 7800,
+   "notes": [
+    "stitch check: 100.0% of 7800 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 831
+   },
+   "valid_nodes": 6969,
+   "valid_quads": 6662,
+   "area_vx2": 133240.0,
+   "area_cm2": 0.12269167699840001,
+   "expected_error_sv": {
+    "mean": 0.8773003469504668,
+    "median": 0.8237025384686456,
+    "p90": 1.1896219067583553,
+    "max": 2.189840568121346,
+    "nodes": 6969
+   },
+   "z_range_sv": [
+    5400.1162109375,
+    6399.94384765625
+   ],
+   "fiber": "lt_20260907T055613990_000059",
+   "fiber_uuid": "dbff1052-bdff-570e-92c3-e7e39b3379ec",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20260907T055613990_000059__0"
+  },
+  "lt_20260907T073852375_000068__0": {
+   "piece": "N0063",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0063\\strip",
+   "rows": 320,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.0776,
+     0.9424,
+     0.8548,
+     0.845,
+     0.8233,
+     0.8394,
+     0.8271,
+     0.8329,
+     0.7576,
+     0.6848,
+     0.6521,
+     0.6347,
+     0.6452,
+     0.6286,
+     0.6574,
+     0.6919,
+     0.7186,
+     0.7479,
+     0.831,
+     0.8971,
+     0.9273,
+     0.9273,
+     0.9514,
+     1.0069,
+     1.1303
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 7500,
+   "notes": [
+    "stitch check: 100.0% of 7500 nodes within 0.05 sv (max gap 0.0003 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 756
+   },
+   "valid_nodes": 6744,
+   "valid_quads": 6447,
+   "area_vx2": 128940.0,
+   "area_cm2": 0.11873209871040001,
+   "expected_error_sv": {
+    "mean": 0.8615902179748952,
+    "median": 0.8086924128158358,
+    "p90": 1.171046763493726,
+    "max": 2.5835089537357594,
+    "nodes": 6744
+   },
+   "z_range_sv": [
+    5400.03955078125,
+    6399.92822265625
+   ],
+   "fiber": "lt_20260907T073852375_000068",
+   "fiber_uuid": "8cb62f31-e445-55e9-bbe7-feca35e4d7b2",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20260907T073852375_000068__0"
+  },
+  "lt_20260907T090348226_000074__0": {
+   "piece": "N0064",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0064\\strip",
+   "rows": 324,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.5755,
+     1.2666,
+     1.1777,
+     1.1244,
+     1.0692,
+     1.0563,
+     1.0359,
+     0.975,
+     0.8951,
+     0.791,
+     0.7495,
+     0.7188,
+     0.7313,
+     0.703,
+     0.7361,
+     0.7867,
+     0.8399,
+     0.8523,
+     0.8671,
+     0.9107,
+     0.9603,
+     1.0383,
+     1.0436,
+     1.1775,
+     1.3145
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 7600,
+   "notes": [
+    "stitch check: 100.0% of 7600 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 774
+   },
+   "valid_nodes": 6826,
+   "valid_quads": 6527,
+   "area_vx2": 130540.0,
+   "area_cm2": 0.1202054301664,
+   "expected_error_sv": {
+    "mean": 1.0054974082992325,
+    "median": 0.9085247718462913,
+    "p90": 1.4644154364054556,
+    "max": 3.0657617910005066,
+    "nodes": 6826
+   },
+   "z_range_sv": [
+    5400.1962890625,
+    6399.9580078125
+   ],
+   "fiber": "lt_20260907T090348226_000074",
+   "fiber_uuid": "cce0f8cc-9a21-5c62-8d17-e76bc9dd9c2e",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20260907T090348226_000074__0"
+  },
+  "lt_20260908T065810144_000078__0": {
+   "piece": "N0065",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0065\\strip",
+   "rows": 340,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.5748,
+     1.3309,
+     1.1517,
+     1.0915,
+     1.0151,
+     0.9454,
+     0.8982,
+     0.8438,
+     0.8089,
+     0.7788,
+     0.7453,
+     0.7335,
+     0.78,
+     0.7499,
+     0.7691,
+     0.79,
+     0.8149,
+     0.8648,
+     0.934,
+     0.982,
+     1.0284,
+     1.0982,
+     1.2095,
+     1.3334,
+     1.5417
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 8000,
+   "notes": [
+    "stitch check: 100.0% of 8000 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 789
+   },
+   "valid_nodes": 7211,
+   "valid_quads": 6895,
+   "area_vx2": 137900.0,
+   "area_cm2": 0.126982754864,
+   "expected_error_sv": {
+    "mean": 1.0626739120615283,
+    "median": 0.9477844723484247,
+    "p90": 1.5671149999611884,
+    "max": 3.606858369886834,
+    "nodes": 7211
+   },
+   "z_range_sv": [
+    5400.017578125,
+    6399.9970703125
+   ],
+   "fiber": "lt_20260908T065810144_000078",
+   "fiber_uuid": "f2e99c88-7747-5710-995b-7ec552a2cb1e",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20260908T065810144_000078__0"
+  },
+  "lt_20260908T102042760_000089__0": {
+   "piece": "N0066",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0066\\strip",
+   "rows": 320,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.2309,
+     0.9441,
+     0.8361,
+     0.7813,
+     0.7616,
+     0.7441,
+     0.7306,
+     0.7166,
+     0.6988,
+     0.6849,
+     0.6757,
+     0.6469,
+     0.6574,
+     0.6254,
+     0.635,
+     0.6572,
+     0.6718,
+     0.7039,
+     0.7689,
+     0.8255,
+     0.8401,
+     0.8249,
+     0.8463,
+     0.8775,
+     0.9808
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 7500,
+   "notes": [
+    "stitch check: 100.0% of 7500 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 785
+   },
+   "valid_nodes": 6715,
+   "valid_quads": 6421,
+   "area_vx2": 128420.0,
+   "area_cm2": 0.11825326598720001,
+   "expected_error_sv": {
+    "mean": 0.7991820606108333,
+    "median": 0.7468380422608304,
+    "p90": 1.0436649105387708,
+    "max": 2.201946642981696,
+    "nodes": 6715
+   },
+   "z_range_sv": [
+    5400.93896484375,
+    6399.7900390625
+   ],
+   "fiber": "lt_20260908T102042760_000089",
+   "fiber_uuid": "d94eed64-2f3d-5e1b-bdca-13ca0618e53d",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20260908T102042760_000089__0"
+  },
+  "lt_20260910T055207398_000110__0": {
+   "piece": "N0067",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0067\\strip",
+   "rows": 320,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.1206,
+     0.9012,
+     0.8327,
+     0.8386,
+     0.8405,
+     0.8308,
+     0.7897,
+     0.7464,
+     0.7142,
+     0.6857,
+     0.6592,
+     0.6306,
+     0.6176,
+     0.5945,
+     0.6055,
+     0.623,
+     0.6351,
+     0.6696,
+     0.7117,
+     0.7411,
+     0.7735,
+     0.8014,
+     0.8421,
+     0.8961,
+     1.0011
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 7500,
+   "notes": [
+    "stitch check: 100.0% of 7500 nodes within 0.05 sv (max gap 0.0003 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 848
+   },
+   "valid_nodes": 6652,
+   "valid_quads": 6360,
+   "area_vx2": 127200.0,
+   "area_cm2": 0.11712985075200001,
+   "expected_error_sv": {
+    "mean": 0.7958589312242564,
+    "median": 0.7584658131448834,
+    "p90": 1.0427716897510864,
+    "max": 1.7456378383190483,
+    "nodes": 6652
+   },
+   "z_range_sv": [
+    5400.32470703125,
+    6399.85400390625
+   ],
+   "fiber": "lt_20260910T055207398_000110",
+   "fiber_uuid": "18d7e869-216c-58fc-83a7-ee154cfce59b",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20260910T055207398_000110__0"
+  },
+  "lt_20260910T072828497_000111__0": {
+   "piece": "N0068",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0068\\strip",
+   "rows": 328,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.1448,
+     0.8914,
+     0.7994,
+     0.7585,
+     0.7389,
+     0.7135,
+     0.6855,
+     0.6542,
+     0.6299,
+     0.6046,
+     0.6072,
+     0.5952,
+     0.6132,
+     0.5912,
+     0.5935,
+     0.6079,
+     0.6114,
+     0.6312,
+     0.6637,
+     0.6915,
+     0.7071,
+     0.743,
+     0.7862,
+     0.8595,
+     0.9932
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 7700,
+   "notes": [
+    "stitch check: 100.0% of 7700 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 892
+   },
+   "valid_nodes": 6808,
+   "valid_quads": 6507,
+   "area_vx2": 130140.0,
+   "area_cm2": 0.1198370973024,
+   "expected_error_sv": {
+    "mean": 0.7369827101224553,
+    "median": 0.6827760485676515,
+    "p90": 0.9869230387459653,
+    "max": 2.113788161661222,
+    "nodes": 6808
+   },
+   "z_range_sv": [
+    5400.06689453125,
+    6399.93701171875
+   ],
+   "fiber": "lt_20260910T072828497_000111",
+   "fiber_uuid": "478ab0bb-18f1-51e0-82cd-63c590a56d4d",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20260910T072828497_000111__0"
+  },
+  "lt_20260910T082256930_000112__0": {
+   "piece": "N0069",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0069\\strip",
+   "rows": 332,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.2524,
+     1.0497,
+     0.9357,
+     0.94,
+     0.941,
+     0.9213,
+     0.8645,
+     0.8105,
+     0.7456,
+     0.6989,
+     0.6723,
+     0.6517,
+     0.6572,
+     0.6473,
+     0.6669,
+     0.6912,
+     0.7089,
+     0.7557,
+     0.8489,
+     0.9229,
+     1.0242,
+     1.1401,
+     1.2636,
+     1.4809,
+     1.6897
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 7800,
+   "notes": [
+    "stitch check: 100.0% of 7800 nodes within 0.05 sv (max gap 0.0003 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 840
+   },
+   "valid_nodes": 6960,
+   "valid_quads": 6655,
+   "area_vx2": 133100.0,
+   "area_cm2": 0.12256276049600001,
+   "expected_error_sv": {
+    "mean": 1.0501129405718415,
+    "median": 0.8863866906287431,
+    "p90": 1.6781824347851484,
+    "max": 3.515632820235728,
+    "nodes": 6960
+   },
+   "z_range_sv": [
+    5400.2490234375,
+    6399.912109375
+   ],
+   "fiber": "lt_20260910T082256930_000112",
+   "fiber_uuid": "2880a5b2-7531-5fec-bfc5-a16e67a24759",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20260910T082256930_000112__0"
+  },
+  "lt_20260910T090933172_000113__0": {
+   "piece": "N0070",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0070\\strip",
+   "rows": 324,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.2408,
+     1.0282,
+     0.9365,
+     0.92,
+     0.9324,
+     0.9248,
+     0.9012,
+     0.8591,
+     0.8104,
+     0.755,
+     0.7344,
+     0.7195,
+     0.7314,
+     0.706,
+     0.7204,
+     0.7356,
+     0.7546,
+     0.7971,
+     0.8472,
+     0.8665,
+     0.8734,
+     0.9325,
+     1.017,
+     1.0823,
+     1.2421
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 7600,
+   "notes": [
+    "stitch check: 100.0% of 7600 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 877
+   },
+   "valid_nodes": 6723,
+   "valid_quads": 6428,
+   "area_vx2": 128560.0,
+   "area_cm2": 0.11838218248960002,
+   "expected_error_sv": {
+    "mean": 0.9247973140995165,
+    "median": 0.8650437690151392,
+    "p90": 1.2642169003858947,
+    "max": 2.356178587292548,
+    "nodes": 6723
+   },
+   "z_range_sv": [
+    5400.27587890625,
+    6399.6962890625
+   ],
+   "fiber": "lt_20260910T090933172_000113",
+   "fiber_uuid": "3a74b64d-19af-5bd2-af57-085d51411acd",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20260910T090933172_000113__0"
+  },
+  "lt_20260911T073815460_000119__0": {
+   "piece": "N0071",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0071\\strip",
+   "rows": 312,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.1566,
+     0.9475,
+     0.8477,
+     0.8092,
+     0.8013,
+     0.7864,
+     0.7516,
+     0.7271,
+     0.7101,
+     0.6809,
+     0.6696,
+     0.6617,
+     0.6619,
+     0.6307,
+     0.6564,
+     0.6612,
+     0.6547,
+     0.6701,
+     0.7004,
+     0.7441,
+     0.7457,
+     0.7705,
+     0.8441,
+     0.9459,
+     1.1279
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 7300,
+   "notes": [
+    "stitch check: 100.0% of 7300 nodes within 0.05 sv (max gap 0.0003 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 761
+   },
+   "valid_nodes": 6539,
+   "valid_quads": 6251,
+   "area_vx2": 125020.0,
+   "area_cm2": 0.11512243664320002,
+   "expected_error_sv": {
+    "mean": 0.8223075114136975,
+    "median": 0.7218831633818472,
+    "p90": 1.2228496742465749,
+    "max": 2.7805905846351022,
+    "nodes": 6539
+   },
+   "z_range_sv": [
+    5400.0546875,
+    6399.85009765625
+   ],
+   "fiber": "lt_20260911T073815460_000119",
+   "fiber_uuid": "c87b7ffe-25d6-5c5e-8a09-da83cf7a5101",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20260911T073815460_000119__0"
+  },
+  "lt_20260914T070809786_000124__0": {
+   "piece": "N0072",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0072\\strip",
+   "rows": 320,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.3131,
+     1.0456,
+     0.9578,
+     0.9022,
+     0.8634,
+     0.8297,
+     0.7868,
+     0.7577,
+     0.7468,
+     0.7353,
+     0.7078,
+     0.6811,
+     0.6997,
+     0.6662,
+     0.6889,
+     0.7127,
+     0.7269,
+     0.7461,
+     0.8109,
+     0.8907,
+     0.9164,
+     0.9948,
+     1.0827,
+     1.1594,
+     1.2916
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 7500,
+   "notes": [
+    "stitch check: 100.0% of 7500 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 837
+   },
+   "valid_nodes": 6663,
+   "valid_quads": 6369,
+   "area_vx2": 127380.0,
+   "area_cm2": 0.1172956005408,
+   "expected_error_sv": {
+    "mean": 0.9035402465207913,
+    "median": 0.8219589636426524,
+    "p90": 1.299208541506751,
+    "max": 2.4716441818284314,
+    "nodes": 6663
+   },
+   "z_range_sv": [
+    5400.00048828125,
+    6399.77783203125
+   ],
+   "fiber": "lt_20260914T070809786_000124",
+   "fiber_uuid": "f9ba744a-683b-51df-b614-12bb9a8e5469",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20260914T070809786_000124__0"
+  },
+  "lt_20260914T080111721_000127__0": {
+   "piece": "N0073",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0073\\strip",
+   "rows": 320,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.3159,
+     0.9971,
+     0.869,
+     0.8261,
+     0.7985,
+     0.7791,
+     0.7398,
+     0.6986,
+     0.6683,
+     0.6385,
+     0.6415,
+     0.6318,
+     0.6517,
+     0.6343,
+     0.6378,
+     0.651,
+     0.6866,
+     0.7238,
+     0.7755,
+     0.8231,
+     0.8684,
+     0.9404,
+     1.0138,
+     1.093,
+     1.2131
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 7500,
+   "notes": [
+    "stitch check: 100.0% of 7500 nodes within 0.05 sv (max gap 0.0003 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 857
+   },
+   "valid_nodes": 6643,
+   "valid_quads": 6351,
+   "area_vx2": 127020.0,
+   "area_cm2": 0.11696410096320001,
+   "expected_error_sv": {
+    "mean": 0.8530577451613303,
+    "median": 0.7703812282337155,
+    "p90": 1.2297492255724864,
+    "max": 2.5191373661556833,
+    "nodes": 6643
+   },
+   "z_range_sv": [
+    5400.15185546875,
+    6399.7529296875
+   ],
+   "fiber": "lt_20260914T080111721_000127",
+   "fiber_uuid": "27701fd0-207a-52cc-8339-7ba36617921f",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20260914T080111721_000127__0"
+  },
+  "lt_20260914T091427983_000130__0": {
+   "piece": "N0074",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0074\\strip",
+   "rows": 336,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.3187,
+     1.0211,
+     0.964,
+     0.9179,
+     0.8675,
+     0.8414,
+     0.7913,
+     0.7598,
+     0.7037,
+     0.6664,
+     0.6365,
+     0.6193,
+     0.6313,
+     0.6192,
+     0.6304,
+     0.6606,
+     0.6681,
+     0.6894,
+     0.725,
+     0.7628,
+     0.7952,
+     0.8136,
+     0.8409,
+     0.8996,
+     1.0256
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 7900,
+   "notes": [
+    "stitch check: 100.0% of 7900 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 861
+   },
+   "valid_nodes": 7039,
+   "valid_quads": 6731,
+   "area_vx2": 134620.0,
+   "area_cm2": 0.12396242537920002,
+   "expected_error_sv": {
+    "mean": 0.8279064676717908,
+    "median": 0.7763838431699505,
+    "p90": 1.1373659337356499,
+    "max": 1.9784159801836851,
+    "nodes": 7039
+   },
+   "z_range_sv": [
+    5400.3203125,
+    6399.85302734375
+   ],
+   "fiber": "lt_20260914T091427983_000130",
+   "fiber_uuid": "eacbfc24-57cd-53a3-8044-97386a82c47b",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20260914T091427983_000130__0"
+  },
+  "lt_20260916T075855882_000136__0": {
+   "piece": "N0075",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0075\\strip",
+   "rows": 316,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.2543,
+     0.9855,
+     0.8557,
+     0.8168,
+     0.7631,
+     0.7298,
+     0.7124,
+     0.6885,
+     0.6735,
+     0.6514,
+     0.6367,
+     0.6187,
+     0.626,
+     0.6102,
+     0.6351,
+     0.6573,
+     0.6822,
+     0.7036,
+     0.7451,
+     0.777,
+     0.8033,
+     0.8527,
+     0.9163,
+     1.0369,
+     1.1644
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 7400,
+   "notes": [
+    "stitch check: 100.0% of 7400 nodes within 0.05 sv (max gap 0.0003 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 819
+   },
+   "valid_nodes": 6581,
+   "valid_quads": 6288,
+   "area_vx2": 125760.0,
+   "area_cm2": 0.1158038524416,
+   "expected_error_sv": {
+    "mean": 0.7967879828671285,
+    "median": 0.7344056310506354,
+    "p90": 1.0961171586865481,
+    "max": 2.5758903769046158,
+    "nodes": 6581
+   },
+   "z_range_sv": [
+    5400.142578125,
+    6399.80517578125
+   ],
+   "fiber": "lt_20260916T075855882_000136",
+   "fiber_uuid": "9429e706-6da9-5232-bf2c-685183d6b5db",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20260916T075855882_000136__0"
+  },
+  "lt_20260916T084252407_000137__0": {
+   "piece": "N0076",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0076\\strip",
+   "rows": 320,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.5113,
+     1.1737,
+     1.0318,
+     0.9627,
+     0.9007,
+     0.8796,
+     0.8462,
+     0.8093,
+     0.786,
+     0.7548,
+     0.7204,
+     0.6893,
+     0.7007,
+     0.6768,
+     0.6877,
+     0.7324,
+     0.7794,
+     0.8086,
+     0.8576,
+     0.8888,
+     0.9208,
+     0.9575,
+     1.0267,
+     1.138,
+     1.3632
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 7500,
+   "notes": [
+    "stitch check: 100.0% of 7500 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 787
+   },
+   "valid_nodes": 6713,
+   "valid_quads": 6419,
+   "area_vx2": 128380.0,
+   "area_cm2": 0.1182164327008,
+   "expected_error_sv": {
+    "mean": 0.9934260193233584,
+    "median": 0.8619558677165546,
+    "p90": 1.5513873254840862,
+    "max": 3.7109067236492574,
+    "nodes": 6713
+   },
+   "z_range_sv": [
+    5400.234375,
+    6399.990234375
+   ],
+   "fiber": "lt_20260916T084252407_000137",
+   "fiber_uuid": "cdc38bf4-8f3b-50a1-8020-74f606a36b22",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20260916T084252407_000137__0"
+  },
+  "lt_20260917T045630900_000139__0": {
+   "piece": "N0077",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0077\\strip",
+   "rows": 316,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.8122,
+     1.5335,
+     1.3648,
+     1.3003,
+     1.2326,
+     1.187,
+     1.129,
+     0.9758,
+     0.8628,
+     0.8036,
+     0.7557,
+     0.7542,
+     0.7756,
+     0.7298,
+     0.7367,
+     0.7612,
+     0.7906,
+     0.8663,
+     0.9434,
+     0.9862,
+     1.0094,
+     1.0197,
+     1.0613,
+     1.1901,
+     1.4243
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 7400,
+   "notes": [
+    "stitch check: 100.0% of 7400 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 726
+   },
+   "valid_nodes": 6674,
+   "valid_quads": 6380,
+   "area_vx2": 127600.0,
+   "area_cm2": 0.11749818361600001,
+   "expected_error_sv": {
+    "mean": 1.0887890597661856,
+    "median": 0.9623974423731104,
+    "p90": 1.7024617849233454,
+    "max": 3.0999490831985,
+    "nodes": 6674
+   },
+   "z_range_sv": [
+    5400.4140625,
+    6399.93212890625
+   ],
+   "fiber": "lt_20260917T045630900_000139",
+   "fiber_uuid": "6a06f8d3-8452-55a4-b36d-88c130accdb9",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20260917T045630900_000139__0"
+  },
+  "lt_20260917T054942114_000140__0": {
+   "piece": "N0078",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0078\\strip",
+   "rows": 324,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.3568,
+     1.0497,
+     0.9566,
+     0.9105,
+     0.865,
+     0.8426,
+     0.8136,
+     0.7995,
+     0.7754,
+     0.7166,
+     0.7131,
+     0.7004,
+     0.7185,
+     0.6963,
+     0.7237,
+     0.7611,
+     0.8044,
+     0.8833,
+     1.016,
+     1.1784,
+     1.3394,
+     1.5245,
+     1.612,
+     1.728,
+     1.9464
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 7600,
+   "notes": [
+    "stitch check: 100.0% of 7600 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 877
+   },
+   "valid_nodes": 6723,
+   "valid_quads": 6427,
+   "area_vx2": 128540.0,
+   "area_cm2": 0.1183637658464,
+   "expected_error_sv": {
+    "mean": 1.0638275978371987,
+    "median": 0.8505578663799174,
+    "p90": 1.8959786700898238,
+    "max": 3.6881035518588483,
+    "nodes": 6723
+   },
+   "z_range_sv": [
+    5400.13037109375,
+    6399.8935546875
+   ],
+   "fiber": "lt_20260917T054942114_000140",
+   "fiber_uuid": "e80c698b-d75c-5ae5-aaa6-72d6d9d196d3",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20260917T054942114_000140__0"
+  },
+  "lt_20260917T074125911_000145__0": {
+   "piece": "N0079",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0079\\strip",
+   "rows": 328,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.1781,
+     0.9425,
+     0.8576,
+     0.8445,
+     0.8217,
+     0.804,
+     0.7697,
+     0.7519,
+     0.7404,
+     0.693,
+     0.6747,
+     0.6719,
+     0.6834,
+     0.6476,
+     0.6649,
+     0.6764,
+     0.7079,
+     0.7305,
+     0.772,
+     0.8111,
+     0.8314,
+     0.8789,
+     0.942,
+     1.0403,
+     1.1668
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 7700,
+   "notes": [
+    "stitch check: 100.0% of 7700 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 873
+   },
+   "valid_nodes": 6827,
+   "valid_quads": 6529,
+   "area_vx2": 130580.0,
+   "area_cm2": 0.12024226345280001,
+   "expected_error_sv": {
+    "mean": 0.8473356517688603,
+    "median": 0.7735681547003753,
+    "p90": 1.1851899748725472,
+    "max": 3.0578511588775585,
+    "nodes": 6827
+   },
+   "z_range_sv": [
+    5400.138671875,
+    6399.97705078125
+   ],
+   "fiber": "lt_20260917T074125911_000145",
+   "fiber_uuid": "7c5c8d55-52b7-5f16-a1fb-087a55c217aa",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20260917T074125911_000145__0"
+  },
+  "lt_20260921T084525702_000168__0": {
+   "piece": "N0081",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0081\\strip",
+   "rows": 324,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.4398,
+     1.1503,
+     1.0663,
+     1.0232,
+     1.0414,
+     1.0355,
+     0.989,
+     0.9126,
+     0.8028,
+     0.7209,
+     0.7079,
+     0.6715,
+     0.6517,
+     0.6467,
+     0.6632,
+     0.6995,
+     0.6968,
+     0.7332,
+     0.8002,
+     0.8726,
+     0.9702,
+     1.012,
+     1.0091,
+     1.0636,
+     1.1457
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 7600,
+   "notes": [
+    "stitch check: 100.0% of 7600 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 734
+   },
+   "valid_nodes": 6866,
+   "valid_quads": 6565,
+   "area_vx2": 131300.0,
+   "area_cm2": 0.120905262608,
+   "expected_error_sv": {
+    "mean": 0.9319922137383878,
+    "median": 0.826332281462381,
+    "p90": 1.377449578528502,
+    "max": 3.260950525526671,
+    "nodes": 6866
+   },
+   "z_range_sv": [
+    5400.0654296875,
+    6399.91455078125
+   ],
+   "fiber": "lt_20260921T084525702_000168",
+   "fiber_uuid": "0e5900cf-3935-59a8-abe7-c86dd4cb63fb",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20260921T084525702_000168__0"
+  },
+  "lt_20260924T084835717_000181__0": {
+   "piece": "N0082",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0082\\strip",
+   "rows": 332,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.3221,
+     1.0566,
+     0.9715,
+     0.8822,
+     0.8082,
+     0.7862,
+     0.7684,
+     0.7272,
+     0.686,
+     0.6546,
+     0.6368,
+     0.6221,
+     0.6243,
+     0.6196,
+     0.6391,
+     0.6893,
+     0.708,
+     0.7354,
+     0.7607,
+     0.7752,
+     0.7894,
+     0.8233,
+     0.849,
+     0.9043,
+     1.0277
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 7800,
+   "notes": [
+    "stitch check: 100.0% of 7800 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 889
+   },
+   "valid_nodes": 6911,
+   "valid_quads": 6609,
+   "area_vx2": 132180.0,
+   "area_cm2": 0.12171559490880002,
+   "expected_error_sv": {
+    "mean": 0.81528262487705,
+    "median": 0.7592475426359279,
+    "p90": 1.0701694763752976,
+    "max": 2.9335792425087828,
+    "nodes": 6911
+   },
+   "z_range_sv": [
+    5400.12353515625,
+    6399.921875
+   ],
+   "fiber": "lt_20260924T084835717_000181",
+   "fiber_uuid": "6d81ac77-a356-54af-b212-b5bb02f2df60",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20260924T084835717_000181__0"
+  },
+  "lt_20260924T091804289_000183__0": {
+   "piece": "N0083",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0083\\strip",
+   "rows": 328,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.6518,
+     1.3307,
+     1.2395,
+     1.1927,
+     1.1792,
+     1.1423,
+     1.1651,
+     1.1805,
+     1.0713,
+     0.9204,
+     0.834,
+     0.8071,
+     0.7932,
+     0.7787,
+     0.8222,
+     0.9095,
+     0.9651,
+     1.0077,
+     1.106,
+     1.1712,
+     1.2026,
+     1.264,
+     1.2495,
+     1.2723,
+     1.3203
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 7700,
+   "notes": [
+    "stitch check: 100.0% of 7700 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 754
+   },
+   "valid_nodes": 6946,
+   "valid_quads": 6643,
+   "area_vx2": 132860.0,
+   "area_cm2": 0.12234176077760002,
+   "expected_error_sv": {
+    "mean": 1.135377179670346,
+    "median": 1.0459825693979417,
+    "p90": 1.6424785119510648,
+    "max": 2.6152673566659477,
+    "nodes": 6946
+   },
+   "z_range_sv": [
+    5400.095703125,
+    6399.8974609375
+   ],
+   "fiber": "lt_20260924T091804289_000183",
+   "fiber_uuid": "c43578c8-2cb3-57bb-b960-4a01f22c4f1f",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20260924T091804289_000183__0"
+  },
+  "lt_20260925T092029604_000186__0": {
+   "piece": "N0084",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0084\\strip",
+   "rows": 328,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.2794,
+     1.0803,
+     1.007,
+     0.9551,
+     0.9297,
+     0.9133,
+     0.8817,
+     0.8184,
+     0.7527,
+     0.6838,
+     0.6753,
+     0.6681,
+     0.6512,
+     0.6552,
+     0.6817,
+     0.7219,
+     0.7576,
+     0.8578,
+     0.9363,
+     0.965,
+     1.0024,
+     1.0427,
+     1.1288,
+     1.218,
+     1.3846
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 7700,
+   "notes": [
+    "stitch check: 100.0% of 7700 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 828
+   },
+   "valid_nodes": 6872,
+   "valid_quads": 6571,
+   "area_vx2": 131420.0,
+   "area_cm2": 0.12101576246720001,
+   "expected_error_sv": {
+    "mean": 0.9600490865498332,
+    "median": 0.8683580876494053,
+    "p90": 1.4325256921506324,
+    "max": 3.4745118225901264,
+    "nodes": 6872
+   },
+   "z_range_sv": [
+    5400.0146484375,
+    6399.93896484375
+   ],
+   "fiber": "lt_20260925T092029604_000186",
+   "fiber_uuid": "2f516364-33b4-58da-bc3c-08f6ede07e2e",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20260925T092029604_000186__0"
+  },
+  "lt_20260925T093307691_000188__0": {
+   "piece": "N0085",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0085\\strip",
+   "rows": 324,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.3676,
+     1.0899,
+     1.0635,
+     1.0112,
+     0.9369,
+     0.8915,
+     0.8503,
+     0.814,
+     0.7764,
+     0.7318,
+     0.6993,
+     0.6663,
+     0.6509,
+     0.6372,
+     0.6455,
+     0.6719,
+     0.682,
+     0.6894,
+     0.7364,
+     0.7719,
+     0.8133,
+     0.873,
+     0.9444,
+     1.027,
+     1.1433
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 7600,
+   "notes": [
+    "stitch check: 100.0% of 7600 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 742
+   },
+   "valid_nodes": 6858,
+   "valid_quads": 6559,
+   "area_vx2": 131180.0,
+   "area_cm2": 0.12079476274880001,
+   "expected_error_sv": {
+    "mean": 0.8724954733032853,
+    "median": 0.7994612741168057,
+    "p90": 1.2333923169200716,
+    "max": 2.4342068868635156,
+    "nodes": 6858
+   },
+   "z_range_sv": [
+    5400.17431640625,
+    6399.92529296875
+   ],
+   "fiber": "lt_20260925T093307691_000188",
+   "fiber_uuid": "28b42898-da6e-5f53-8d14-35a3203db94e",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20260925T093307691_000188__0"
+  },
+  "lt_20260926T053109402_000190__0": {
+   "piece": "N0086",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0086\\strip",
+   "rows": 1116,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.4715,
+     1.1609,
+     1.0687,
+     1.0218,
+     0.991,
+     0.9457,
+     0.8993,
+     0.8456,
+     0.7871,
+     0.7384,
+     0.7182,
+     0.6998,
+     0.7048,
+     0.6815,
+     0.7009,
+     0.746,
+     0.7977,
+     0.8746,
+     0.9904,
+     1.0567,
+     1.1187,
+     1.1536,
+     1.1903,
+     1.2245,
+     1.3494
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 26275,
+   "notes": [
+    "stitch check: 100.0% of 26275 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 0
+   },
+   "valid_nodes": 26275,
+   "valid_quads": 25200,
+   "area_vx2": 504000.0,
+   "area_cm2": 0.46409940864,
+   "expected_error_sv": {
+    "mean": 1.005480472185071,
+    "median": 0.8998880680507197,
+    "p90": 1.5079134633870335,
+    "max": 3.420854158972722,
+    "nodes": 26275
+   },
+   "z_range_sv": [
+    5496.4755859375,
+    5884.9130859375
+   ],
+   "fiber": "lt_20260926T053109402_000190",
+   "fiber_uuid": "f444bcbf-7c20-5240-9f38-250373b59860",
+   "family": "H",
+   "annotator": "lt",
+   "patch": "lt_20260926T053109402_000190__0"
+  },
+  "lt_20260928T095306884_000194__0": {
+   "piece": "N0087",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0087\\strip",
+   "rows": 3708,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.1003,
+     0.898,
+     0.8096,
+     0.7657,
+     0.7255,
+     0.6913,
+     0.6565,
+     0.6198,
+     0.5863,
+     0.5706,
+     0.5666,
+     0.5691,
+     0.5884,
+     0.5791,
+     0.5953,
+     0.6078,
+     0.6327,
+     0.671,
+     0.7078,
+     0.7399,
+     0.7771,
+     0.8184,
+     0.871,
+     0.9516,
+     1.1376
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 91075,
+   "notes": [
+    "stitch check: 100.0% of 91075 nodes within 0.05 sv (max gap 0.0003 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 577
+   },
+   "valid_nodes": 90498,
+   "valid_quads": 86824,
+   "area_vx2": 1736480.0,
+   "area_cm2": 1.5990066291968,
+   "expected_error_sv": {
+    "mean": 0.7883396758893075,
+    "median": 0.688961485451594,
+    "p90": 1.1214776939991136,
+    "max": 3.6576181712018134,
+    "nodes": 90498
+   },
+   "z_range_sv": [
+    5400.0537109375,
+    5845.2685546875
+   ],
+   "fiber": "lt_20260928T095306884_000194",
+   "fiber_uuid": "a87d458b-453e-552c-b096-a7f5e3f05e7a",
+   "family": "H",
+   "annotator": "lt",
+   "patch": "lt_20260928T095306884_000194__0"
+  },
+  "lt_20260928T102153466_000197__0": {
+   "piece": "N0088",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0088\\strip",
+   "rows": 332,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.5848,
+     1.2914,
+     1.1804,
+     1.1329,
+     1.0864,
+     1.0413,
+     1.0471,
+     1.004,
+     0.944,
+     0.8462,
+     0.7907,
+     0.7563,
+     0.7963,
+     0.7506,
+     0.8138,
+     0.8519,
+     0.8974,
+     0.8985,
+     0.926,
+     0.9442,
+     0.989,
+     1.0171,
+     1.0776,
+     1.1434,
+     1.3027
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 7800,
+   "notes": [
+    "stitch check: 100.0% of 7800 nodes within 0.05 sv (max gap 0.0003 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 734
+   },
+   "valid_nodes": 7066,
+   "valid_quads": 6755,
+   "area_vx2": 135100.0,
+   "area_cm2": 0.12440442481600002,
+   "expected_error_sv": {
+    "mean": 1.0516343263263286,
+    "median": 0.9614142851811514,
+    "p90": 1.5008884111700223,
+    "max": 3.174981811085679,
+    "nodes": 7066
+   },
+   "z_range_sv": [
+    5400.08251953125,
+    6399.99560546875
+   ],
+   "fiber": "lt_20260928T102153466_000197",
+   "fiber_uuid": "1142964a-d538-52b1-8efc-db88f9e3e1c9",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20260928T102153466_000197__0"
+  },
+  "lt_20260928T102859210_000198__0": {
+   "piece": "N0089",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0089\\strip",
+   "rows": 320,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.0798,
+     0.8471,
+     0.7571,
+     0.7326,
+     0.7241,
+     0.7078,
+     0.6787,
+     0.6506,
+     0.6245,
+     0.6044,
+     0.5982,
+     0.5962,
+     0.6352,
+     0.5944,
+     0.5899,
+     0.6006,
+     0.6098,
+     0.6226,
+     0.6445,
+     0.6724,
+     0.713,
+     0.7502,
+     0.8022,
+     0.8935,
+     1.083
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 7500,
+   "notes": [
+    "stitch check: 100.0% of 7500 nodes within 0.05 sv (max gap 0.0003 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 769
+   },
+   "valid_nodes": 6731,
+   "valid_quads": 6430,
+   "area_vx2": 128600.0,
+   "area_cm2": 0.118419015776,
+   "expected_error_sv": {
+    "mean": 0.7483363845348427,
+    "median": 0.6734558122118386,
+    "p90": 1.0314323506651812,
+    "max": 2.4931164532500514,
+    "nodes": 6731
+   },
+   "z_range_sv": [
+    5400.06494140625,
+    6399.9375
+   ],
+   "fiber": "lt_20260928T102859210_000198",
+   "fiber_uuid": "63405fb9-568f-5822-a43a-e814315be2d6",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20260928T102859210_000198__0"
+  },
+  "lt_20260928T103929809_000199__0": {
+   "piece": "N0090",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0090\\strip",
+   "rows": 324,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.0968,
+     0.8629,
+     0.7849,
+     0.7535,
+     0.7422,
+     0.7183,
+     0.6979,
+     0.6697,
+     0.6497,
+     0.6467,
+     0.6552,
+     0.6468,
+     0.6682,
+     0.6389,
+     0.6729,
+     0.6648,
+     0.6545,
+     0.6632,
+     0.7051,
+     0.7426,
+     0.74,
+     0.7767,
+     0.8142,
+     0.8663,
+     0.9772
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 7600,
+   "notes": [
+    "stitch check: 100.0% of 7600 nodes within 0.05 sv (max gap 0.0003 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 780
+   },
+   "valid_nodes": 6820,
+   "valid_quads": 6517,
+   "area_vx2": 130340.0,
+   "area_cm2": 0.12002126373440002,
+   "expected_error_sv": {
+    "mean": 0.7875625660574409,
+    "median": 0.7162337017718488,
+    "p90": 1.0548924567678029,
+    "max": 3.044976594816358,
+    "nodes": 6820
+   },
+   "z_range_sv": [
+    5400.0380859375,
+    6399.91796875
+   ],
+   "fiber": "lt_20260928T103929809_000199",
+   "fiber_uuid": "f0dce916-cab8-596b-9517-299eea7be7f2",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20260928T103929809_000199__0"
+  },
+  "lt_20260928T112311238_000201__0": {
+   "piece": "N0091",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0091\\strip",
+   "rows": 328,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.2509,
+     0.9621,
+     0.8328,
+     0.8059,
+     0.7827,
+     0.7695,
+     0.7604,
+     0.7127,
+     0.668,
+     0.6312,
+     0.613,
+     0.6343,
+     0.6545,
+     0.622,
+     0.6158,
+     0.6294,
+     0.6367,
+     0.6748,
+     0.7267,
+     0.77,
+     0.8455,
+     0.9114,
+     1.0349,
+     1.1733,
+     1.4316
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 7700,
+   "notes": [
+    "stitch check: 100.0% of 7700 nodes within 0.05 sv (max gap 0.0003 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 857
+   },
+   "valid_nodes": 6843,
+   "valid_quads": 6542,
+   "area_vx2": 130840.0,
+   "area_cm2": 0.1204816798144,
+   "expected_error_sv": {
+    "mean": 0.8551949595800201,
+    "median": 0.7463980004534472,
+    "p90": 1.2660210562058978,
+    "max": 3.701800612852934,
+    "nodes": 6843
+   },
+   "z_range_sv": [
+    5400.048828125,
+    6399.89453125
+   ],
+   "fiber": "lt_20260928T112311238_000201",
+   "fiber_uuid": "68138a98-1a08-581f-81c1-ed53bfcdd65f",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20260928T112311238_000201__0"
+  },
+  "lt_20260928T114319112_000202__0": {
+   "piece": "N0092",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0092\\strip",
+   "rows": 328,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.2619,
+     1.0068,
+     0.8705,
+     0.8012,
+     0.7747,
+     0.7603,
+     0.7528,
+     0.7298,
+     0.7097,
+     0.6966,
+     0.7083,
+     0.6906,
+     0.7118,
+     0.6749,
+     0.6976,
+     0.6882,
+     0.6783,
+     0.6852,
+     0.7057,
+     0.7459,
+     0.7894,
+     0.8506,
+     0.9018,
+     0.9674,
+     1.1424
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 7700,
+   "notes": [
+    "stitch check: 100.0% of 7700 nodes within 0.05 sv (max gap 0.0003 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 810
+   },
+   "valid_nodes": 6890,
+   "valid_quads": 6585,
+   "area_vx2": 131700.0,
+   "area_cm2": 0.12127359547200002,
+   "expected_error_sv": {
+    "mean": 0.8119719115352647,
+    "median": 0.7558140623090633,
+    "p90": 1.1055540270461945,
+    "max": 2.8644723884682457,
+    "nodes": 6890
+   },
+   "z_range_sv": [
+    5400.064453125,
+    6399.70361328125
+   ],
+   "fiber": "lt_20260928T114319112_000202",
+   "fiber_uuid": "b7a3dd11-91d3-536b-b90c-caa5c4bd6d97",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20260928T114319112_000202__0"
+  },
+  "lt_20260929T091613547_000216__0": {
+   "piece": "N0093",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0093\\strip",
+   "rows": 328,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.1747,
+     0.9495,
+     0.8551,
+     0.8649,
+     0.8631,
+     0.8404,
+     0.7911,
+     0.7356,
+     0.6988,
+     0.6762,
+     0.6498,
+     0.6369,
+     0.6157,
+     0.6045,
+     0.6224,
+     0.6436,
+     0.6599,
+     0.7053,
+     0.7391,
+     0.7384,
+     0.7447,
+     0.7944,
+     0.8267,
+     0.8421,
+     0.944
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 7700,
+   "notes": [
+    "stitch check: 100.0% of 7700 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 775
+   },
+   "valid_nodes": 6925,
+   "valid_quads": 6622,
+   "area_vx2": 132440.0,
+   "area_cm2": 0.12195501127040001,
+   "expected_error_sv": {
+    "mean": 0.787433162640647,
+    "median": 0.7424755301597407,
+    "p90": 1.0176100268679045,
+    "max": 1.8410594376503624,
+    "nodes": 6925
+   },
+   "z_range_sv": [
+    5400.12841796875,
+    6399.89404296875
+   ],
+   "fiber": "lt_20260929T091613547_000216",
+   "fiber_uuid": "e74c44f6-e756-5d01-831f-7b64a505e4bf",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20260929T091613547_000216__0"
+  },
+  "lt_20260930T052058828_000223__0": {
+   "piece": "N0094",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0094\\strip",
+   "rows": 336,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.5244,
+     1.1355,
+     1.0299,
+     1.0116,
+     1.0026,
+     0.9904,
+     0.9021,
+     0.8114,
+     0.7653,
+     0.7061,
+     0.6966,
+     0.6765,
+     0.665,
+     0.6585,
+     0.6831,
+     0.7318,
+     0.7869,
+     0.8364,
+     0.9039,
+     0.9315,
+     0.9828,
+     1.0366,
+     1.1077,
+     1.1783,
+     1.3531
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 7900,
+   "notes": [
+    "stitch check: 100.0% of 7900 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 863
+   },
+   "valid_nodes": 7037,
+   "valid_quads": 6728,
+   "area_vx2": 134560.0,
+   "area_cm2": 0.12390717544960002,
+   "expected_error_sv": {
+    "mean": 0.9757988681726226,
+    "median": 0.8850535450015835,
+    "p90": 1.4241810011316065,
+    "max": 3.22667275267321,
+    "nodes": 7037
+   },
+   "z_range_sv": [
+    5400.12109375,
+    6399.86962890625
+   ],
+   "fiber": "lt_20260930T052058828_000223",
+   "fiber_uuid": "3abb2edd-7070-5468-8ca3-451990bf1a60",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20260930T052058828_000223__0"
+  },
+  "lt_20260930T073719893_000225__0": {
+   "piece": "N0095",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0095\\strip",
+   "rows": 340,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.3961,
+     1.1082,
+     1.0304,
+     0.9913,
+     0.9567,
+     0.9301,
+     0.8954,
+     0.8498,
+     0.8072,
+     0.7526,
+     0.729,
+     0.7078,
+     0.7153,
+     0.7038,
+     0.7328,
+     0.7771,
+     0.8081,
+     0.8389,
+     0.9285,
+     0.9895,
+     1.06,
+     1.1064,
+     1.1423,
+     1.2288,
+     1.3985
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 8000,
+   "notes": [
+    "stitch check: 100.0% of 8000 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 886
+   },
+   "valid_nodes": 7114,
+   "valid_quads": 6804,
+   "area_vx2": 136080.0,
+   "area_cm2": 0.1253068403328,
+   "expected_error_sv": {
+    "mean": 0.9734572576650553,
+    "median": 0.8968969647325041,
+    "p90": 1.367356542833458,
+    "max": 2.840244899010293,
+    "nodes": 7114
+   },
+   "z_range_sv": [
+    5401.27734375,
+    6399.67138671875
+   ],
+   "fiber": "lt_20260930T073719893_000225",
+   "fiber_uuid": "919fcaac-ebca-5f85-a1b2-7fb05bc8177f",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20260930T073719893_000225__0"
+  },
+  "lt_20260930T084501400_000229__0": {
+   "piece": "N0096",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0096\\strip",
+   "rows": 344,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.3623,
+     1.1021,
+     1.0361,
+     1.0048,
+     1.0191,
+     1.012,
+     0.9553,
+     0.8498,
+     0.7653,
+     0.7056,
+     0.668,
+     0.6411,
+     0.6257,
+     0.6088,
+     0.6266,
+     0.6529,
+     0.6509,
+     0.6892,
+     0.755,
+     0.8359,
+     0.9278,
+     1.0559,
+     1.0996,
+     1.1375,
+     1.3512
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 8100,
+   "notes": [
+    "stitch check: 100.0% of 8100 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 807
+   },
+   "valid_nodes": 7293,
+   "valid_quads": 6976,
+   "area_vx2": 139520.0,
+   "area_cm2": 0.1284745029632,
+   "expected_error_sv": {
+    "mean": 0.9476548634894814,
+    "median": 0.8168934297683599,
+    "p90": 1.5166386229934166,
+    "max": 3.3252417539926524,
+    "nodes": 7293
+   },
+   "z_range_sv": [
+    5400.013671875,
+    6399.9873046875
+   ],
+   "fiber": "lt_20260930T084501400_000229",
+   "fiber_uuid": "d1b70e70-7677-5ee0-8d2f-bd2a3115fe07",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20260930T084501400_000229__0"
+  },
+  "lt_20260930T093242283_000237__0": {
+   "piece": "N0097",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0097\\strip",
+   "rows": 436,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.3262,
+     1.0202,
+     0.9472,
+     0.8967,
+     0.8556,
+     0.8213,
+     0.7871,
+     0.7522,
+     0.7073,
+     0.6687,
+     0.6586,
+     0.6391,
+     0.6401,
+     0.6176,
+     0.6448,
+     0.6739,
+     0.689,
+     0.7167,
+     0.7365,
+     0.7764,
+     0.8412,
+     0.9088,
+     0.9387,
+     0.9647,
+     1.1166
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 9875,
+   "notes": [
+    "stitch check: 100.0% of 9875 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 971
+   },
+   "valid_nodes": 8904,
+   "valid_quads": 8485,
+   "area_vx2": 169700.0,
+   "area_cm2": 0.156265217552,
+   "expected_error_sv": {
+    "mean": 0.8617658593683747,
+    "median": 0.7557869340096091,
+    "p90": 1.224709480828766,
+    "max": 2.7112308974588966,
+    "nodes": 8904
+   },
+   "z_range_sv": [
+    6240.64453125,
+    6399.94775390625
+   ],
+   "fiber": "lt_20260930T093242283_000237",
+   "fiber_uuid": "59da52e9-6bf5-5bbe-8337-85d36b9ec74a",
+   "family": "H",
+   "annotator": "lt",
+   "patch": "lt_20260930T093242283_000237__0"
+  },
+  "lt_20260930T093543067_000238__0": {
+   "piece": "N0098",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0098\\strip",
+   "rows": 332,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.5198,
+     1.1644,
+     1.0678,
+     0.9993,
+     0.9747,
+     0.9614,
+     0.9474,
+     0.8881,
+     0.8264,
+     0.7584,
+     0.7295,
+     0.6985,
+     0.7066,
+     0.6926,
+     0.7182,
+     0.7502,
+     0.7921,
+     0.8112,
+     0.8316,
+     0.8868,
+     0.922,
+     0.9694,
+     1.0272,
+     1.0631,
+     1.2393
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 7800,
+   "notes": [
+    "stitch check: 100.0% of 7800 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 791
+   },
+   "valid_nodes": 7009,
+   "valid_quads": 6702,
+   "area_vx2": 134040.0,
+   "area_cm2": 0.1234283427264,
+   "expected_error_sv": {
+    "mean": 0.9833656040399992,
+    "median": 0.8894832821007507,
+    "p90": 1.426741177270124,
+    "max": 2.6536497855608934,
+    "nodes": 7009
+   },
+   "z_range_sv": [
+    5400.31787109375,
+    6399.90234375
+   ],
+   "fiber": "lt_20260930T093543067_000238",
+   "fiber_uuid": "61967cc2-2e1e-511e-aa8d-975b787c793d",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20260930T093543067_000238__0"
+  },
+  "lt_20261002T051549031_000262__0": {
+   "piece": "N0099",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0099\\strip",
+   "rows": 344,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.3871,
+     1.0638,
+     0.9476,
+     0.8918,
+     0.8927,
+     0.8656,
+     0.8276,
+     0.8073,
+     0.7652,
+     0.7054,
+     0.6704,
+     0.6544,
+     0.638,
+     0.6203,
+     0.6166,
+     0.6338,
+     0.656,
+     0.6786,
+     0.7056,
+     0.7587,
+     0.8104,
+     0.8572,
+     0.9352,
+     1.0317,
+     1.2047
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 8100,
+   "notes": [
+    "stitch check: 100.0% of 8100 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 793
+   },
+   "valid_nodes": 7307,
+   "valid_quads": 6988,
+   "area_vx2": 139760.0,
+   "area_cm2": 0.12869550268160002,
+   "expected_error_sv": {
+    "mean": 0.8487912613593647,
+    "median": 0.7704127546280091,
+    "p90": 1.2097277151723236,
+    "max": 3.03008771434069,
+    "nodes": 7307
+   },
+   "z_range_sv": [
+    5400.06298828125,
+    6399.79638671875
+   ],
+   "fiber": "lt_20261002T051549031_000262",
+   "fiber_uuid": "4830a3e8-7087-5171-a091-caa1d7bf2857",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20261002T051549031_000262__0"
+  },
+  "lt_20261002T070836019_000264__0": {
+   "piece": "N0100",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0100\\strip",
+   "rows": 336,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.7358,
+     1.4085,
+     1.3296,
+     1.2901,
+     1.2563,
+     1.1915,
+     1.0804,
+     0.9747,
+     0.8503,
+     0.7929,
+     0.7588,
+     0.7463,
+     0.7444,
+     0.7351,
+     0.7622,
+     0.8239,
+     0.8823,
+     0.9653,
+     1.0593,
+     1.1015,
+     1.1351,
+     1.1477,
+     1.1932,
+     1.3075,
+     1.4798
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 7900,
+   "notes": [
+    "stitch check: 100.0% of 7900 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 857
+   },
+   "valid_nodes": 7043,
+   "valid_quads": 6735,
+   "area_vx2": 134700.0,
+   "area_cm2": 0.12403609195200002,
+   "expected_error_sv": {
+    "mean": 1.0725528255782835,
+    "median": 1.004857120414745,
+    "p90": 1.5582833669821332,
+    "max": 2.7176640589887455,
+    "nodes": 7043
+   },
+   "z_range_sv": [
+    5400.822265625,
+    6399.94873046875
+   ],
+   "fiber": "lt_20261002T070836019_000264",
+   "fiber_uuid": "d5e51521-93db-51c3-9704-dd22c74d4617",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20261002T070836019_000264__0"
+  },
+  "lt_20261002T075438051_000266__0": {
+   "piece": "N0101",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0101\\strip",
+   "rows": 340,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.4519,
+     1.1106,
+     1.0337,
+     0.999,
+     0.9846,
+     0.9674,
+     0.9604,
+     0.9241,
+     0.8109,
+     0.7259,
+     0.6867,
+     0.6675,
+     0.663,
+     0.6512,
+     0.6567,
+     0.6837,
+     0.6999,
+     0.7556,
+     0.825,
+     0.8828,
+     0.8975,
+     0.9317,
+     0.9779,
+     1.0079,
+     1.1644
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 8000,
+   "notes": [
+    "stitch check: 100.0% of 8000 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 819
+   },
+   "valid_nodes": 7181,
+   "valid_quads": 6867,
+   "area_vx2": 137340.0,
+   "area_cm2": 0.1264670888544,
+   "expected_error_sv": {
+    "mean": 0.937761421068778,
+    "median": 0.8751556375422269,
+    "p90": 1.3431264949283936,
+    "max": 2.719435871622877,
+    "nodes": 7181
+   },
+   "z_range_sv": [
+    5400.0087890625,
+    6399.81494140625
+   ],
+   "fiber": "lt_20261002T075438051_000266",
+   "fiber_uuid": "871bc54a-1ffe-59cd-ad7b-a8eb43d569a0",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20261002T075438051_000266__0"
+  },
+  "lt_20261002T082246656_000268__0": {
+   "piece": "N0102",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0102\\strip",
+   "rows": 348,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.2337,
+     0.966,
+     0.9364,
+     0.9441,
+     0.9138,
+     0.8925,
+     0.8887,
+     0.8676,
+     0.7899,
+     0.7193,
+     0.6919,
+     0.6669,
+     0.655,
+     0.6302,
+     0.6168,
+     0.6324,
+     0.6476,
+     0.6838,
+     0.7211,
+     0.7581,
+     0.8506,
+     1.0115,
+     1.092,
+     1.087,
+     1.1299
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 8200,
+   "notes": [
+    "stitch check: 100.0% of 8200 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 756
+   },
+   "valid_nodes": 7444,
+   "valid_quads": 7121,
+   "area_vx2": 142420.0,
+   "area_cm2": 0.1311449162272,
+   "expected_error_sv": {
+    "mean": 0.8693095070651427,
+    "median": 0.7867147856513486,
+    "p90": 1.2689879254139844,
+    "max": 2.292141071217457,
+    "nodes": 7444
+   },
+   "z_range_sv": [
+    5400.06396484375,
+    6399.08056640625
+   ],
+   "fiber": "lt_20261002T082246656_000268",
+   "fiber_uuid": "ab0d8a2a-322a-5fbe-ad3c-1d49e6edd3ea",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20261002T082246656_000268__0"
+  },
+  "lt_20261002T083407652_000269__0": {
+   "piece": "N0103",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0103\\strip",
+   "rows": 1112,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.3496,
+     1.188,
+     1.0816,
+     1.0105,
+     0.9662,
+     0.9228,
+     0.8687,
+     0.8044,
+     0.7402,
+     0.7146,
+     0.6806,
+     0.6586,
+     0.669,
+     0.6683,
+     0.688,
+     0.7112,
+     0.7527,
+     0.8023,
+     0.8662,
+     0.9031,
+     0.9149,
+     0.9324,
+     1.0019,
+     1.1401,
+     1.4768
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 26175,
+   "notes": [
+    "stitch check: 100.0% of 26175 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 0
+   },
+   "valid_nodes": 26175,
+   "valid_quads": 25104,
+   "area_vx2": 502080.0,
+   "area_cm2": 0.4623314108928,
+   "expected_error_sv": {
+    "mean": 0.9526548460140255,
+    "median": 0.8532850369850999,
+    "p90": 1.4144028226008165,
+    "max": 3.5823023668610237,
+    "nodes": 26175
+   },
+   "z_range_sv": [
+    5738.80615234375,
+    6007.3173828125
+   ],
+   "fiber": "lt_20261002T083407652_000269",
+   "fiber_uuid": "1a34bfb8-b5fa-53d4-a77e-8ec9000cfe49",
+   "family": "H",
+   "annotator": "lt",
+   "patch": "lt_20261002T083407652_000269__0"
+  },
+  "lt_20261002T084327713_000270__0": {
+   "piece": "N0104",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0104\\strip",
+   "rows": 344,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.481,
+     1.2083,
+     1.0922,
+     1.0193,
+     0.9945,
+     0.9723,
+     0.9551,
+     0.8901,
+     0.7835,
+     0.7247,
+     0.6969,
+     0.6815,
+     0.684,
+     0.6717,
+     0.6688,
+     0.6901,
+     0.7185,
+     0.7902,
+     0.8808,
+     0.9784,
+     1.0299,
+     1.127,
+     1.219,
+     1.1587,
+     1.2432
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 8100,
+   "notes": [
+    "stitch check: 100.0% of 8100 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 774
+   },
+   "valid_nodes": 7326,
+   "valid_quads": 7002,
+   "area_vx2": 140040.0,
+   "area_cm2": 0.12895333568640002,
+   "expected_error_sv": {
+    "mean": 0.993537476655603,
+    "median": 0.8937478558072387,
+    "p90": 1.4941894314300264,
+    "max": 2.8188087995295334,
+    "nodes": 7326
+   },
+   "z_range_sv": [
+    5400.04150390625,
+    6399.814453125
+   ],
+   "fiber": "lt_20261002T084327713_000270",
+   "fiber_uuid": "4ae1f328-9f0e-5f93-b012-4818683f4c25",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20261002T084327713_000270__0"
+  },
+  "lt_20261002T092245053_000274__0": {
+   "piece": "N0105",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0105\\strip",
+   "rows": 340,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.3702,
+     1.1165,
+     1.0084,
+     0.9888,
+     0.9674,
+     0.9541,
+     0.8933,
+     0.8216,
+     0.7864,
+     0.7194,
+     0.6854,
+     0.657,
+     0.6627,
+     0.6452,
+     0.6549,
+     0.6741,
+     0.7107,
+     0.7636,
+     0.8013,
+     0.8594,
+     0.9206,
+     0.9903,
+     1.0072,
+     1.0646,
+     1.1967
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 8000,
+   "notes": [
+    "stitch check: 100.0% of 8000 nodes within 0.05 sv (max gap 0.0003 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 716
+   },
+   "valid_nodes": 7284,
+   "valid_quads": 6967,
+   "area_vx2": 139340.0,
+   "area_cm2": 0.12830875317440002,
+   "expected_error_sv": {
+    "mean": 0.9080955102070745,
+    "median": 0.8298430914058512,
+    "p90": 1.2887051333211943,
+    "max": 2.396443933034872,
+    "nodes": 7284
+   },
+   "z_range_sv": [
+    5400.25146484375,
+    6399.88720703125
+   ],
+   "fiber": "lt_20261002T092245053_000274",
+   "fiber_uuid": "a0630a15-6f98-59aa-b436-4871d95a5093",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20261002T092245053_000274__0"
+  },
+  "lt_20261002T112220359_000276__0": {
+   "piece": "N0106",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0106\\strip",
+   "rows": 348,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.3881,
+     1.1912,
+     1.1433,
+     1.0728,
+     1.0747,
+     1.0038,
+     0.9603,
+     0.8886,
+     0.8392,
+     0.753,
+     0.7036,
+     0.6755,
+     0.6721,
+     0.671,
+     0.6874,
+     0.7308,
+     0.7768,
+     0.8477,
+     0.9213,
+     0.9776,
+     1.0429,
+     1.0678,
+     1.1084,
+     1.1262,
+     1.2426
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 8200,
+   "notes": [
+    "stitch check: 100.0% of 8200 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 784
+   },
+   "valid_nodes": 7416,
+   "valid_quads": 7092,
+   "area_vx2": 141840.0,
+   "area_cm2": 0.1306108335744,
+   "expected_error_sv": {
+    "mean": 0.9754083623351878,
+    "median": 0.9036683621270977,
+    "p90": 1.4100640227764556,
+    "max": 2.449927045604875,
+    "nodes": 7416
+   },
+   "z_range_sv": [
+    5400.13330078125,
+    6399.8896484375
+   ],
+   "fiber": "lt_20261002T112220359_000276",
+   "fiber_uuid": "5ec1c7e9-badc-57d0-b6e1-1ddb10696013",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20261002T112220359_000276__0"
+  },
+  "lt_20261003T053801180_000278__0": {
+   "piece": "N0107",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0107\\strip",
+   "rows": 348,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.196,
+     1.0042,
+     0.9533,
+     0.963,
+     0.9044,
+     0.8523,
+     0.8086,
+     0.7732,
+     0.7425,
+     0.6935,
+     0.6566,
+     0.6361,
+     0.6412,
+     0.6293,
+     0.6417,
+     0.6673,
+     0.7022,
+     0.7578,
+     0.8211,
+     0.8428,
+     0.9103,
+     0.9507,
+     0.9685,
+     1.0257,
+     1.1356
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 8200,
+   "notes": [
+    "stitch check: 100.0% of 8200 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 844
+   },
+   "valid_nodes": 7356,
+   "valid_quads": 7036,
+   "area_vx2": 140720.0,
+   "area_cm2": 0.1295795015552,
+   "expected_error_sv": {
+    "mean": 0.8839009759805032,
+    "median": 0.8024810128995474,
+    "p90": 1.266313988459789,
+    "max": 2.4413651820981137,
+    "nodes": 7356
+   },
+   "z_range_sv": [
+    5400.04150390625,
+    6399.92236328125
+   ],
+   "fiber": "lt_20261003T053801180_000278",
+   "fiber_uuid": "4b62943e-7730-554a-b11a-2c4cad826b4f",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20261003T053801180_000278__0"
+  },
+  "lt_20261005T050741438_000280__0": {
+   "piece": "N0108",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0108\\strip",
+   "rows": 344,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.2797,
+     1.0189,
+     0.9596,
+     0.9144,
+     0.8937,
+     0.8559,
+     0.8108,
+     0.7452,
+     0.6738,
+     0.6285,
+     0.6187,
+     0.607,
+     0.6025,
+     0.5814,
+     0.5825,
+     0.5925,
+     0.6154,
+     0.6497,
+     0.6952,
+     0.7274,
+     0.7656,
+     0.7896,
+     0.8585,
+     0.9221,
+     1.0745
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 8100,
+   "notes": [
+    "stitch check: 100.0% of 8100 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 771
+   },
+   "valid_nodes": 7329,
+   "valid_quads": 7009,
+   "area_vx2": 140180.0,
+   "area_cm2": 0.1290822521888,
+   "expected_error_sv": {
+    "mean": 0.8158749603275197,
+    "median": 0.7394224853310715,
+    "p90": 1.1852489866546145,
+    "max": 2.2240604703331472,
+    "nodes": 7329
+   },
+   "z_range_sv": [
+    5400.02783203125,
+    6399.998046875
+   ],
+   "fiber": "lt_20261005T050741438_000280",
+   "fiber_uuid": "0f55944c-71fc-530e-b44a-bb21c5c99e53",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20261005T050741438_000280__0"
+  },
+  "lt_20261005T054517903_000282__0": {
+   "piece": "N0109",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0109\\strip",
+   "rows": 356,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.6512,
+     1.3231,
+     1.2837,
+     1.2303,
+     1.1685,
+     1.0897,
+     0.9829,
+     0.9034,
+     0.867,
+     0.8007,
+     0.7833,
+     0.7451,
+     0.7355,
+     0.7121,
+     0.7292,
+     0.7412,
+     0.7884,
+     0.8304,
+     0.9302,
+     0.9813,
+     1.074,
+     1.1505,
+     1.1958,
+     1.2547,
+     1.4002
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 8400,
+   "notes": [
+    "stitch check: 100.0% of 8400 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 784
+   },
+   "valid_nodes": 7616,
+   "valid_quads": 7285,
+   "area_vx2": 145700.0,
+   "area_cm2": 0.13416524571200003,
+   "expected_error_sv": {
+    "mean": 1.0339906269811452,
+    "median": 0.9499791227856638,
+    "p90": 1.4882110835660023,
+    "max": 2.842559036028142,
+    "nodes": 7616
+   },
+   "z_range_sv": [
+    5400.37646484375,
+    6399.85009765625
+   ],
+   "fiber": "lt_20261005T054517903_000282",
+   "fiber_uuid": "26e56156-bef6-5483-9fa4-9dbe1e8a58f3",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20261005T054517903_000282__0"
+  },
+  "lt_20261005T092241641_000298__0": {
+   "piece": "N0110",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0110\\strip",
+   "rows": 348,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.2739,
+     1.0145,
+     0.9445,
+     0.9015,
+     0.8686,
+     0.8538,
+     0.8406,
+     0.7893,
+     0.7123,
+     0.6666,
+     0.6548,
+     0.6263,
+     0.6206,
+     0.5994,
+     0.5991,
+     0.6051,
+     0.6243,
+     0.6763,
+     0.7393,
+     0.8017,
+     0.8568,
+     0.9234,
+     1.0394,
+     1.1369,
+     1.3165
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 8200,
+   "notes": [
+    "stitch check: 100.0% of 8200 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 748
+   },
+   "valid_nodes": 7452,
+   "valid_quads": 7129,
+   "area_vx2": 142580.0,
+   "area_cm2": 0.1312922493728,
+   "expected_error_sv": {
+    "mean": 0.8460395447173544,
+    "median": 0.7608777161779561,
+    "p90": 1.2511647631834801,
+    "max": 2.320310179876826,
+    "nodes": 7452
+   },
+   "z_range_sv": [
+    5401.6845703125,
+    6399.89404296875
+   ],
+   "fiber": "lt_20261005T092241641_000298",
+   "fiber_uuid": "e64f95bb-c5db-5295-acd8-b7ff110b2fe5",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20261005T092241641_000298__0"
+  },
+  "lt_20261005T095214106_000300__0": {
+   "piece": "N0111",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0111\\strip",
+   "rows": 352,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.3167,
+     0.9892,
+     0.923,
+     0.8611,
+     0.8415,
+     0.8617,
+     0.8477,
+     0.7944,
+     0.7232,
+     0.6904,
+     0.664,
+     0.628,
+     0.618,
+     0.6113,
+     0.6382,
+     0.6822,
+     0.7208,
+     0.7686,
+     0.8309,
+     0.884,
+     0.9165,
+     0.9753,
+     1.03,
+     1.1118,
+     1.2927
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 8300,
+   "notes": [
+    "stitch check: 100.0% of 8300 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 810
+   },
+   "valid_nodes": 7490,
+   "valid_quads": 7164,
+   "area_vx2": 143280.0,
+   "area_cm2": 0.13193683188480002,
+   "expected_error_sv": {
+    "mean": 0.8728177628447241,
+    "median": 0.7851037334300037,
+    "p90": 1.2617839918755271,
+    "max": 3.1441068734196396,
+    "nodes": 7490
+   },
+   "z_range_sv": [
+    5400.13818359375,
+    6399.904296875
+   ],
+   "fiber": "lt_20261005T095214106_000300",
+   "fiber_uuid": "b645ae16-93de-54af-affc-a4c19e2eb5b7",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20261005T095214106_000300__0"
+  },
+  "lt_20261005T101800015_000302__0": {
+   "piece": "N0112",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0112\\strip",
+   "rows": 352,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.1323,
+     0.9199,
+     0.8529,
+     0.8144,
+     0.7832,
+     0.7596,
+     0.7494,
+     0.7248,
+     0.688,
+     0.6602,
+     0.6453,
+     0.6293,
+     0.6405,
+     0.6218,
+     0.639,
+     0.6696,
+     0.6863,
+     0.737,
+     0.81,
+     0.8477,
+     0.8869,
+     0.9166,
+     0.9787,
+     1.0275,
+     1.1518
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 8300,
+   "notes": [
+    "stitch check: 100.0% of 8300 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 791
+   },
+   "valid_nodes": 7509,
+   "valid_quads": 7183,
+   "area_vx2": 143660.0,
+   "area_cm2": 0.1322867481056,
+   "expected_error_sv": {
+    "mean": 0.8308449466422135,
+    "median": 0.7731848962157586,
+    "p90": 1.1264444902293176,
+    "max": 2.6971994814713547,
+    "nodes": 7509
+   },
+   "z_range_sv": [
+    5400.0771484375,
+    6399.6748046875
+   ],
+   "fiber": "lt_20261005T101800015_000302",
+   "fiber_uuid": "47ffac81-109b-56f0-9ccd-c35af533132d",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20261005T101800015_000302__0"
+  },
+  "lt_20261006T054726786_000304__0": {
+   "piece": "N0113",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0113\\strip",
+   "rows": 340,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.7391,
+     1.3224,
+     1.1681,
+     1.0701,
+     1.0781,
+     1.0991,
+     1.0624,
+     0.9442,
+     0.8468,
+     0.7404,
+     0.6734,
+     0.6462,
+     0.6324,
+     0.6248,
+     0.6564,
+     0.7109,
+     0.7333,
+     0.7781,
+     0.797,
+     0.8246,
+     0.8589,
+     0.9228,
+     0.9917,
+     1.0881,
+     1.2391
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 8000,
+   "notes": [
+    "stitch check: 100.0% of 8000 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 781
+   },
+   "valid_nodes": 7219,
+   "valid_quads": 6902,
+   "area_vx2": 138040.0,
+   "area_cm2": 0.1271116713664,
+   "expected_error_sv": {
+    "mean": 0.9531776542783658,
+    "median": 0.8583136536559253,
+    "p90": 1.3881836162346035,
+    "max": 2.699018113700957,
+    "nodes": 7219
+   },
+   "z_range_sv": [
+    5400.01220703125,
+    6399.998046875
+   ],
+   "fiber": "lt_20261006T054726786_000304",
+   "fiber_uuid": "db4bd368-1bad-5e37-8cd4-2c3e9cf49260",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20261006T054726786_000304__0"
+  },
+  "lt_20261006T064008227_000308__0": {
+   "piece": "N0114",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0114\\strip",
+   "rows": 344,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.5275,
+     1.2596,
+     1.1708,
+     1.1169,
+     1.0762,
+     1.0738,
+     1.0328,
+     0.9374,
+     0.8029,
+     0.738,
+     0.6905,
+     0.667,
+     0.6705,
+     0.6592,
+     0.6699,
+     0.7132,
+     0.739,
+     0.7798,
+     0.868,
+     0.9403,
+     0.9824,
+     1.0343,
+     1.0863,
+     1.1,
+     1.2508
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 8100,
+   "notes": [
+    "stitch check: 100.0% of 8100 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 741
+   },
+   "valid_nodes": 7359,
+   "valid_quads": 7033,
+   "area_vx2": 140660.0,
+   "area_cm2": 0.12952425162560002,
+   "expected_error_sv": {
+    "mean": 0.960605437681436,
+    "median": 0.8770544789492055,
+    "p90": 1.3876156321286204,
+    "max": 2.694080443181823,
+    "nodes": 7359
+   },
+   "z_range_sv": [
+    5400.14990234375,
+    6399.92919921875
+   ],
+   "fiber": "lt_20261006T064008227_000308",
+   "fiber_uuid": "52b8434c-73ae-5eed-865f-dba6495e8278",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20261006T064008227_000308__0"
+  },
+  "lt_20261008T072250103_000348__0": {
+   "piece": "N0115",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0115\\strip",
+   "rows": 336,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.4689,
+     1.1192,
+     0.9734,
+     0.9252,
+     0.8735,
+     0.8643,
+     0.8182,
+     0.748,
+     0.695,
+     0.6498,
+     0.6709,
+     0.6529,
+     0.6569,
+     0.6401,
+     0.6485,
+     0.6638,
+     0.6975,
+     0.7459,
+     0.8209,
+     0.8945,
+     0.9378,
+     0.9771,
+     1.0336,
+     1.0644,
+     1.2943
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 7900,
+   "notes": [
+    "stitch check: 100.0% of 7900 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 801
+   },
+   "valid_nodes": 7099,
+   "valid_quads": 6789,
+   "area_vx2": 135780.0,
+   "area_cm2": 0.12503059068480002,
+   "expected_error_sv": {
+    "mean": 0.9337939006984187,
+    "median": 0.8225708005646446,
+    "p90": 1.3959010534211083,
+    "max": 3.390399148805697,
+    "nodes": 7099
+   },
+   "z_range_sv": [
+    5400.146484375,
+    6399.71630859375
+   ],
+   "fiber": "lt_20261008T072250103_000348",
+   "fiber_uuid": "a5512b5b-0244-5813-b9c7-c6a373b0bf72",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20261008T072250103_000348__0"
+  },
+  "lt_20261008T074735897_000349__0": {
+   "piece": "N0116",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0116\\strip",
+   "rows": 792,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.5236,
+     1.1995,
+     1.0226,
+     0.9643,
+     0.9156,
+     0.8503,
+     0.787,
+     0.7287,
+     0.696,
+     0.6656,
+     0.6584,
+     0.6433,
+     0.6378,
+     0.622,
+     0.6472,
+     0.6606,
+     0.6707,
+     0.6942,
+     0.7308,
+     0.7655,
+     0.7961,
+     0.8304,
+     0.8814,
+     0.9676,
+     1.13
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 19300,
+   "notes": [
+    "stitch check: 100.0% of 19300 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 2079
+   },
+   "valid_nodes": 17221,
+   "valid_quads": 16424,
+   "area_vx2": 328480.0,
+   "area_cm2": 0.3024749479168,
+   "expected_error_sv": {
+    "mean": 0.9095993475143425,
+    "median": 0.7680879795292703,
+    "p90": 1.379875216912402,
+    "max": 3.646440440926719,
+    "nodes": 17221
+   },
+   "z_range_sv": [
+    6213.923828125,
+    6399.9873046875
+   ],
+   "fiber": "lt_20261008T074735897_000349",
+   "fiber_uuid": "65da9427-f1fb-58f0-9e2f-d4fbef021d32",
+   "family": "H",
+   "annotator": "lt",
+   "patch": "lt_20261008T074735897_000349__0"
+  },
+  "lt_20261008T084106819_000355__0": {
+   "piece": "N0117",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0117\\strip",
+   "rows": 332,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.1246,
+     0.9189,
+     0.8658,
+     0.8629,
+     0.8578,
+     0.8195,
+     0.7398,
+     0.6949,
+     0.6581,
+     0.6275,
+     0.6256,
+     0.6231,
+     0.6251,
+     0.62,
+     0.6411,
+     0.6744,
+     0.6981,
+     0.7232,
+     0.7472,
+     0.7703,
+     0.7986,
+     0.8271,
+     0.8871,
+     0.949,
+     1.0819
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 7800,
+   "notes": [
+    "stitch check: 100.0% of 7800 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 763
+   },
+   "valid_nodes": 7037,
+   "valid_quads": 6726,
+   "area_vx2": 134520.0,
+   "area_cm2": 0.1238703421632,
+   "expected_error_sv": {
+    "mean": 0.8114631960337931,
+    "median": 0.7547459880441645,
+    "p90": 1.1024211744823929,
+    "max": 2.65641948244848,
+    "nodes": 7037
+   },
+   "z_range_sv": [
+    5400.0546875,
+    6399.93359375
+   ],
+   "fiber": "lt_20261008T084106819_000355",
+   "fiber_uuid": "c6b6920f-b0b4-5714-9bec-5131d773d52b",
+   "family": "V",
+   "annotator": "lt",
+   "patch": "lt_20261008T084106819_000355__0"
+  }
+ },
+ "dropped": {
+  "N0008": {
+   "piece": "N0008",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0008\\strip",
+   "rows": 112,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.6466,
+     1.3135,
+     1.1775,
+     1.0946,
+     1.0213,
+     0.989,
+     0.9487,
+     0.8674,
+     0.8193,
+     0.807,
+     0.7831,
+     0.7542,
+     0.7912,
+     0.7773,
+     0.7963,
+     0.8441,
+     0.8772,
+     0.9747,
+     1.0252,
+     1.0892,
+     1.1531,
+     1.2686,
+     1.3424,
+     1.4673,
+     1.8169
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 2300,
+   "notes": [
+    "stitch check: 100.0% of 2300 nodes within 0.05 sv (max gap 0.0003 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 1011
+   },
+   "valid_nodes": 1289,
+   "valid_quads": 1180,
+   "area_vx2": 23600.0,
+   "area_cm2": 0.021731638976000004,
+   "expected_error_sv": {
+    "mean": 1.1163049990072218,
+    "median": 1.0097896614942823,
+    "p90": 1.6422547054613783,
+    "max": 2.8825238878672157,
+    "nodes": 1289
+   },
+   "z_range_sv": [
+    6321.46826171875,
+    6399.9052734375
+   ],
+   "dropped": "area 0.0217 cm2 < 0.05",
+   "fiber": "kb_20260902T210830268_000081",
+   "fiber_uuid": "f9cd5767-8a66-5a8c-b1db-21423a0c3579",
+   "family": "H",
+   "annotator": "kb"
+  },
+  "N0013": {
+   "piece": "N0013",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0013\\strip",
+   "rows": 148,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.7273,
+     1.4977,
+     1.3663,
+     1.2296,
+     1.1687,
+     1.1552,
+     1.0983,
+     1.0367,
+     0.9083,
+     0.79,
+     0.735,
+     0.7114,
+     0.7091,
+     0.6746,
+     0.7179,
+     0.7835,
+     0.8476,
+     0.9312,
+     1.0965,
+     1.1558,
+     1.1534,
+     1.1745,
+     1.2218,
+     1.2376,
+     1.3706
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 2675,
+   "notes": [
+    "stitch check: 100.0% of 2675 nodes within 0.05 sv (max gap 0.0003 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 360
+   },
+   "valid_nodes": 2315,
+   "valid_quads": 2197,
+   "area_vx2": 43940.0,
+   "area_cm2": 0.0404613651104,
+   "expected_error_sv": {
+    "mean": 1.1152090930732557,
+    "median": 1.0487801391629064,
+    "p90": 1.645257102797078,
+    "max": 2.8017381139680375,
+    "nodes": 2315
+   },
+   "z_range_sv": [
+    6073.65966796875,
+    6399.93017578125
+   ],
+   "dropped": "area 0.0405 cm2 < 0.05",
+   "fiber": "kb_20260908T012312096_000113",
+   "fiber_uuid": "ab928855-2997-56b2-a0be-ee1e3b9d6d2f",
+   "family": "V",
+   "annotator": "kb"
+  },
+  "N0018": {
+   "piece": "N0018",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0018\\strip",
+   "rows": 132,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.4143,
+     1.2416,
+     1.1907,
+     1.1027,
+     1.0672,
+     0.988,
+     0.9516,
+     0.8859,
+     0.7931,
+     0.7133,
+     0.6797,
+     0.6479,
+     0.6398,
+     0.6371,
+     0.6641,
+     0.6999,
+     0.8296,
+     0.9686,
+     1.0352,
+     0.981,
+     1.0658,
+     1.1882,
+     1.3657,
+     1.5482,
+     1.8598
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 2275,
+   "notes": [
+    "stitch check: 100.0% of 2275 nodes within 0.05 sv (max gap 0.0003 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 1046
+   },
+   "valid_nodes": 1229,
+   "valid_quads": 1122,
+   "area_vx2": 22440.0,
+   "area_cm2": 0.0206634736704,
+   "expected_error_sv": {
+    "mean": 0.9443967958613987,
+    "median": 0.8891427154198615,
+    "p90": 1.370915727964152,
+    "max": 2.176518849794874,
+    "nodes": 1229
+   },
+   "z_range_sv": [
+    5400.04296875,
+    5471.388671875
+   ],
+   "dropped": "area 0.0207 cm2 < 0.05",
+   "fiber": "kb_20260916T015322853_000130",
+   "fiber_uuid": "032ada43-3de3-50e9-944f-1334cbf63099",
+   "family": "H",
+   "annotator": "kb"
+  },
+  "N0019": {
+   "piece": "N0019",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0019\\strip",
+   "rows": 100,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.387,
+     1.1599,
+     1.1133,
+     1.0738,
+     1.0099,
+     0.982,
+     1.0079,
+     0.9747,
+     0.9315,
+     0.8044,
+     0.709,
+     0.631,
+     0.6293,
+     0.6025,
+     0.6284,
+     0.6731,
+     0.6949,
+     0.7577,
+     0.7909,
+     0.8515,
+     0.9169,
+     0.9633,
+     1.0255,
+     1.1097,
+     1.2459
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 1375,
+   "notes": [
+    "stitch check: 100.0% of 1375 nodes within 0.05 sv (max gap 0.0003 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 375
+   },
+   "valid_nodes": 1000,
+   "valid_quads": 936,
+   "area_vx2": 18720.0,
+   "area_cm2": 0.0172379780352,
+   "expected_error_sv": {
+    "mean": 0.8877394995804422,
+    "median": 0.86267109643496,
+    "p90": 1.1752907713975804,
+    "max": 1.7950700315900887,
+    "nodes": 1000
+   },
+   "z_range_sv": [
+    5403.21484375,
+    5560.125
+   ],
+   "dropped": "area 0.0172 cm2 < 0.05",
+   "fiber": "kb_20260916T020030506_000131",
+   "fiber_uuid": "003850ad-466d-55c9-b1bd-07d3940a02fb",
+   "family": "V",
+   "annotator": "kb"
+  },
+  "N0029": {
+   "piece": "N0029",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0029\\strip",
+   "rows": 124,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.5272,
+     1.2692,
+     1.1509,
+     1.0665,
+     0.9321,
+     0.839,
+     0.7951,
+     0.7365,
+     0.7164,
+     0.6604,
+     0.6298,
+     0.6224,
+     0.6616,
+     0.6415,
+     0.6411,
+     0.6766,
+     0.6997,
+     0.7244,
+     0.752,
+     0.7627,
+     0.7781,
+     0.8004,
+     0.8621,
+     1.0683,
+     1.4513
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 1475,
+   "notes": [
+    "stitch check: 100.0% of 1475 nodes within 0.05 sv (max gap 0.0003 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 0
+   },
+   "valid_nodes": 1475,
+   "valid_quads": 1392,
+   "area_vx2": 27840.0,
+   "area_cm2": 0.0256359673344,
+   "expected_error_sv": {
+    "mean": 0.8901032708366753,
+    "median": 0.7865725753072177,
+    "p90": 1.3370918546056276,
+    "max": 2.5234303460157146,
+    "nodes": 1475
+   },
+   "z_range_sv": [
+    6221.41357421875,
+    6350.80908203125
+   ],
+   "dropped": "area 0.0256 cm2 < 0.05",
+   "fiber": "kb_20260923T195852024_000199",
+   "fiber_uuid": "7ef43d7f-272e-501e-8380-55a665f38079",
+   "family": "H",
+   "annotator": "kb"
+  },
+  "N0047": {
+   "piece": "N0047",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0047\\strip",
+   "rows": 160,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.395,
+     1.1386,
+     1.0737,
+     1.081,
+     1.1101,
+     1.0939,
+     1.0367,
+     0.9729,
+     0.8861,
+     0.7926,
+     0.7578,
+     0.7454,
+     0.7468,
+     0.7241,
+     0.7574,
+     0.7965,
+     0.8215,
+     0.8875,
+     1.0062,
+     1.0877,
+     1.1822,
+     1.1871,
+     1.1831,
+     1.1751,
+     1.3868
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 2975,
+   "notes": [
+    "stitch check: 100.0% of 2975 nodes within 0.05 sv (max gap 0.0003 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 368
+   },
+   "valid_nodes": 2607,
+   "valid_quads": 2475,
+   "area_vx2": 49500.0,
+   "area_cm2": 0.04558119192000001,
+   "expected_error_sv": {
+    "mean": 1.068164597349124,
+    "median": 1.0033397042589063,
+    "p90": 1.5153803147250842,
+    "max": 2.9579824529212417,
+    "nodes": 2607
+   },
+   "z_range_sv": [
+    6039.685546875,
+    6399.9306640625
+   ],
+   "dropped": "area 0.0456 cm2 < 0.05",
+   "fiber": "kb_20261001T232225006_000262",
+   "fiber_uuid": "815d17a2-40b4-5f76-b09a-556be0e96933",
+   "family": "V",
+   "annotator": "kb"
+  },
+  "N0057": {
+   "piece": "N0057",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0057\\strip",
+   "rows": 100,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.3705,
+     1.1658,
+     1.0879,
+     1.0754,
+     1.0478,
+     1.0303,
+     0.9633,
+     0.8859,
+     0.8439,
+     0.8208,
+     0.8236,
+     0.8048,
+     0.8891,
+     0.8484,
+     0.847,
+     0.9088,
+     1.0072,
+     1.0429,
+     1.0882,
+     1.1166,
+     1.2647,
+     1.3695,
+     1.4587,
+     1.6507,
+     1.8884
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 1375,
+   "notes": [
+    "stitch check: 100.0% of 1375 nodes within 0.05 sv (max gap 0.0003 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 382
+   },
+   "valid_nodes": 993,
+   "valid_quads": 926,
+   "area_vx2": 18520.0,
+   "area_cm2": 0.0170538116032,
+   "expected_error_sv": {
+    "mean": 1.2380977273080997,
+    "median": 1.1225488573709803,
+    "p90": 1.907245879779043,
+    "max": 2.9244208260673146,
+    "nodes": 993
+   },
+   "z_range_sv": [
+    6280.294921875,
+    6399.953125
+   ],
+   "dropped": "area 0.0171 cm2 < 0.05",
+   "fiber": "lt_20260903T060317903_000047",
+   "fiber_uuid": "725bc0db-cd5d-5c4d-801f-e5b245f9f289",
+   "family": "V",
+   "annotator": "lt"
+  },
+  "N0060": {
+   "piece": "N0060",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0060\\strip",
+   "rows": 120,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.2744,
+     0.9852,
+     0.8962,
+     0.8282,
+     0.7937,
+     0.7813,
+     0.7864,
+     0.7746,
+     0.6986,
+     0.6589,
+     0.6221,
+     0.6176,
+     0.6181,
+     0.6086,
+     0.6137,
+     0.6339,
+     0.661,
+     0.6661,
+     0.7172,
+     0.728,
+     0.7302,
+     0.7662,
+     0.8286,
+     0.8908,
+     0.9708
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 1325,
+   "notes": [
+    "stitch check: 100.0% of 1325 nodes within 0.05 sv (max gap 0.0003 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 0
+   },
+   "valid_nodes": 1325,
+   "valid_quads": 1248,
+   "area_vx2": 24960.0,
+   "area_cm2": 0.022983970713600005,
+   "expected_error_sv": {
+    "mean": 0.7745983674777669,
+    "median": 0.732994261785837,
+    "p90": 1.0096728126341485,
+    "max": 1.5724242046036356,
+    "nodes": 1325
+   },
+   "z_range_sv": [
+    5705.36083984375,
+    5909.32421875
+   ],
+   "dropped": "area 0.0230 cm2 < 0.05",
+   "fiber": "lt_20260903T081649101_000049",
+   "fiber_uuid": "7b1b4cbf-eb19-5929-bf34-f7e1348735ab",
+   "family": "V",
+   "annotator": "lt"
+  },
+  "N0080": {
+   "piece": "N0080",
+   "source_dir": "C:\\VesuviusTemp\\nov_strips\\stage2\\0139\\band02\\strips\\N0080\\strip",
+   "rows": 132,
+   "columns": {
+    "cap_sv": 2.0,
+    "medians_sv": [
+     1.6978,
+     1.4089,
+     1.1662,
+     1.0428,
+     0.9876,
+     0.9189,
+     0.9092,
+     0.8337,
+     0.7378,
+     0.6901,
+     0.6526,
+     0.63,
+     0.6304,
+     0.6257,
+     0.6525,
+     0.6992,
+     0.768,
+     0.8426,
+     0.8717,
+     0.8993,
+     0.9018,
+     0.9543,
+     0.9547,
+     0.9544,
+     1.092
+    ],
+    "dropped": [],
+    "kept": 25
+   },
+   "valid_nodes_source": 2275,
+   "notes": [
+    "stitch check: 100.0% of 2275 nodes within 0.05 sv (max gap 0.0004 sv)"
+   ],
+   "expected_error_source": "stitched from strip.npz expected_error_vox",
+   "trim": {
+    "requested_sv": 75.0,
+    "applied_by": "villa infer.py --trim 75.0 (piece ends)",
+    "rows_removed_here": 0
+   },
+   "z_clip": {
+    "range_sv": [
+     5400.0,
+     6400.0
+    ],
+    "nodes_removed": 414
+   },
+   "valid_nodes": 1861,
+   "valid_quads": 1761,
+   "area_vx2": 35220.0,
+   "area_cm2": 0.032431708675200004,
+   "expected_error_sv": {
+    "mean": 0.9832586246564189,
+    "median": 0.8239758881534471,
+    "p90": 1.6016173549151542,
+    "max": 2.9701201315164836,
+    "nodes": 1861
+   },
+   "z_range_sv": [
+    6120.205078125,
+    6399.92724609375
+   ],
+   "dropped": "area 0.0324 cm2 < 0.05",
+   "fiber": "lt_20260921T050633179_000165",
+   "fiber_uuid": "6756bc8e-fc51-546d-9a0e-9ac5db56e9e6",
+   "family": "V",
+   "annotator": "lt"
+  }
+ },
+ "note": "no filtering against the wrap segments (held-out truth)"
+}

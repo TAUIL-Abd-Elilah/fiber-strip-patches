@@ -56,3 +56,35 @@ Validity: each fit must end rc 0 with 144 fibers loaded (arm B: patches fitted, 
 ## 6. Disclosure
 
 Developed with AI assistance under my direction. The checks of this work were separate AI agents, not other people.
+
+---
+
+## Amendment 1, 5 Nov 2026
+
+Written after seed 1 was scored and before any seed-2 fit started. The text above this line is unchanged: `git show 1d0dc7c:PREREG.md | sha256sum` gives the hash in `FREEZE.txt`.
+
+**Decision under section 5, final for M1:** "no measurable gain". B-A M1 +0.1 points (CI -0.6 to +0.9). Seed 2 was not earned by the rule in section 3. Details in `results/AB_SEED1.md`.
+
+**Why a further test.** Two things were seen only after scoring, so seed 1 cannot support either as a claim:
+
+1. M1 sits near chance in both arms. Shifting the wrap nodes 6 voxels along their normal lowers arm A only from 31.3 % to 30.5 %, and arm B from 31.5 % to 29.5 %.
+2. Winding purity moved. Purity of a wrap is `modal_share` in the `score_band.py` output: of its nodes within 4 voxels of a fitted winding, the share on its most common winding. Mean over 36 wraps: A 16.1 %, B 25.1 %, B-A +9.0 points (CI +6.6 to +11.6), 35 of 36 wraps up.
+
+**Question for seed 2:** does B keep each wrap on fewer fitted windings than A, on a fit that played no part in choosing this metric?
+
+**Runs.** The frozen `configs/config_B_seed2.json` and `configs/config_A_seed2.json`, B then A, overriding only the seed-2 condition of section 3. Scored by the frozen `tools/score_band.py`, then `tools/score_purity.py` (added with this amendment), which reads that JSON and does no geometry.
+
+**Bars, seed 2 only:**
+
+| Check | Bar |
+|---|---|
+| Purity B2-A2 | >= +5 points, paired bootstrap 95 % CI by wrap above 0 |
+| Seed noise | absolute purity A2-A1 below half of B2-A2 |
+| M1 B-A | >= -1 point |
+| M3 exact share B-A | >= -1 point |
+| M4 duplicate share B-A | <= +1 point |
+| Same-winding share of adjacent wraps B-A | <= +1 point, so a collapse of wraps onto one winding cannot pass |
+
+**Words.** All pass: "confirmed on seed 2". Purity +2 to +5 with CI above 0 and the rest passing: "smaller, below the bar". Otherwise: "not confirmed", as the headline with the same prominence.
+
+**Limits, stated now.** Same band, same wraps, same patches: seed 2 replicates optimizer randomness only. The metric was chosen after seeing seed 1. Purity is measured only on nodes within 4 voxels of a winding, about 60 % in both arms. Even if confirmed, this does not show the fit is on the sheet: M1 stays the measure of that, and it did not move. A test on another band would need its own amendment first.

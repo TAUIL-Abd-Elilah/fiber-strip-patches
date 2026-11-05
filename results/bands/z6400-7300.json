@@ -1,0 +1,204 @@
+{
+ "band": "band03",
+ "z": [
+  6400,
+  7300
+ ],
+ "stretches": 129,
+ "fibers_scored": 20,
+ "strips_scored": 21,
+ "within2": 0.7075795319965696,
+ "within2_ci": [
+  0.6361638166729325,
+  0.7841426878076249
+ ],
+ "within2_family": {
+  "H": 0.7133901510245317,
+  "V": 0.6859512101051007
+ },
+ "fibers_family": {
+  "H": 4,
+  "V": 16
+ },
+ "off_sheet_share": 0.0,
+ "off_sheet_strips": 0,
+ "patches_in_band": 117,
+ "area_in_band_cm2": 18.997504126528,
+ "patch_nodes": 1078969,
+ "unconditional_within2": 0.24854685135750224,
+ "unconditional_nodes_with_wrap": 650312,
+ "unconditional_chance_within2": 0.3333333333333333,
+ "coverage_strict": 0.056857319852267336,
+ "coverage_loose_3d": 0.15943685246398048,
+ "wrap_nodes": 9880821,
+ "frozen_per_strip": [
+  {
+   "strip": "N0000",
+   "fiber": "dj_20260904T151437210_000003",
+   "family": "V",
+   "nodes": 850,
+   "median_abs_sv": 0.713920187728174,
+   "within2": 0.9247058823529412
+  },
+  {
+   "strip": "N0001",
+   "fiber": "dj_20260908T175202273_000007",
+   "family": "V",
+   "nodes": 250,
+   "median_abs_sv": 2.905150708312958,
+   "within2": 0.24
+  },
+  {
+   "strip": "N0012",
+   "fiber": "kb_20260902T210830268_000081",
+   "family": "H",
+   "nodes": 12625,
+   "median_abs_sv": 1.4616884853815693,
+   "within2": 0.6210693069306931
+  },
+  {
+   "strip": "N0015",
+   "fiber": "kb_20260907T011847533_000102",
+   "family": "V",
+   "nodes": 700,
+   "median_abs_sv": 0.8510947903529166,
+   "within2": 0.98
+  },
+  {
+   "strip": "N0016",
+   "fiber": "kb_20260907T013716679_000103",
+   "family": "V",
+   "nodes": 398,
+   "median_abs_sv": 3.869257548648438,
+   "within2": 0.271356783919598
+  },
+  {
+   "strip": "N0020",
+   "fiber": "kb_20260916T163135553_000139",
+   "family": "V",
+   "nodes": 425,
+   "median_abs_sv": 1.0194987178098724,
+   "within2": 0.7058823529411765
+  },
+  {
+   "strip": "N0022",
+   "fiber": "kb_20260918T012228114_000147",
+   "family": "V",
+   "nodes": 600,
+   "median_abs_sv": 1.2488947469155622,
+   "within2": 0.775
+  },
+  {
+   "strip": "N0042",
+   "fiber": "kb_20260925T033453814_000215",
+   "family": "H",
+   "nodes": 4499,
+   "median_abs_sv": 0.7933608890903383,
+   "within2": 0.8970882418315181
+  },
+  {
+   "strip": "N0049",
+   "fiber": "kb_20260929T002049782_000229",
+   "family": "V",
+   "nodes": 1298,
+   "median_abs_sv": 1.1411642230933172,
+   "within2": 0.7003081664098614
+  },
+  {
+   "strip": "N0050",
+   "fiber": "kb_20260929T030233129_000230",
+   "family": "H",
+   "nodes": 12500,
+   "median_abs_sv": 0.8959154530899682,
+   "within2": 0.77648
+  },
+  {
+   "strip": "N0071",
+   "fiber": "lt_20260903T061642538_000048",
+   "family": "H",
+   "nodes": 6569,
+   "median_abs_sv": 1.2659503753318,
+   "within2": 0.6309940630232912
+  },
+  {
+   "strip": "N0072",
+   "fiber": "lt_20260903T061642538_000048",
+   "family": "H",
+   "nodes": 2410,
+   "median_abs_sv": 0.6361006495622169,
+   "within2": 0.7514522821576763
+  },
+  {
+   "strip": "N0079",
+   "fiber": "lt_20260910T072828497_000111",
+   "family": "V",
+   "nodes": 1525,
+   "median_abs_sv": 1.0616682205377206,
+   "within2": 0.9049180327868852
+  },
+  {
+   "strip": "N0080",
+   "fiber": "lt_20260910T082256930_000112",
+   "family": "V",
+   "nodes": 850,
+   "median_abs_sv": 1.973217631182893,
+   "within2": 0.508235294117647
+  },
+  {
+   "strip": "N0081",
+   "fiber": "lt_20260910T090933172_000113",
+   "family": "V",
+   "nodes": 725,
+   "median_abs_sv": 1.2460502600344943,
+   "within2": 0.8841379310344828
+  },
+  {
+   "strip": "N0082",
+   "fiber": "lt_20260911T073815460_000119",
+   "family": "V",
+   "nodes": 597,
+   "median_abs_sv": 1.9292217694722074,
+   "within2": 0.5142378559463987
+  },
+  {
+   "strip": "N0083",
+   "fiber": "lt_20260914T070809786_000124",
+   "family": "V",
+   "nodes": 572,
+   "median_abs_sv": 2.24181122315912,
+   "within2": 0.458041958041958
+  },
+  {
+   "strip": "N0084",
+   "fiber": "lt_20260914T080111721_000127",
+   "family": "V",
+   "nodes": 306,
+   "median_abs_sv": 3.6106827517160385,
+   "within2": 0.28431372549019607
+  },
+  {
+   "strip": "N0085",
+   "fiber": "lt_20260914T091427983_000130",
+   "family": "V",
+   "nodes": 600,
+   "median_abs_sv": 2.028106961058999,
+   "within2": 0.495
+  },
+  {
+   "strip": "N0088",
+   "fiber": "lt_20260917T045630900_000139",
+   "family": "V",
+   "nodes": 425,
+   "median_abs_sv": 1.2666162392707572,
+   "within2": 0.8376470588235294
+  },
+  {
+   "strip": "N0089",
+   "fiber": "lt_20260917T054942114_000140",
+   "family": "V",
+   "nodes": 250,
+   "median_abs_sv": 2.7408145197102827,
+   "within2": 0.152
+  }
+ ]
+}
