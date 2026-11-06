@@ -88,3 +88,39 @@ Written after seed 1 was scored and before any seed-2 fit started. The text abov
 **Words.** All pass: "confirmed on seed 2". Purity +2 to +5 with CI above 0 and the rest passing: "smaller, below the bar". Otherwise: "not confirmed", as the headline with the same prominence.
 
 **Limits, stated now.** Same band, same wraps, same patches: seed 2 replicates optimizer randomness only. The metric was chosen after seeing seed 1. Purity is measured only on nodes within 4 voxels of a winding, about 60 % in both arms. Even if confirmed, this does not show the fit is on the sheet: M1 stays the measure of that, and it did not move. A test on another band would need its own amendment first.
+
+---
+
+## Amendment 2, 5 Nov 2026: a second band
+
+Written after seed 2 was scored and before any band-2 fit started. The text above is unchanged. Hashes of everything named here are in `FREEZE_B2.txt`, committed with this amendment.
+
+**Result so far.** Amendment 1 gave "confirmed on seed 2": purity B-A +7.8 points (CI +5.7 to +10.1), all guards passing (`results/AB_SEED2.md`). M1 showed no gain on either seed. That test reused seed 1's band, wraps and patches, so it replicated optimizer randomness only.
+
+**Question for band 2:** does the purity gain hold on a band that played no part in choosing the metric?
+
+**Band.** L2 z 4400-5400 of the same volume, with inputs clipped to z 4200-5600. The strips were cut and scored for accuracy before this amendment (82.3 % within 2 voxels on matched stretches, README), and no fit has been run on this band.
+
+**Arms.** As in section 3, with these differences: 131 clipped human fibers (the same 620-fiber source clipped to the new margin band); the 107 patches in `patches/0139_z4400-5400/`, which were clipped to z 4400-5400 with no margin; one seed (1); B then A. Configs `configs/band2/` (identical to `configs/` except `z_begin`/`z_end`), jobs `jobs/job_b2_{B,A}1.sh`, launcher and dataset builder in `tools/band2/`.
+
+**Truth.** The same 36 wraps, with masks rebuilt for this window by the `tools/kt1_masks.py` rules (as in the band-accuracy scoring). All 36 have nodes in the window. Scored nodes: z in [4420, 5380). Strict coverage of wrap nodes by patches: **3.1 %**, against 6.6 % on band 1. Seed 1 showed purity gains rising with coverage (Spearman 0.50), so this band is a harder test.
+
+**Scorer.** `tools/band2/score_band_b2.py` is `tools/score_band.py` with only the band constants, wrap folder, patch folder and coverage cache changed. Then `tools/score_purity.py`, unchanged, without `--noise`.
+
+**Bars, band 2 only:**
+
+| Check | Bar |
+|---|---|
+| Purity B-A | >= +5 points, paired bootstrap 95 % CI by wrap above 0 |
+| M1 B-A | >= -1 point |
+| M3 exact share B-A | >= -1 point |
+| M4 duplicate share B-A | <= +1 point |
+| Same-winding share of adjacent wraps B-A | <= +1 point |
+
+There is no seed-noise check on this band: it would cost two more fits. Band 1's seed noise in arm A was 0.7 points.
+
+**Words.** All pass (`score_purity.py` prints "bar met, no seed-noise check in this run"): **"replicated on band 2"**. Purity +2 to +5 with CI above 0 and the rest passing: **"smaller on band 2, below the bar"**. Otherwise: **"not replicated on band 2"**, as the headline with the same prominence.
+
+**Validity.** Each fit ends rc 0 with 131 fibers loaded; arm A loads no patches; arm B loads patches. A failed fit is rerun once with the same config and reported.
+
+**Limits, stated now.** One seed. Same scroll, same wraps (a different stretch of them). Purity was chosen after seeing band 1, seed 1. Even if replicated, it does not show the fit is on the sheet: M1 measures that. No tracks or winding store.

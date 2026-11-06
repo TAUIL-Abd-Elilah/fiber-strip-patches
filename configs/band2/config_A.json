@@ -1,0 +1,18 @@
+{
+ "z_begin": 4400,
+ "z_end": 5400,
+ "optimizer_num_training_steps": 20000,
+ "optimizer_random_seed": 1,
+ "dense_spacing_mode": "grad_mag",
+ "input_use_winding_inference": false,
+ "input_use_tracks": false,
+ "loss_weight_shell_outer": 0,
+ "loss_start_track_dt": 10000,
+ "loss_start_patch_dt": 10000,
+ "sample_count_tracks_per_step": 24000,
+ "sample_count_track_points_per_step": 64,
+ "sample_count_dense_normal_points": 30000,
+ "input_use_outer_shell": false,
+ "loss_weight_dense_spacing": 12.0,
+ "input_disable_patches": true
+}

@@ -1,0 +1,23 @@
+# Frozen inputs of PREREG.md amendment 2 (band 2, L2 z 4400-5400). sha256; tree hashes are over sorted (path, sha256) pairs.
+
+781fb4e8fa868f97edf160a6311e2bdc7872ce1a51c3b67215c4c0e1e9a0db2e  PREREG.md
+1788b338e3b486e24b290f4fa12537dff9daab428ff34b885a8957dd769f7a7f  configs/band2/NOTES.json
+bbfa84bd12bcf2da5e5314cee953aa9f9634b02209b2f36b08498c97ddc4714c  configs/band2/config_A.json
+fc73f9e049e1c5ea872444619b1fb0a9b01101cd67a5f0ec5e8e558ba18a09a0  configs/band2/config_B.json
+9ddbab1fde09299b7283c670595fa9e4975bc664c01cfc2613576abd573caa64  jobs/job_b2_A1.sh
+7928a97598e31903661a3bd1ef978b62e24da7d4a6ac66e0f5fefdf0ffa1c33c  jobs/job_b2_B1.sh
+6fd0f24b9d8f65ac6fa6d50af4e23dc50eb63434a0b569d49c007a0a9fcdf4c4  tools/band2/band_dataset_b2.py
+e12f12e656b6a1b8655ab54fc9d86673a42f063a510bef9e16cb67584915abb2  tools/band2/fit_nov_b2.py
+7ea5eb7f05850b7b7b9010d47c17e0a8dd87742968e4792fe1d738bc9e569d0b  tools/band2/score_band_b2.py
+a1cc6e7d658692ed35d53401ad3a9d78e39ae3433eda31bb5fdeebc7b8eada6c  tools/band2/write_freeze_b2.py
+03b7d7bf1453e0e96f9fa461203c70cba0d5aa20d43086bac2fc0e909782c930  tools/score_purity.py
+5bc690658c6f454885a2f5e2df4e61b6d6b6d9eb8f632e63619c285de15b010f  tools/score_band.py
+578dbe8b3518f65b7e21634970e102374ff38a4d5bc9aede93b5fdc89d5aae72  TREE patches/0139_z4400-5400 (643 files)
+dc555b453188b1481bcd36066eeff26b4f1584e6322d0f6135b8384e0d9e638c  TREE local dataset_b2/verified_patches (the same 107 pieces without manifest.json) (642 files)
+08d29975e56b34173630e25ee6ecad83c0362f29527c8f3ab93bd824a6a0f87b  TREE local dataset_b2/fibers (131 clipped human fibers, not redistributed) (131 files)
+fd83b44d9a8778ac91db823c96e58de6ca3caef0a1e8432c3cce563562915b8f  TREE local stage2/0139/score/band01/segments_masked (36 wraps, not redistributed) (144 files)
+eace0cb02faa9e70446a2dd9c71d89c0a2de23a1d0a87d1b538e21a386cf4747  local dataset_b2/umbilicus.json
+c9dfa3f9e9bd2ecb066325f45bbf4318823e68bfbfcd01dd4da987b333987dbe  local dataset_b2/spiral-scroll.json
+ef7be0bdd7c1d28e7ecdd661c3e043b9186a982db82e917041178ca780880d5e  local score/covered_masks_b2.npz
+
+Fitter: villa baf5e605bb42a3d55a62b7c5c728e0908137225c, spiral-fitting/fit_spiral.py unchanged.
