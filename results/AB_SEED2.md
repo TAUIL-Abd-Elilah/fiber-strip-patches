@@ -47,4 +47,4 @@ B ran first, then A, on 5 Nov 2026. Config and scorer hashes match `FREEZE.txt`.
 - Purity was chosen after seeing seed 1. Seed 2 is the only fit that played no part in choosing it.
 - Purity counts only wrap nodes within 4 voxels of a fitted winding, about 60 % in both arms.
 - This config has no tracks or winding store, so it is not the team's full recipe. Whether the effect survives with them is untested.
-- A test on another band needs its own amendment first.
+- A test on another band needs its own amendment first. Amendment 2 ran that test on L2 z 4400-5400: "not replicated on band 2" (`AB_BAND2.md`).

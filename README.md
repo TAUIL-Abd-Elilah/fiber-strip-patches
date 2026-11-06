@@ -2,21 +2,27 @@
 
 Patch-ready 2D strips, about 1.15 mm wide, around human scaffold fibers of PHerc 0139, in villa's tifxyz patch format. `fit_spiral` loads them as `verified_patches` unchanged.
 
-**Result, 5 Nov 2026, one band, two seeds:**
+**Result, 6 Nov 2026, two bands, three fits per arm:**
 
-- **Surface accuracy: no measurable gain** (the pre-registered measure). Adding the strips moved held-out wrap nodes within 2 voxels by +0.1 points on seed 1 (CI -0.6 to +0.9; bar +5) and -0.5 on seed 2. `results/AB_SEED1.md`.
-- **Winding purity: confirmed on seed 2** (the amendment-1 test, metric chosen after seed 1). Each held-out wrap lies on fewer fitted windings: +7.8 points (CI +5.7 to +10.1), 33 of 36 wraps up, all guards passing. `results/AB_SEED2.md`.
+- **Surface accuracy: no measurable gain** (the pre-registered measure). Adding the strips moved held-out wrap nodes within 2 voxels by:
+  - +0.1 points on band 1 seed 1 (CI -0.6 to +0.9; bar +5);
+  - -0.5 on seed 2;
+  - -0.8 on band 2 (CI -1.6 to -0.1).
+
+  `results/AB_SEED1.md`.
+- **Winding purity: not replicated on band 2** (the amendment-2 test). On band 1 it was confirmed on seed 2: +7.8 points (CI +5.7 to +10.1), and each held-out wrap lay on fewer fitted windings. On band 2 the gain was +3.9 (CI +2.1 to +5.9), below the +5 bar, and the M3 guard failed (-1.7). `results/AB_SEED2.md`, `results/AB_BAND2.md`.
+- **Bottom line:** in this config the strips do not make a better fit on a band that played no part in choosing the metric.
 
 | | |
 |---|---|
 | Patches | 550 pieces, about 100.8 cm2, L2 z 2300-7300. `patches/` |
-| Does it help a fit? | M1 **no measurable gain** on either seed. Winding hops inside wraps -11.5 % and -17.6 %, reported, no bar |
-| Winding purity | **Confirmed on seed 2**: +7.8 points (CI +5.7 to +10.1). Seed 1 had +9.0, where the metric was found. Frozen by `PREREG.md` amendment 1 before the seed-2 fits. It does not show the fit is on the sheet |
+| Does it help a fit? | M1 **no measurable gain** in any of three fits. Winding hops inside wraps -11.5 % and -17.6 % on band 1, +3.7 % on band 2, reported, no bar |
+| Winding purity | Band 1: **confirmed on seed 2**, +7.8 points (CI +5.7 to +10.1); seed 1 had +9.0, where the metric was found. Band 2 (L2 z 4400-5400): **not replicated**, +3.9 (CI +2.1 to +5.9), M3 guard failed. Both tests were frozen in `PREREG.md` before their fits. Neither shows the fit is on the sheet |
 | Baseline caveat | Both arms score near chance on M1: wrap nodes shifted 6 voxels still score 30.5 % in arm A against 31.3 %. This config has no tracks or winding store, so it is not the team's full recipe |
 
 ## Strip accuracy by band
 
-Only on stretches where a human fiber already lies on a human wrap. The fit A/B ran only in L2 z 3200-4200, so it says nothing about the other bands.
+Only on stretches where a human fiber already lies on a human wrap. The fit A/B ran in L2 z 3200-4200 and z 4400-5400. It says nothing about the other bands.
 
 | L2 z | Patches | cm2 | Within 2 voxels (CI) | Fibers scored | Off-sheet strips | Wrap coverage | Folder |
 |---|---|---|---|---|---|---|---|
@@ -34,7 +40,7 @@ The same method has prior art: the team's `anchored_strip_merge` prototype merge
 
 ## Use
 
-Copy the patch folders you want into `verified_patches/` of a `fit_spiral` dataset on volume 20260102150214, level 2 (9.596 um). Each patch has `x,y,z.tif` (-1 = invalid), `mask.tif`, `expected_error.tif` and a `meta.json` with a `provenance` block (model, villa commit, fiber, parameters). Each band's `manifest.json` lists its patches. villa baf5e605 `load_patches` loaded the `0139_band` folder and two 20,000-step fits ran with rc 0. The other bands have not been loaded into a fit. We have not opened any of them in VC3D yet.
+Copy the patch folders you want into `verified_patches/` of a `fit_spiral` dataset on volume 20260102150214, level 2 (9.596 um). Each patch has `x,y,z.tif` (-1 = invalid), `mask.tif`, `expected_error.tif` and a `meta.json` with a `provenance` block (model, villa commit, fiber, parameters). Each band's `manifest.json` lists its patches. villa baf5e605 `load_patches` loaded the `0139_band` and `0139_z4400-5400` folders, and the 20,000-step fits that used them ran with rc 0. The other bands have not been loaded into a fit. We have not opened any of them in VC3D yet.
 
 ## Method
 
